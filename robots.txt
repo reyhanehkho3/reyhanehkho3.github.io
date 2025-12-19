@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Allow: /
+Sitemap: https://reyhanehkho3.github.io/sitemap.xml

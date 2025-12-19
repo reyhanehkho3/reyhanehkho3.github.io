@@ -1,0 +1,194 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="manifest" href="https://reyhanehkho3.github.io/manifest.json">
+    <meta name="theme-color" content="#786"/>
+    <title>My Blog &middot; Clean Code</title>
+    <meta name="description" content="Clean Code - A clean code is a code that is a combination of principles that will help you write a code that others would understand …"/>
+    <link rel="icon" type="image/x-icon" href="https://reyhanehkho3.github.io/icon.svg">
+    <link href="https://reyhanehkho3.github.io/olivine.css" rel="stylesheet"/>
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"/><noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/></noscript><script>
+  // Import Zola variables to Javascript
+  var olivine = {
+    base_url: "https://reyhanehkho3.github.io",
+    
+    
+  };
+</script>
+
+    <script src="https://reyhanehkho3.github.io/olivine.js"></script>
+    
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      macros: {br: '\\\\'},
+      packages: {'[+]': ['amscd']}
+    },
+  };
+  for (oper of ['id', 'im', 'tr', 'coker', 'Hom', 'End', 'Aut', 'Ext', 'Tor',
+    'Gal', 'Spec', 'Spf']) {
+    MathJax.tex.macros[oper] = '\\operatorname{' + oper + '}';
+  }
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+    
+
+  </head>
+
+  <body class="leftbar">
+    <script>
+      setSidebar();
+    </script>
+
+    <header>
+      <div><div><img src="https://reyhanehkho3.github.io/icon.svg" width="24" height="32" onclick="toggleBar('leftbar')" alt="Olivine logo" style="display:block;"></img></div>
+<div dir="rtl" id="olivine-breadcrumb">
+<a href="https://reyhanehkho3.github.io/">Reyhaneh's Notes</a>
+<span> / </span>
+<a href="https://reyhanehkho3.github.io/posts/">Posts</a>
+<span> / </span>
+<a href="https://reyhanehkho3.github.io/posts/Back-End/">Back-End</a>
+<span> / </span>
+Clean Code
+</div>
+
+<noscript><style>#search{display:none;}</style></noscript>
+<div id="search">
+  <input id="search-input" type="search" placeholder="Search..."/>
+  <div id="search-results"></div>
+</div>
+
+<div onclick="toggleTheme()"><span class="olivine-icon"><i class="fa-solid fa-palette"></i></span></div>
+<div onclick="toggleBar('rightbar')"><span class="olivine-icon"><i class="fa-solid fa-book"></i></span></div>
+
+      </div>
+    </header>
+
+    <div class="sidebar" id="leftbar">
+      <div class="sidebar-content"><ul class="hidden" id="olivine-directory">
+  <li><a href=".."><span class="olivine-icon"><i class="fa-solid fa-turn-up"></i></span> ..</a></li>
+</ul>
+<hr noshade style="width:100%;">
+
+
+<ul>
+  <li><a href="https://reyhanehkho3.github.io/olivine-internal-graph/"><span class="olivine-icon"><i class="fa-solid fa-diagram-project"></i></span> Graph view</a></li>
+</ul>
+
+<ul><li><a href="https://reyhanehkho3.github.io/tags/"><span class="olivine-icon"><i class="fa-solid fa-tags"></i></span>Tags</a></li></ul>
+
+      </div>
+    </div>
+
+    <div class="sidebar" id="rightbar">
+      <div class="sidebar-content">
+<div id="olivine-toc">
+<h3>Table of contents</h3>
+<ul>
+  <li>
+    <a href="https://reyhanehkho3.github.io/posts/Back-End/clean-code/#kiss">KISS</a>
+  </li>
+  <li>
+    <a href="https://reyhanehkho3.github.io/posts/Back-End/clean-code/#readability">Readability</a>
+  </li>
+  <li>
+    <a href="https://reyhanehkho3.github.io/posts/Back-End/clean-code/#correct-naming">Correct naming</a>
+  </li>
+  <li>
+    <a href="https://reyhanehkho3.github.io/posts/Back-End/clean-code/#managing-arguments">Managing arguments</a>
+  </li>
+  <li>
+    <a href="https://reyhanehkho3.github.io/posts/Back-End/clean-code/#less-comments">Less comments</a>
+  </li>
+  <li>
+    <a href="https://reyhanehkho3.github.io/posts/Back-End/clean-code/#the-right-language">The right Language</a>
+  </li>
+  <li>
+    <a href="https://reyhanehkho3.github.io/posts/Back-End/clean-code/#read-it-again">Read it Again</a>
+  </li>
+  <li>
+    <a href="https://reyhanehkho3.github.io/posts/Back-End/clean-code/#reduce-dependencies">Reduce dependencies</a>
+  </li>
+  <li>
+    <a href="https://reyhanehkho3.github.io/posts/Back-End/clean-code/#testability">Testability</a>
+  </li>
+  <li>
+    <a href="https://reyhanehkho3.github.io/posts/Back-End/clean-code/#reduce-the-body-of-functions">Reduce the body of functions</a>
+  </li>
+  <li>
+    <a href="https://reyhanehkho3.github.io/posts/Back-End/clean-code/#source">Source</a>
+  </li>
+</ul>
+</div>
+
+
+
+      </div>
+    </div>
+
+    <div id="main-area">
+      <main><h1><span>Clean Code</span></h1>
+
+<p>A clean code is a code that is a combination of principles that will help you write a code that others would understand and contribute to. It also helps you understand your own code after a long time. It is hella important in group projects or in methods like [[Agile]].
+A code that is not clean is dirty code.</p>
+<h3 id="kiss">KISS</h3>
+<p>Keep It Simple Stupid. Don't make the code too complicated and keep it simple.</p>
+<h3 id="readability">Readability</h3>
+<p>When the code is more understandable it needs less time to be fixed.</p>
+<h3 id="correct-naming">Correct naming</h3>
+<p>It helps the searching in different parts. The name of a class of a function should be compatible with its usage.</p>
+<h3 id="managing-arguments">Managing arguments</h3>
+<p>Functions shouldn't get too many arguments. Also it's better to break the body into different pieces and put them in different functions. (Don't put all of your eggs into one basket.)</p>
+<h3 id="less-comments">Less comments</h3>
+<p>The code should be that explicit that it doesn't need too many comments. If there are too many comments, you're probably doing something wrong.</p>
+<h3 id="the-right-language">The right Language</h3>
+<p>Choose a language that is more optimal for the issue you're dealing with. (I mean the issue you are writing a code for.)</p>
+<h3 id="read-it-again">Read it Again</h3>
+<p>Go through your code again so that others wouldn't have to do small and basic fixes.</p>
+<h3 id="reduce-dependencies">Reduce dependencies</h3>
+<p>There should be less dependencies in the project so that changing and maintenance is easier.</p>
+<h3 id="testability">Testability</h3>
+<p>Your test should be testable from all practical perspectives. A code that can't be tested is not a clean code at all.</p>
+<h3 id="reduce-the-body-of-functions">Reduce the body of functions</h3>
+<p>The functions should be short and adequate. Maybe some parts like some loops are used in different parts of the code. Put them in a separated function to avoid too many lines in your current function.</p>
+<h1 id="source">Source</h1>
+<p>https://7learn.com/blog/what-is-clean-code</p>
+
+
+
+      </main>
+    </div>
+    <div id="help-window" style="display:none;">
+  <div>
+    <h1>Keyboard shortcuts</h1>
+    <div id="help-shortcuts">
+      <div><code>j</code> scroll down</div>
+      <div><code>k</code> scroll up</div>
+      <div><code>h</code> go to previous sibling</div>
+      <div><code>l</code> go to next sibling</div>
+      <div><code>u</code> go to parent</div>
+      <div><code>H</code> go to root</div>
+      <div><code>p</code> go to previous page</div>
+      <div><code>n</code> go to next page</div>
+      <div><code>[</code> toggle left sidebar</div>
+      <div><code>]</code> toggle right sidebar</div>
+      <div><code>?</code> toggle keyboard shortcuts</div>
+      <div><code>/</code> focus searchbar</div>
+      <div><code>Esc</code> focus document</div>
+    </div>
+  </div>
+</div>
+
+  </body>
+  
+  <script src="https://reyhanehkho3.github.io/search_index.en.js"></script>
+  <script src="https://reyhanehkho3.github.io/elasticlunr.min.js"></script>
+  <script src="https://reyhanehkho3.github.io/search.js"></script>
+  
+</html>
