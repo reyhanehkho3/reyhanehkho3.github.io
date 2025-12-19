@@ -1,0 +1,260 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="manifest" href="https://reyhanehkho3.github.io/manifest.json">
+    <meta name="theme-color" content="#786"/>
+    <title>My Blog &middot; SOLID</title>
+    <meta name="description" content="SOLID - SOLID is an acronym representing a set of five fundamental principles of object-oriented programming and design. The goa…"/>
+    <link rel="icon" type="image/x-icon" href="https://reyhanehkho3.github.io/icon.svg">
+    <link href="https://reyhanehkho3.github.io/olivine.css" rel="stylesheet"/>
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"/><noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/></noscript><script>
+  // Import Zola variables to Javascript
+  var olivine = {
+    base_url: "https://reyhanehkho3.github.io",
+    
+    
+  };
+</script>
+
+    <script src="https://reyhanehkho3.github.io/olivine.js"></script>
+    
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      macros: {br: '\\\\'},
+      packages: {'[+]': ['amscd']}
+    },
+  };
+  for (oper of ['id', 'im', 'tr', 'coker', 'Hom', 'End', 'Aut', 'Ext', 'Tor',
+    'Gal', 'Spec', 'Spf']) {
+    MathJax.tex.macros[oper] = '\\operatorname{' + oper + '}';
+  }
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+    
+
+  </head>
+
+  <body class="leftbar">
+    <script>
+      setSidebar();
+    </script>
+
+    <header>
+      <div><div><img src="https://reyhanehkho3.github.io/icon.svg" width="24" height="32" onclick="toggleBar('leftbar')" alt="Olivine logo" style="display:block;"></img></div>
+<div dir="rtl" id="olivine-breadcrumb">
+<a href="https://reyhanehkho3.github.io/">Reyhaneh's Notes</a>
+<span> / </span>
+<a href="https://reyhanehkho3.github.io/posts/">Posts</a>
+<span> / </span>
+<a href="https://reyhanehkho3.github.io/posts/Back-End/">Back-End</a>
+<span> / </span>
+SOLID
+</div>
+
+<noscript><style>#search{display:none;}</style></noscript>
+<div id="search">
+  <input id="search-input" type="search" placeholder="Search..."/>
+  <div id="search-results"></div>
+</div>
+
+<div onclick="toggleTheme()"><span class="olivine-icon"><i class="fa-solid fa-palette"></i></span></div>
+<div onclick="toggleBar('rightbar')"><span class="olivine-icon"><i class="fa-solid fa-book"></i></span></div>
+
+      </div>
+    </header>
+
+    <div class="sidebar" id="leftbar">
+      <div class="sidebar-content"><ul class="hidden" id="olivine-directory">
+  <li><a href=".."><span class="olivine-icon"><i class="fa-solid fa-turn-up"></i></span> ..</a></li>
+</ul>
+<hr noshade style="width:100%;">
+
+
+<ul>
+  <li><a href="https://reyhanehkho3.github.io/olivine-internal-graph/"><span class="olivine-icon"><i class="fa-solid fa-diagram-project"></i></span> Graph view</a></li>
+</ul>
+
+<ul><li><a href="https://reyhanehkho3.github.io/tags/"><span class="olivine-icon"><i class="fa-solid fa-tags"></i></span>Tags</a></li></ul>
+
+      </div>
+    </div>
+
+    <div class="sidebar" id="rightbar">
+      <div class="sidebar-content">
+<div id="olivine-toc">
+<h3>Table of contents</h3>
+<ul>
+  <li>
+    <a href="https://reyhanehkho3.github.io/posts/Back-End/solid/#simple-explanation">simple explanation</a>
+    <li><ul>
+      <li>
+        <a href="https://reyhanehkho3.github.io/posts/Back-End/solid/#s-single-responsibility-principle-srp">S - Single Responsibility Principle (SRP)</a>
+      </li>
+      <li>
+        <a href="https://reyhanehkho3.github.io/posts/Back-End/solid/#o-open-closed-principle-ocp">O - Open&#x2F;Closed Principle (OCP)</a>
+      </li>
+      <li>
+        <a href="https://reyhanehkho3.github.io/posts/Back-End/solid/#l-liskov-substitution-principle-lsp">L - Liskov Substitution Principle (LSP)</a>
+      </li>
+      <li>
+        <a href="https://reyhanehkho3.github.io/posts/Back-End/solid/#i-interface-segregation-principle-isp">I - Interface Segregation Principle (ISP)</a>
+      </li>
+      <li>
+        <a href="https://reyhanehkho3.github.io/posts/Back-End/solid/#d-dependency-inversion-principle-dip">D - Dependency Inversion Principle (DIP)</a>
+      </li>
+      <li>
+        <a href="https://reyhanehkho3.github.io/posts/Back-End/solid/#dependency-injection">dependency injection</a>
+      </li>
+    </ul></li>
+  </li>
+</ul>
+</div>
+
+
+
+      </div>
+    </div>
+
+    <div id="main-area">
+      <main><h1><span>SOLID</span></h1>
+
+<p>SOLID is an acronym representing a set of five fundamental principles of object-oriented programming and design. The goal of these principles is to create software that is more <strong>understandable, flexible, and maintainable</strong></p>
+<h2 id="simple-explanation">simple explanation</h2>
+<p>Think of building with <strong>Lego blocks</strong>:</p>
+<ul>
+<li>
+<p><strong>SRP:</strong> Each Lego block has a single, clear purpose (a 2x4 brick, a wheel, a window).</p>
+</li>
+<li>
+<p><strong>OCP:</strong> You can combine these blocks in endless new ways (extend) without having to melt down and re-mold existing blocks (modify).</p>
+</li>
+<li>
+<p><strong>LSP:</strong> A 2x2 brick can fit anywhere a 2x2 space is designed. It's perfectly substitutable.</p>
+</li>
+<li>
+<p><strong>ISP:</strong> You have specialized pieces for different jobs, rather than one giant "do-everything" piece that forces you to have parts you don't need.</p>
+</li>
+<li>
+<p><strong>DIP:</strong> The design of your Lego castle (the high-level plan) doesn't depend on the specific color of the bricks (the low-level detail). You can swap red bricks for blue ones without changing the design.</p>
+</li>
+</ul>
+<h3 id="s-single-responsibility-principle-srp">S - Single Responsibility Principle (SRP)</h3>
+<p><strong>"A class should have one, and only one, reason to change."</strong>
+A class should have only one job or responsibility. It should not be overwhelmed with multiple tasks.</p>
+<ul>
+<li>
+<p><strong>Bad Example:</strong> A <code>Book</code> class that handles its own data (title, author) <strong>and</strong> saves itself to a database <strong>and</strong> prints its own format to the console.</p>
+</li>
+<li>
+<p><strong>Good Example:</strong></p>
+<ul>
+<li>
+<p><code>Book</code> class: Only holds data and business logic related to a book (title, author, getSummary()).</p>
+</li>
+<li>
+<p><code>BookRepository</code> class: Handles all database operations (save, delete, find).</p>
+</li>
+<li>
+<p><code>BookPrinter</code> class: Handles all formatting and printing of book details.</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="o-open-closed-principle-ocp">O - Open/Closed Principle (OCP)</h3>
+<p><strong>"Software entities (classes, modules, functions) should be open for extension, but closed for modification."</strong>
+You should be able to add new functionality without changing existing, working code. You <strong>extend</strong> behavior, not modify it.</p>
+<ul>
+<li>
+<p><strong>Bad Example:</strong> A <code>AreaCalculator</code> class with a single method that uses a giant <code>if-else</code> or <code>switch</code> statement to check the type of shape (circle, square) to calculate its area. To add a triangle, you must <strong>modify</strong> this method.</p>
+</li>
+<li>
+<p><strong>Good Example:</strong> Define a <code>Shape</code> interface with a method <code>calculateArea()</code>. Then, have <code>Circle</code>, <code>Square</code>, and later <code>Triangle</code> classes implement this interface. The <code>AreaCalculator</code> can now work with any <code>Shape</code> without knowing its concrete type. To add a new shape, you create a new class without touching the calculator.</p>
+</li>
+</ul>
+<h3 id="l-liskov-substitution-principle-lsp">L - Liskov Substitution Principle (LSP)</h3>
+<p><strong>"Subtypes must be substitutable for their base types."</strong>
+If class <code>B</code> is a subclass of class <code>A</code>, then you should be able to pass an object of <code>B</code> to any program that expects an object of <code>A</code> without causing errors or unexpected behavior.</p>
+<ul>
+<li>
+<p><strong>Bad Example:</strong> A <code>Square</code> class inheriting from a <code>Rectangle</code> class. A <code>Rectangle</code> has independent <code>width</code> and <code>height</code>. A <code>Square</code> has equal sides. If you override the setters in <code>Square</code> to force width and height to be equal, a function that expects a <code>Rectangle</code> (e.g., one that doubles its width) will break when given a <code>Square</code>.</p>
+</li>
+<li>
+<p><strong>Good Example:</strong> Both <code>Rectangle</code> and <code>Square</code> could implement a <code>Shape</code> interface or inherit from a more general <code>Quadrilateral</code> class that doesn't make assumptions about side equality.</p>
+</li>
+</ul>
+<h3 id="i-interface-segregation-principle-isp">I - Interface Segregation Principle (ISP)</h3>
+<p><strong>"Clients should not be forced to depend on interfaces they do not use."</strong>
+Instead of one large, "fat" interface, create multiple, smaller, and more specific interfaces.</p>
+<ul>
+<li>
+<p><strong>Bad Example:</strong> A monolithic <code>Worker</code> interface with methods <code>work()</code>, <code>eat()</code>, and <code>sleep()</code>. A <code>Robot</code> class implementing this would be forced to implement <code>eat()</code> and <code>sleep()</code>, which make no sense.</p>
+</li>
+<li>
+<p><strong>Good Example:</strong></p>
+<ul>
+<li>
+<p><code>Workable</code> interface: <code>work()</code></p>
+</li>
+<li>
+<p><code>Feedable</code> interface: <code>eat()</code></p>
+</li>
+<li>
+<p>A <code>Human</code> class can implement all three. A <code>Robot</code> class only needs to implement <code>Workable</code>.</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="d-dependency-inversion-principle-dip">D - Dependency Inversion Principle (DIP)</h3>
+<p><strong>A. High-level modules should not depend on low-level modules. Both should depend on abstractions (e.g., interfaces).</strong><br />
+<strong>B. Abstractions should not depend on details. Details (concrete implementations) should depend on abstractions.</strong>
+This principle is about decoupling. High-level policy (business logic) should not be tightly coupled to low-level implementation details (like databases, APIs, or logging frameworks).</p>
+<ul>
+<li>
+<p><strong>Bad Example:</strong> A <code>ReportService</code> class directly creates an instance of a <code>MySQLDatabase</code> class to save data. If you want to switch to a <code>PostgreSQLDatabase</code>, you have to change the code inside <code>ReportService</code>.</p>
+</li>
+<li>
+<p><strong>Good Example:</strong> The <code>ReportService</code> depends on a <code>Database</code> interface (abstraction). The <code>MySQLDatabase</code> and <code>PostgreSQLDatabase</code> classes are the details that implement this interface. The <code>ReportService</code> is <em>injected</em> with a concrete (not abstract) implementation (e.g., via a constructor), a technique known as <strong>Dependency Injection</strong>.</p>
+</li>
+</ul>
+<h3 id="dependency-injection">dependency injection</h3>
+<p> <strong>instead of an object creating its own dependencies, they are provided to it from the outside.</strong></p>
+
+
+
+      </main>
+    </div>
+    <div id="help-window" style="display:none;">
+  <div>
+    <h1>Keyboard shortcuts</h1>
+    <div id="help-shortcuts">
+      <div><code>j</code> scroll down</div>
+      <div><code>k</code> scroll up</div>
+      <div><code>h</code> go to previous sibling</div>
+      <div><code>l</code> go to next sibling</div>
+      <div><code>u</code> go to parent</div>
+      <div><code>H</code> go to root</div>
+      <div><code>p</code> go to previous page</div>
+      <div><code>n</code> go to next page</div>
+      <div><code>[</code> toggle left sidebar</div>
+      <div><code>]</code> toggle right sidebar</div>
+      <div><code>?</code> toggle keyboard shortcuts</div>
+      <div><code>/</code> focus searchbar</div>
+      <div><code>Esc</code> focus document</div>
+    </div>
+  </div>
+</div>
+
+  </body>
+  
+  <script src="https://reyhanehkho3.github.io/search_index.en.js"></script>
+  <script src="https://reyhanehkho3.github.io/elasticlunr.min.js"></script>
+  <script src="https://reyhanehkho3.github.io/search.js"></script>
+  
+</html>

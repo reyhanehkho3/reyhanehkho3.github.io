@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="manifest" href="https://reyhanehkho3.github.io/manifest.json">
     <meta name="theme-color" content="#786"/>
-    <title>My Blog &middot; Graph</title>
-    <meta name="description" content="Graph"/>
+    <title>My Blog &middot; ACID</title>
+    <meta name="description" content="ACID - ACID is an acronym that guarantees database transactions are processed reliably.
+A - Atomicity
+The &quot;All or Nothing&quot; Rule…"/>
     <link rel="icon" type="image/x-icon" href="https://reyhanehkho3.github.io/icon.svg">
     <link href="https://reyhanehkho3.github.io/olivine.css" rel="stylesheet"/>
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"/><noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/></noscript><script>
@@ -18,7 +20,6 @@
     
   };
 </script>
-
 
     <script src="https://reyhanehkho3.github.io/olivine.js"></script>
     
@@ -40,8 +41,6 @@
 
     
 
-<script src="https://cdn.jsdelivr.net/npm/cytoscape@3/dist/cytoscape.min.js"></script>
-
   </head>
 
   <body class="leftbar">
@@ -54,7 +53,11 @@
 <div dir="rtl" id="olivine-breadcrumb">
 <a href="https://reyhanehkho3.github.io/">Reyhaneh's Notes</a>
 <span> / </span>
-Graph
+<a href="https://reyhanehkho3.github.io/posts/">Posts</a>
+<span> / </span>
+<a href="https://reyhanehkho3.github.io/posts/Back-End/">Back-End</a>
+<span> / </span>
+ACID
 </div>
 
 <noscript><style>#search{display:none;}</style></noscript>
@@ -87,6 +90,31 @@ Graph
 
     <div class="sidebar" id="rightbar">
       <div class="sidebar-content">
+<div id="olivine-toc">
+<h3>Table of contents</h3>
+<ul>
+  <li>
+    <a href="https://reyhanehkho3.github.io/posts/Back-End/acid/#a-atomicity">A - Atomicity</a>
+  </li>
+  <li>
+    <a href="https://reyhanehkho3.github.io/posts/Back-End/acid/#c-consistency">C - Consistency</a>
+  </li>
+  <li>
+    <a href="https://reyhanehkho3.github.io/posts/Back-End/acid/#i-isolation"> I - Isolation</a>
+    <li><ul>
+      <li>
+        <a href="https://reyhanehkho3.github.io/posts/Back-End/acid/#isolation-levels">Isolation levels:</a>
+      </li>
+    </ul></li>
+  </li>
+  <li>
+    <a href="https://reyhanehkho3.github.io/posts/Back-End/acid/#d-durability">D - Durability</a>
+  </li>
+  <li>
+    <a href="https://reyhanehkho3.github.io/posts/Back-End/acid/#base">BASE</a>
+  </li>
+</ul>
+</div>
 
 
 
@@ -94,105 +122,46 @@ Graph
     </div>
 
     <div id="main-area">
-      <main>
-<h1>Graph view</h1>
-<div id="olivine-graph" style="width:100%; height:30em; display:block; border: 1px solid var(--body-text);">
-</div>
-<script>
-let cy_elements = [
-{ data: { id: '/', type: 'section', name: 'Reyhaneh\'s Notes' } },
-{ data: { id: '/olivine-internal-graph/', type: 'page', name: 'Graph' } },
-{ data: { source: '/olivine-internal-graph/', target: '/' } },
-{ data: { id: '/olivine-internal-sitemap/', type: 'page', name: 'Sitemap' } },
-{ data: { source: '/olivine-internal-sitemap/', target: '/' } },
-{ data: { id: '/posts/', type: 'section', name: 'Posts' } },
-{ data: { id: '/posts/Back-End/', type: 'section', name: 'Back-End' } },
-{ data: { id: '/posts/Back-End/clean-code/', type: 'page', name: 'Clean Code' } },
-{ data: { source: '/posts/Back-End/clean-code/', target: '/posts/Back-End/' } },
-{ data: { id: '/posts/Back-End/acid/', type: 'page', name: 'ACID' } },
-{ data: { source: '/posts/Back-End/acid/', target: '/posts/Back-End/' } },
-{ data: { id: '/posts/Back-End/oop/', type: 'page', name: 'OOP' } },
-{ data: { source: '/posts/Back-End/oop/', target: '/posts/Back-End/' } },
-{ data: { id: '/posts/Back-End/agile/', type: 'page', name: 'Agile' } },
-{ data: { source: '/posts/Back-End/agile/', target: '/posts/Back-End/' } },
-{ data: { id: '/posts/Back-End/soft-skills/', type: 'page', name: 'Soft Skills' } },
-{ data: { source: '/posts/Back-End/soft-skills/', target: '/posts/Back-End/' } },
-{ data: { id: '/posts/Back-End/solid/', type: 'page', name: 'SOLID' } },
-{ data: { source: '/posts/Back-End/solid/', target: '/posts/Back-End/' } },
-{ data: { id: '/posts/Back-End/api/', type: 'page', name: 'API' } },
-{ data: { source: '/posts/Back-End/api/', target: '/posts/Back-End/' } },
-{ data: { id: '/posts/Back-End/template/', type: 'page', name: 'Template' } },
-{ data: { source: '/posts/Back-End/template/', target: '/posts/Back-End/' } },
-{ data: { id: '/posts/Back-End/rest-api/', type: 'page', name: 'REST API' } },
-{ data: { source: '/posts/Back-End/rest-api/', target: '/posts/Back-End/' } },
-{ data: { source: '/posts/Back-End/', target: '/posts/' } },
-{ data: { source: '/posts/', target: '/' } },
-];
+      <main><h1><span>ACID</span></h1>
 
-// Clean up data
-function bad_id(id) {
-  return id.startsWith("/olivine-internal");
-}
-cy_elements = cy_elements.filter(item => {
-  if (item.data.id === undefined) {
-    return (item.data.source !== item.data.target) && !bad_id(item.data.source)
-      && !bad_id(item.data.target);
-  } else {
-    return !bad_id(item.data.id);
-  }
-});
+<p>ACID is an acronym that guarantees database transactions are processed reliably.</p>
+<h3 id="a-atomicity">A - Atomicity</h3>
+<p><strong>The "All or Nothing" Rule</strong></p>
+<ul>
+<li>In the occurrence of failure, the database is returned to its state before the transaction started.</li>
+<li>The transaction is all-or-nothing.</li>
+</ul>
+<h3 id="c-consistency">C - Consistency</h3>
+<p><strong>The "Rules Must Be Followed" Rule</strong>
+Consistency ensures that a transaction brings the database from one <strong>valid state</strong> to another. It guarantees that all data written to the database must be valid according to all defined rules, including constraints, cascades, triggers, and any other application-specific logic.</p>
+<ul>
+<li>If a transaction would violate this (or any other) rule, it is aborted and rolled back.</li>
+<li>The transaction follows all database rules.</li>
+</ul>
+<h3 id="i-isolation"> I - Isolation</h3>
+<p><strong>The "Mind Your Own Business" Rule</strong>
+Isolation ensures that concurrent execution of transactions leaves the database in the same state as if the transactions were executed <strong>sequentially</strong> (one after the other). It controls how and when the changes made by one transaction are visible to others.</p>
+<ul>
+<li>Transactions don't interfere with each other.</li>
+</ul>
+<h4 id="isolation-levels">Isolation levels:</h4>
+<ul>
+<li>read uncommited</li>
+<li>read commited</li>
+<li>repeatable read/ snapshot isolation</li>
+<li>serialized</li>
+</ul>
+<h3 id="d-durability">D - Durability</h3>
+<p><strong>The "It's Permanent" Rule</strong>
+Durability guarantees that once a transaction has been committed, it will remain committed even in the case of a system failure (like a power outage or crash). The changes are permanent and stored in non-volatile memory (like a disk).</p>
+<ul>
+<li>The database system ensures this by writing the transaction details to a log <em>before</em> it confirms the commit. After a crash, the database can recover by replaying this log.</li>
+<li>Once done, a transaction's changes are permanent.</li>
+</ul>
+<h2 id="base">BASE</h2>
+<p>It's important to note that while ACID  is a cornerstone of traditional relational database systems (like PostgreSQL, MySQL, Oracle), many modern NoSQL databases sacrifice full ACID compliance (especially strong Isolation) in favor of other advantages like scalability and performance, offering instead a "BASE" model (Basically Available, Soft state, Eventual consistency). The choice between ACID and BASE depends entirely on the specific requirements of your application.</p>
 
-const cy = cytoscape({
-  container: document.getElementById('olivine-graph'),
-  elements: cy_elements,
-  layout: {
-    name: 'cose',
-  },
-  style: [{
-    selector: "node",
-    style: {
-      label: "data(name)",
-      width: 7,
-      height: 7,
-      "text-valign": "bottom",
-      "text-halign": "center",
-      "color": "#777",
-      "background-color": "#7a4",
-      "opacity": 0.4,
-      "font-size": 7,
-      "min-zoomed-font-size": 7,
-    }}, {
-    selector: "edge",
-    style: {
-      "width": 1,
-      "curve-style": "straight",
-      "color": "#777",
-      "opacity": 0.4,
-    }},
-  ],
-  autoungrabify: true,
-  autounselectify: true,
-});
 
-cy.on('mouseover touchstart', 'node', function(evt){
-  var node = evt.target;
-  node.style('opacity', 1);
-  for (adj of node.neighborhood())
-    adj.style('opacity', 0.7);
-});
-
-cy.on('mouseout touchend', 'node', function(evt){
-  var node = evt.target;
-  node.style('opacity', 0.4);
-  for (adj of node.neighborhood())
-    adj.style('opacity', 0.4);
-});
-
-cy.on('tap', 'node', function(evt){
-  var node = evt.target;
-  window.location.href = olivine.base_url + node.id();
-});
-</script>
 
       </main>
     </div>

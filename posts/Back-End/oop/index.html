@@ -6,8 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="manifest" href="https://reyhanehkho3.github.io/manifest.json">
     <meta name="theme-color" content="#786"/>
-    <title>My Blog &middot; Graph</title>
-    <meta name="description" content="Graph"/>
+    <title>My Blog &middot; OOP</title>
+    <meta name="description" content="OOP - Class
+A blueprint for an object.
+Object
+an object is an instance of the class.
+Data Abstraction
+ Data abstraction refers…"/>
     <link rel="icon" type="image/x-icon" href="https://reyhanehkho3.github.io/icon.svg">
     <link href="https://reyhanehkho3.github.io/olivine.css" rel="stylesheet"/>
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"/><noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/></noscript><script>
@@ -18,7 +23,6 @@
     
   };
 </script>
-
 
     <script src="https://reyhanehkho3.github.io/olivine.js"></script>
     
@@ -40,8 +44,6 @@
 
     
 
-<script src="https://cdn.jsdelivr.net/npm/cytoscape@3/dist/cytoscape.min.js"></script>
-
   </head>
 
   <body class="leftbar">
@@ -54,7 +56,11 @@
 <div dir="rtl" id="olivine-breadcrumb">
 <a href="https://reyhanehkho3.github.io/">Reyhaneh's Notes</a>
 <span> / </span>
-Graph
+<a href="https://reyhanehkho3.github.io/posts/">Posts</a>
+<span> / </span>
+<a href="https://reyhanehkho3.github.io/posts/Back-End/">Back-End</a>
+<span> / </span>
+OOP
 </div>
 
 <noscript><style>#search{display:none;}</style></noscript>
@@ -87,6 +93,32 @@ Graph
 
     <div class="sidebar" id="rightbar">
       <div class="sidebar-content">
+<div id="olivine-toc">
+<h3>Table of contents</h3>
+<ul>
+  <li>
+    <a href="https://reyhanehkho3.github.io/posts/Back-End/oop/#class">Class</a>
+  </li>
+  <li>
+    <a href="https://reyhanehkho3.github.io/posts/Back-End/oop/#object">Object</a>
+  </li>
+  <li>
+    <a href="https://reyhanehkho3.github.io/posts/Back-End/oop/#data-abstraction">Data Abstraction</a>
+  </li>
+  <li>
+    <a href="https://reyhanehkho3.github.io/posts/Back-End/oop/#encapsulation">Encapsulation</a>
+  </li>
+  <li>
+    <a href="https://reyhanehkho3.github.io/posts/Back-End/oop/#inheritene">Inheritene</a>
+  </li>
+  <li>
+    <a href="https://reyhanehkho3.github.io/posts/Back-End/oop/#polymorphism">Polymorphism</a>
+  </li>
+  <li>
+    <a href="https://reyhanehkho3.github.io/posts/Back-End/oop/#source">Source</a>
+  </li>
+</ul>
+</div>
 
 
 
@@ -94,105 +126,28 @@ Graph
     </div>
 
     <div id="main-area">
-      <main>
-<h1>Graph view</h1>
-<div id="olivine-graph" style="width:100%; height:30em; display:block; border: 1px solid var(--body-text);">
-</div>
-<script>
-let cy_elements = [
-{ data: { id: '/', type: 'section', name: 'Reyhaneh\'s Notes' } },
-{ data: { id: '/olivine-internal-graph/', type: 'page', name: 'Graph' } },
-{ data: { source: '/olivine-internal-graph/', target: '/' } },
-{ data: { id: '/olivine-internal-sitemap/', type: 'page', name: 'Sitemap' } },
-{ data: { source: '/olivine-internal-sitemap/', target: '/' } },
-{ data: { id: '/posts/', type: 'section', name: 'Posts' } },
-{ data: { id: '/posts/Back-End/', type: 'section', name: 'Back-End' } },
-{ data: { id: '/posts/Back-End/clean-code/', type: 'page', name: 'Clean Code' } },
-{ data: { source: '/posts/Back-End/clean-code/', target: '/posts/Back-End/' } },
-{ data: { id: '/posts/Back-End/acid/', type: 'page', name: 'ACID' } },
-{ data: { source: '/posts/Back-End/acid/', target: '/posts/Back-End/' } },
-{ data: { id: '/posts/Back-End/oop/', type: 'page', name: 'OOP' } },
-{ data: { source: '/posts/Back-End/oop/', target: '/posts/Back-End/' } },
-{ data: { id: '/posts/Back-End/agile/', type: 'page', name: 'Agile' } },
-{ data: { source: '/posts/Back-End/agile/', target: '/posts/Back-End/' } },
-{ data: { id: '/posts/Back-End/soft-skills/', type: 'page', name: 'Soft Skills' } },
-{ data: { source: '/posts/Back-End/soft-skills/', target: '/posts/Back-End/' } },
-{ data: { id: '/posts/Back-End/solid/', type: 'page', name: 'SOLID' } },
-{ data: { source: '/posts/Back-End/solid/', target: '/posts/Back-End/' } },
-{ data: { id: '/posts/Back-End/api/', type: 'page', name: 'API' } },
-{ data: { source: '/posts/Back-End/api/', target: '/posts/Back-End/' } },
-{ data: { id: '/posts/Back-End/template/', type: 'page', name: 'Template' } },
-{ data: { source: '/posts/Back-End/template/', target: '/posts/Back-End/' } },
-{ data: { id: '/posts/Back-End/rest-api/', type: 'page', name: 'REST API' } },
-{ data: { source: '/posts/Back-End/rest-api/', target: '/posts/Back-End/' } },
-{ data: { source: '/posts/Back-End/', target: '/posts/' } },
-{ data: { source: '/posts/', target: '/' } },
-];
+      <main><h1><span>OOP</span></h1>
 
-// Clean up data
-function bad_id(id) {
-  return id.startsWith("/olivine-internal");
-}
-cy_elements = cy_elements.filter(item => {
-  if (item.data.id === undefined) {
-    return (item.data.source !== item.data.target) && !bad_id(item.data.source)
-      && !bad_id(item.data.target);
-  } else {
-    return !bad_id(item.data.id);
-  }
-});
+<h3 id="class">Class</h3>
+<p>A blueprint for an object.</p>
+<h3 id="object">Object</h3>
+<p>an object is an instance of the class.</p>
+<h3 id="data-abstraction">Data Abstraction</h3>
+<p> Data abstraction refers to providing only essential information about the data to the outside world, hiding the background details or implementation.</p>
+<h3 id="encapsulation">Encapsulation</h3>
+<p>Encapsulation is defined as the wrapping up of data under a single unit. It is the mechanism that binds together code and the data it manipulates. In Encapsulation, the variables or data of a class are hidden from any other class and can be accessed only through any member function of their class in which they are declared. As in encapsulation, the data in a class is hidden from other classes, so it is also known as <strong>data-hiding</strong>.</p>
+<h3 id="inheritene">Inheritene</h3>
+<p>The capability of a class to derive properties and characteristics from another class is called Inheritance.
+ Inheritance allows the user to reuse the code whenever possible and reduce its redundancy.</p>
+<h3 id="polymorphism">Polymorphism</h3>
+<ul>
+<li>having many forms.</li>
+<li>we can define polymorphism as the ability of a message to be displayed in more than one form.</li>
+</ul>
+<h1 id="source">Source</h1>
+<p>https://www.geeksforgeeks.org/dsa/introduction-of-object-oriented-programming/</p>
 
-const cy = cytoscape({
-  container: document.getElementById('olivine-graph'),
-  elements: cy_elements,
-  layout: {
-    name: 'cose',
-  },
-  style: [{
-    selector: "node",
-    style: {
-      label: "data(name)",
-      width: 7,
-      height: 7,
-      "text-valign": "bottom",
-      "text-halign": "center",
-      "color": "#777",
-      "background-color": "#7a4",
-      "opacity": 0.4,
-      "font-size": 7,
-      "min-zoomed-font-size": 7,
-    }}, {
-    selector: "edge",
-    style: {
-      "width": 1,
-      "curve-style": "straight",
-      "color": "#777",
-      "opacity": 0.4,
-    }},
-  ],
-  autoungrabify: true,
-  autounselectify: true,
-});
 
-cy.on('mouseover touchstart', 'node', function(evt){
-  var node = evt.target;
-  node.style('opacity', 1);
-  for (adj of node.neighborhood())
-    adj.style('opacity', 0.7);
-});
-
-cy.on('mouseout touchend', 'node', function(evt){
-  var node = evt.target;
-  node.style('opacity', 0.4);
-  for (adj of node.neighborhood())
-    adj.style('opacity', 0.4);
-});
-
-cy.on('tap', 'node', function(evt){
-  var node = evt.target;
-  window.location.href = olivine.base_url + node.id();
-});
-</script>
 
       </main>
     </div>

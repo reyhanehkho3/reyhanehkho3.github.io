@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="manifest" href="https://reyhanehkho3.github.io/manifest.json">
+    <meta name="theme-color" content="#786"/>
+    <title>My Blog &middot; REST API</title>
+    <meta name="description" content="REST API - 
+REpresentational State Transfer
+An architectural style for designing networked applications. A REST API (or RESTful API…"/>
+    <link rel="icon" type="image/x-icon" href="https://reyhanehkho3.github.io/icon.svg">
+    <link href="https://reyhanehkho3.github.io/olivine.css" rel="stylesheet"/>
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"/><noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/></noscript><script>
+  // Import Zola variables to Javascript
+  var olivine = {
+    base_url: "https://reyhanehkho3.github.io",
+    
+    
+  };
+</script>
+
+    <script src="https://reyhanehkho3.github.io/olivine.js"></script>
+    
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      macros: {br: '\\\\'},
+      packages: {'[+]': ['amscd']}
+    },
+  };
+  for (oper of ['id', 'im', 'tr', 'coker', 'Hom', 'End', 'Aut', 'Ext', 'Tor',
+    'Gal', 'Spec', 'Spf']) {
+    MathJax.tex.macros[oper] = '\\operatorname{' + oper + '}';
+  }
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+    
+
+  </head>
+
+  <body class="leftbar">
+    <script>
+      setSidebar();
+    </script>
+
+    <header>
+      <div><div><img src="https://reyhanehkho3.github.io/icon.svg" width="24" height="32" onclick="toggleBar('leftbar')" alt="Olivine logo" style="display:block;"></img></div>
+<div dir="rtl" id="olivine-breadcrumb">
+<a href="https://reyhanehkho3.github.io/">Reyhaneh's Notes</a>
+<span> / </span>
+<a href="https://reyhanehkho3.github.io/posts/">Posts</a>
+<span> / </span>
+<a href="https://reyhanehkho3.github.io/posts/Back-End/">Back-End</a>
+<span> / </span>
+REST API
+</div>
+
+<noscript><style>#search{display:none;}</style></noscript>
+<div id="search">
+  <input id="search-input" type="search" placeholder="Search..."/>
+  <div id="search-results"></div>
+</div>
+
+<div onclick="toggleTheme()"><span class="olivine-icon"><i class="fa-solid fa-palette"></i></span></div>
+<div onclick="toggleBar('rightbar')"><span class="olivine-icon"><i class="fa-solid fa-book"></i></span></div>
+
+      </div>
+    </header>
+
+    <div class="sidebar" id="leftbar">
+      <div class="sidebar-content"><ul class="hidden" id="olivine-directory">
+  <li><a href=".."><span class="olivine-icon"><i class="fa-solid fa-turn-up"></i></span> ..</a></li>
+</ul>
+<hr noshade style="width:100%;">
+
+
+<ul>
+  <li><a href="https://reyhanehkho3.github.io/olivine-internal-graph/"><span class="olivine-icon"><i class="fa-solid fa-diagram-project"></i></span> Graph view</a></li>
+</ul>
+
+<ul><li><a href="https://reyhanehkho3.github.io/tags/"><span class="olivine-icon"><i class="fa-solid fa-tags"></i></span>Tags</a></li></ul>
+
+      </div>
+    </div>
+
+    <div class="sidebar" id="rightbar">
+      <div class="sidebar-content">
+<div id="olivine-toc">
+<h3>Table of contents</h3>
+<ul>
+  <li>
+    <a href="https://reyhanehkho3.github.io/posts/Back-End/rest-api/#rest">REST</a>
+    <li><ul>
+      <li>
+        <a href="https://reyhanehkho3.github.io/posts/Back-End/rest-api/#client-server">client-server</a>
+      </li>
+      <li>
+        <a href="https://reyhanehkho3.github.io/posts/Back-End/rest-api/#stateless">Stateless</a>
+      </li>
+      <li>
+        <a href="https://reyhanehkho3.github.io/posts/Back-End/rest-api/#cacheable">Cacheable</a>
+      </li>
+      <li>
+        <a href="https://reyhanehkho3.github.io/posts/Back-End/rest-api/#uniform-interface">Uniform Interface</a>
+      </li>
+      <li>
+        <a href="https://reyhanehkho3.github.io/posts/Back-End/rest-api/#layered-system">Layered System</a>
+      </li>
+      <li>
+        <a href="https://reyhanehkho3.github.io/posts/Back-End/rest-api/#code-on-demand">Code On Demand</a>
+      </li>
+    </ul></li>
+  </li>
+  <li>
+    <a href="https://reyhanehkho3.github.io/posts/Back-End/rest-api/#why-is-rest-so-popular">why is REST so popular?</a>
+  </li>
+</ul>
+</div>
+
+
+
+      </div>
+    </div>
+
+    <div id="main-area">
+      <main><h1><span>REST API</span></h1>
+
+<ul>
+<li>REpresentational State Transfer</li>
+<li>An <strong>architectural style</strong> for designing networked applications. A <strong>REST API</strong> (or RESTful API) is an [API] that conforms to the constraints of the REST architecture.</li>
+<li><strong>HTTP</strong> as its protocol.</li>
+<li><strong>URLs/URIs</strong> to identify resources (like <code>/users</code>).</li>
+<li><strong>HTTP Methods</strong> (GET, POST, PUT, DELETE) to define actions.</li>
+<li><strong>Data formats</strong> like <strong>JSON</strong> to send and receive data.</li>
+</ul>
+<h2 id="rest">REST</h2>
+<p>For an API to be truly "RESTful," it must follow these six guiding principles:</p>
+<h4 id="client-server">client-server</h4>
+<p>The client and the server are separate.</p>
+<h4 id="stateless">Stateless</h4>
+<p>Each request must contain the info the server needs to process the request.</p>
+<h4 id="cacheable">Cacheable</h4>
+<p>Responses from the server must explicitly state whether they can be cached or not.
+It means that when a server sends a response back to a client, it must <strong>clearly indicate</strong> whether that response can be stored ("cached") and reused later, or if it must be fetched fresh every time.</p>
+<h4 id="uniform-interface">Uniform Interface</h4>
+<p>The most fundamental principle.</p>
+<ul>
+<li><strong>Resource-Based</strong>: Everything is a <strong>resource</strong> (e.g., a user, a product, an order), identified by a URI (like <code>/users/123</code>).</li>
+<li><strong>Manipulation of Resources through Representations</strong>: Clients interact with resources using a <strong>representation</strong> of that resource (like JSON or XML), not the actual resource on the server.</li>
+<li><strong>Self-descriptive Messages</strong>: Each request and response contains enough information to describe how to process it.</li>
+<li><strong>HATEOAS (Hypermedia as the Engine of Application State)</strong>: The response from the server should include hyperlinks to other related actions the client can take. (This is an advanced constraint that is often relaxed in simpler APIs).</li>
+</ul>
+<h4 id="layered-system">Layered System</h4>
+<p> The client doesn't know if it's connected directly to the end server or to an intermediary.</p>
+<h4 id="code-on-demand">Code On Demand</h4>
+<p> The server can send executable code to the client (like JavaScript).</p>
+<h2 id="why-is-rest-so-popular">why is REST so popular?</h2>
+<ul>
+<li><strong>Simplicity &amp; Standardization</strong>: It uses well-known HTTP standards that every developer understands.</li>
+<li><strong>Scalability</strong>: The stateless and layered nature makes it easy to scale applications.</li>
+<li><strong>Flexibility &amp; Independence</strong>: The client and server can be written in different programming languages (JavaScript, Python, Java, etc.) and can be developed and deployed independently.</li>
+<li><strong>Platform Agnostic</strong>: Any device that can use HTTP (phones, browsers, IoT devices) can use a REST API.</li>
+</ul>
+
+
+
+      </main>
+    </div>
+    <div id="help-window" style="display:none;">
+  <div>
+    <h1>Keyboard shortcuts</h1>
+    <div id="help-shortcuts">
+      <div><code>j</code> scroll down</div>
+      <div><code>k</code> scroll up</div>
+      <div><code>h</code> go to previous sibling</div>
+      <div><code>l</code> go to next sibling</div>
+      <div><code>u</code> go to parent</div>
+      <div><code>H</code> go to root</div>
+      <div><code>p</code> go to previous page</div>
+      <div><code>n</code> go to next page</div>
+      <div><code>[</code> toggle left sidebar</div>
+      <div><code>]</code> toggle right sidebar</div>
+      <div><code>?</code> toggle keyboard shortcuts</div>
+      <div><code>/</code> focus searchbar</div>
+      <div><code>Esc</code> focus document</div>
+    </div>
+  </div>
+</div>
+
+  </body>
+  
+  <script src="https://reyhanehkho3.github.io/search_index.en.js"></script>
+  <script src="https://reyhanehkho3.github.io/elasticlunr.min.js"></script>
+  <script src="https://reyhanehkho3.github.io/search.js"></script>
+  
+</html>
