@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="manifest" href="https://reyhanehkho3.github.io/manifest.json">
     <meta name="theme-color" content="#786"/>
-    <title>My Blog &middot; Graph</title>
-    <meta name="description" content="Graph"/>
+    <title>My Blog &middot; Tags</title>
+    <meta name="description" content="Browse notes by tag"/>
     <link rel="icon" type="image/x-icon" href="https://reyhanehkho3.github.io/icon.svg">
     <link href="https://reyhanehkho3.github.io/olivine.css" rel="stylesheet"/>
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"/><noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/></noscript><script>
@@ -18,7 +18,6 @@
     
   };
 </script>
-
 
     <script src="https://reyhanehkho3.github.io/olivine.js"></script>
     
@@ -40,8 +39,6 @@
 
     
 
-<script src="https://cdn.jsdelivr.net/npm/cytoscape@3/dist/cytoscape.min.js"></script>
-
   </head>
 
   <body class="leftbar">
@@ -54,7 +51,7 @@
 <div dir="rtl" id="olivine-breadcrumb">
 <a href="https://reyhanehkho3.github.io/">Reyhaneh's Notes</a>
 <span> / </span>
-Graph
+Tags
 </div>
 
 <noscript><style>#search{display:none;}</style></noscript>
@@ -94,93 +91,10 @@ Graph
     </div>
 
     <div id="main-area">
-      <main>
-<h1>Graph view</h1>
-<div id="olivine-graph" style="width:100%; height:30em; display:block; border: 1px solid var(--body-text);">
-</div>
-<script>
-let cy_elements = [
-{ data: { id: '/', type: 'section', name: 'Reyhaneh\'s Notes' } },
-{ data: { id: '/olivine-internal-graph/', type: 'page', name: 'Graph' } },
-{ data: { source: '/olivine-internal-graph/', target: '/' } },
-{ data: { id: '/olivine-internal-sitemap/', type: 'page', name: 'Sitemap' } },
-{ data: { source: '/olivine-internal-sitemap/', target: '/' } },
-{ data: { id: '/posts/', type: 'section', name: 'Posts' } },
-{ data: { id: '/posts/Back-End/', type: 'section', name: 'Back-End' } },
-{ data: { id: '/posts/Back-End/clean-code/', type: 'page', name: 'Clean Code' } },
-{ data: { source: '/posts/Back-End/clean-code/', target: '/posts/Back-End/' } },
-{ data: { id: '/posts/Back-End/agile/', type: 'page', name: 'Agile' } },
-{ data: { source: '/posts/Back-End/agile/', target: '/posts/Back-End/' } },
-{ data: { source: '/posts/Back-End/', target: '/posts/' } },
-{ data: { source: '/posts/', target: '/' } },
-{ data: { id: '/tags/', type: 'section', name: 'Tags' } },
-{ data: { source: '/tags/', target: '/' } },
-];
+      <main><h1><span title="Browse notes by tag">Tags</span></h1>
 
-// Clean up data
-function bad_id(id) {
-  return id.startsWith("/olivine-internal");
-}
-cy_elements = cy_elements.filter(item => {
-  if (item.data.id === undefined) {
-    return (item.data.source !== item.data.target) && !bad_id(item.data.source)
-      && !bad_id(item.data.target);
-  } else {
-    return !bad_id(item.data.id);
-  }
-});
 
-const cy = cytoscape({
-  container: document.getElementById('olivine-graph'),
-  elements: cy_elements,
-  layout: {
-    name: 'cose',
-  },
-  style: [{
-    selector: "node",
-    style: {
-      label: "data(name)",
-      width: 7,
-      height: 7,
-      "text-valign": "bottom",
-      "text-halign": "center",
-      "color": "#777",
-      "background-color": "#7a4",
-      "opacity": 0.4,
-      "font-size": 7,
-      "min-zoomed-font-size": 7,
-    }}, {
-    selector: "edge",
-    style: {
-      "width": 1,
-      "curve-style": "straight",
-      "color": "#777",
-      "opacity": 0.4,
-    }},
-  ],
-  autoungrabify: true,
-  autounselectify: true,
-});
 
-cy.on('mouseover touchstart', 'node', function(evt){
-  var node = evt.target;
-  node.style('opacity', 1);
-  for (adj of node.neighborhood())
-    adj.style('opacity', 0.7);
-});
-
-cy.on('mouseout touchend', 'node', function(evt){
-  var node = evt.target;
-  node.style('opacity', 0.4);
-  for (adj of node.neighborhood())
-    adj.style('opacity', 0.4);
-});
-
-cy.on('tap', 'node', function(evt){
-  var node = evt.target;
-  window.location.href = olivine.base_url + node.id();
-});
-</script>
 
       </main>
     </div>
