@@ -172,22 +172,22 @@ instead of:</p>
 </span><span style="color:#343d46;">}</span><span>;
 </span></code></pre>
 <ul>
-<li>The most famous example of a class template is the [C++] Standard Template Library (STL) <code>vector</code>. <code>vector&lt;int&gt;</code>, <code>vector&lt;string&gt;</code>, etc., are all generated from the same <code>vector</code> class template.</li>
+<li>The most famous example of a class template is the C++ Standard Template Library (STL) <code>vector</code>. <code>vector&lt;int&gt;</code>, <code>vector&lt;string&gt;</code>, etc., are all generated from the same <code>vector</code> class template.</li>
 </ul>
 <h3 id="where-are-templates-used">Where are Templates Used?</h3>
 <p>Templates are a cornerstone of several programming paradigms and libraries:</p>
 <ul>
 <li>
-<p><strong>[[C++]]:</strong> This is where templates are most powerful and complex (as shown in the examples above). The entire <strong>Standard Template Library (STL)</strong> (with <code>vector</code>, <code>list</code>, <code>map</code>, <code>sort</code>, etc.) is built on templates.</p>
+<p><strong>C++:</strong> This is where templates are most powerful and complex (as shown in the examples above). The entire <strong>Standard Template Library (STL)</strong> (with <code>vector</code>, <code>list</code>, <code>map</code>, <code>sort</code>, etc.) is built on templates.</p>
 </li>
 <li>
-<p><strong>[[Java]]:</strong> Called <strong>Generics</strong>. The syntax is slightly different (e.g., <code>List&lt;Integer&gt; list = new ArrayList&lt;&gt;();</code>), but the core idea is the same: type safety and code reuse.</p>
+<p><strong>Java:</strong> Called <strong>Generics</strong>. The syntax is slightly different (e.g., <code>List&lt;Integer&gt; list = new ArrayList&lt;&gt;();</code>), but the core idea is the same: type safety and code reuse.</p>
 </li>
 <li>
-<p><strong>[[C#]]:</strong> Also called <strong>Generics</strong> (e.g., <code>List&lt;int&gt; list = new List&lt;int&gt;();</code>).</p>
+<p><strong>C#:</strong> Also called <strong>Generics</strong> (e.g., <code>List&lt;int&gt; list = new List&lt;int&gt;();</code>).</p>
 </li>
 <li>
-<p><strong>[[Python]]:</strong> Uses a concept called <strong>"duck typing"</strong> which achieves similar flexibility but in a different, dynamic way. Python also has <strong>type hints</strong> for generics (e.g., <code>def max(a: T, b: T) -&gt; T: ...</code>) to provide better clarity and tooling support.</p>
+<p><strong>Python:</strong> Uses a concept called <strong>"duck typing"</strong> which achieves similar flexibility but in a different, dynamic way. Python also has <strong>type hints</strong> for generics (e.g., <code>def max(a: T, b: T) -&gt; T: ...</code>) to provide better clarity and tooling support.</p>
 </li>
 </ul>
 <h3 id="the-key-benefits">The key benefits:</h3>
@@ -204,7 +204,7 @@ instead of:</p>
 </ol>
 <p>![[Pasted image 20251120230644.png]]</p>
 <h2 id="template-expression">Template expression</h2>
-<p>A <strong>[template expression]</strong> is a special syntax, often using placeholders, that allows you to embed dynamic values and logic directly inside a static template (like HTML, XML, or a string). When the template is processed, these expressions are evaluated, and their results are inserted into the final output.
+<p>A <strong>template expression</strong> is a special syntax, often using placeholders, that allows you to embed dynamic values and logic directly inside a static template (like HTML, XML, or a string). When the template is processed, these expressions are evaluated, and their results are inserted into the final output.
 Think of it as a recipe where you have fixed instructions and ingredients, but you leave a blank space for a variable item (e.g., "Add <code>{number_of_guests}</code> cups of flour"). The baker (the template engine) fills in the blank when they know how many guests are coming.
 The simplest way to understand a template expression is as a <strong>"fill-in-the-blank"</strong> inside a larger piece of text.</p>
 <ul>
@@ -219,7 +219,7 @@ The simplest way to understand a template expression is as a <strong>"fill-in-t
 </li>
 </ul>
 <p>Here, <code>{name}</code> and <code>{city}</code> are the template expressions.
-exp in [[java]]:</p>
+exp in java:</p>
 <pre data-lang="java" style="background-color:#eff1f5;color:#4f5b66;" class="language-java "><code class="language-java" data-lang="java"><span style="color:#d08770;">String</span><span> name = &quot;</span><span style="color:#a3be8c;">Alice</span><span>&quot;;
 </span><span style="color:#b48ead;">int</span><span> age = </span><span style="color:#d08770;">30</span><span>;
 </span><span style="color:#b48ead;">double</span><span> score = </span><span style="color:#d08770;">95.5</span><span>;
