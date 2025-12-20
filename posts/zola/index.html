@@ -1,0 +1,223 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="manifest" href="https://reyhanehkho3.github.io/manifest.json">
+    <meta name="theme-color" content="#786"/>
+    <title>My Blog &middot; My Zola setup</title>
+    <meta name="description" content="My Zola setup - I built this site using Zola. My goal was to upload my markdown files into a website of my own. One option was to use Ob…"/>
+    <link rel="icon" type="image/x-icon" href="https://reyhanehkho3.github.io/icon.svg">
+    <link href="https://reyhanehkho3.github.io/olivine.css" rel="stylesheet"/>
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"/><noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/></noscript><script>
+  // Import Zola variables to Javascript
+  var olivine = {
+    base_url: "https://reyhanehkho3.github.io",
+    
+    
+  };
+</script>
+
+    <script src="https://reyhanehkho3.github.io/olivine.js"></script>
+    
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      macros: {br: '\\\\'},
+      packages: {'[+]': ['amscd']}
+    },
+  };
+  for (oper of ['id', 'im', 'tr', 'coker', 'Hom', 'End', 'Aut', 'Ext', 'Tor',
+    'Gal', 'Spec', 'Spf']) {
+    MathJax.tex.macros[oper] = '\\operatorname{' + oper + '}';
+  }
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+    
+
+  </head>
+
+  <body class="leftbar">
+    <script>
+      setSidebar();
+    </script>
+
+    <header>
+      <div><div><img src="https://reyhanehkho3.github.io/icon.svg" width="24" height="32" onclick="toggleBar('leftbar')" alt="Olivine logo" style="display:block;"></img></div>
+<div dir="rtl" id="olivine-breadcrumb">
+<a href="https://reyhanehkho3.github.io/">Reyhaneh's Notes</a>
+<span> / </span>
+<a href="https://reyhanehkho3.github.io/posts/">Posts</a>
+<span> / </span>
+My Zola setup
+</div>
+
+<noscript><style>#search{display:none;}</style></noscript>
+<div id="search">
+  <input id="search-input" type="search" placeholder="Search..."/>
+  <div id="search-results"></div>
+</div>
+
+<div onclick="toggleTheme()"><span class="olivine-icon"><i class="fa-solid fa-palette"></i></span></div>
+<div onclick="toggleBar('rightbar')"><span class="olivine-icon"><i class="fa-solid fa-book"></i></span></div>
+
+      </div>
+    </header>
+
+    <div class="sidebar" id="leftbar">
+      <div class="sidebar-content"><ul class="hidden" id="olivine-directory">
+  <li><a href=".."><span class="olivine-icon"><i class="fa-solid fa-turn-up"></i></span> ..</a></li>
+</ul>
+<hr noshade style="width:100%;">
+
+
+<ul>
+  <li><a href="https://reyhanehkho3.github.io/olivine-internal-graph/"><span class="olivine-icon"><i class="fa-solid fa-diagram-project"></i></span> Graph view</a></li>
+</ul>
+
+<ul><li><a href="https://reyhanehkho3.github.io/tags/"><span class="olivine-icon"><i class="fa-solid fa-tags"></i></span>Tags</a></li></ul>
+
+      </div>
+    </div>
+
+    <div class="sidebar" id="rightbar">
+      <div class="sidebar-content">
+<div id="olivine-toc">
+<h3>Table of contents</h3>
+<ul>
+  <li>
+    <a href="https://reyhanehkho3.github.io/posts/zola/#what-is-zola">What is Zola?</a>
+    <li><ul>
+      <li>
+        <a href="https://reyhanehkho3.github.io/posts/zola/#features">Features:</a>
+      </li>
+    </ul></li>
+  </li>
+  <li>
+    <a href="https://reyhanehkho3.github.io/posts/zola/#installation">Installation</a>
+  </li>
+</ul>
+</div>
+
+
+
+      </div>
+    </div>
+
+    <div id="main-area">
+      <main><h1><span>My Zola setup</span></h1>
+
+<p>I built this site using Zola. My goal was to upload my markdown files into a website of my own. One option was to use Obsidian and therefore Obsidian publish, an obsidian plugin to send my notes over the internet, but there was a big problem, I had to pay for it and as an iranian it had a lot of trouble that I didn't want to endure. So I searched for free solutions and Zola was the one that I chose.</p>
+<h3 id="what-is-zola">What is Zola?</h3>
+<p><strong>Zola (Static Site Generator)</strong> is a <strong>fast, modern static site generator</strong> written in <strong>Rust</strong>. It’s used to build websites from <strong>Markdown content and templates</strong>, then outputs static HTML files you can host anywhere. It's used for blogs, personal sites, documentation sites and etc. Zola sites can be hosted on GitHub Pages, Netlify, Vercel or any static hosting provider.</p>
+<h4 id="features">Features:</h4>
+<ul>
+<li>pretty fast</li>
+<li>markdown based content</li>
+<li>built in Sass/SCSS support</li>
+<li>built in search</li>
+<li>multilingual sites</li>
+<li>easy to install with no runtime dependencies.</li>
+</ul>
+<h3 id="installation">Installation</h3>
+<p>At first I installed Zola:</p>
+<pre data-lang="bash" style="background-color:#eff1f5;color:#4f5b66;" class="language-bash "><code class="language-bash" data-lang="bash"><span style="color:#bf616a;">sudo</span><span> pacman</span><span style="color:#bf616a;"> -S</span><span> zola
+</span></code></pre>
+<p>I also had git installed.</p>
+<pre data-lang="bash" style="background-color:#eff1f5;color:#4f5b66;" class="language-bash "><code class="language-bash" data-lang="bash"><span style="color:#bf616a;">sudo</span><span> pacman</span><span style="color:#bf616a;"> -S</span><span> git
+</span></code></pre>
+<p>Since I wanted to have a theme that was similar to Obsidian, I tried installing the Olivine theme. It had a <a rel="noopener" target="_blank" href="https://github.com/dongryul-kim/olivine">quickstart repository</a>:</p>
+<pre data-lang="bash" style="background-color:#eff1f5;color:#4f5b66;" class="language-bash "><code class="language-bash" data-lang="bash"><span style="color:#bf616a;">git</span><span> clone</span><span style="color:#bf616a;"> --depth</span><span> 1</span><span style="color:#bf616a;"> --recurse-submodules</span><span> git@github.com:dongryul-kim/olivine-quickstart.git &lt;your-folder-name&gt;
+</span></code></pre>
+<p>Next, you enter the project:</p>
+<pre data-lang="bash" style="background-color:#eff1f5;color:#4f5b66;" class="language-bash "><code class="language-bash" data-lang="bash"><span style="color:#96b5b4;">cd</span><span> my-zola-blog
+</span></code></pre>
+<p>In this folder you'll see these:</p>
+<ul>
+<li><code>config.toml</code></li>
+<li><code>content/</code></li>
+<li><code>themes/olivine/</code></li>
+</ul>
+<p>You need to change the base url in <code>config.toml</code>:</p>
+<pre data-lang="bash" style="background-color:#eff1f5;color:#4f5b66;" class="language-bash "><code class="language-bash" data-lang="bash"><span style="color:#bf616a;">vim</span><span> config.toml
+</span></code></pre>
+<p>or if you don't use vim:</p>
+<pre data-lang="bash" style="background-color:#eff1f5;color:#4f5b66;" class="language-bash "><code class="language-bash" data-lang="bash"><span style="color:#bf616a;">nano</span><span> config.toml
+</span></code></pre>
+<p>In this file, you'll see a line for <code>base_url</code>. Change it to your site's url. I am using github.io as the host for my website. ([How?])</p>
+<pre data-lang="bash" style="background-color:#eff1f5;color:#4f5b66;" class="language-bash "><code class="language-bash" data-lang="bash"><span style="color:#bf616a;">base_url</span><span> = &quot;</span><span style="color:#a3be8c;">https://YOUR_USERNAME.github.io</span><span>&quot;
+</span><span style="color:#bf616a;">title</span><span> = &quot;</span><span style="color:#a3be8c;">My Blog</span><span>&quot;
+</span></code></pre>
+<p>Also make sure this exits:</p>
+<pre data-lang="bash" style="background-color:#eff1f5;color:#4f5b66;" class="language-bash "><code class="language-bash" data-lang="bash"><span style="color:#bf616a;">theme</span><span> = &quot;</span><span style="color:#a3be8c;">olivine</span><span>&quot;
+</span><span style="color:#bf616a;">compile_sass</span><span> = true
+</span></code></pre>
+<p>Save.
+Right now, your repo still points to <strong>dongryul-kim</strong>. First, check the repo:</p>
+<pre data-lang="bash" style="background-color:#eff1f5;color:#4f5b66;" class="language-bash "><code class="language-bash" data-lang="bash"><span style="color:#bf616a;">git</span><span> remote</span><span style="color:#bf616a;"> -v
+</span></code></pre>
+<p>You will see something like this:</p>
+<pre data-lang="bash" style="background-color:#eff1f5;color:#4f5b66;" class="language-bash "><code class="language-bash" data-lang="bash"><span style="color:#bf616a;">origin</span><span> git@github.com:dongryul-kim/olivine-quickstart.git
+</span></code></pre>
+<p>remove it:</p>
+<pre data-lang="bash" style="background-color:#eff1f5;color:#4f5b66;" class="language-bash "><code class="language-bash" data-lang="bash"><span style="color:#bf616a;">git</span><span> remote remove origin
+</span></code></pre>
+<p>Now test it locally:</p>
+<pre data-lang="bash" style="background-color:#eff1f5;color:#4f5b66;" class="language-bash "><code class="language-bash" data-lang="bash"><span style="color:#bf616a;">zola</span><span> serve
+</span></code></pre>
+<p>Open the https link and you'll see the blog with the theme. Since I wanted to connect the blog with my github repositories and share my notes via github, I tried to connect zola to a github repository so the notes will be displayed from this repo.
+To get there, you need to have 2 github repositories.</p>
+<ol>
+<li>
+<p>Source repository (private or public)
+Name example: <code>my-zola-blog</code>
+This stores:
+Markdown notes
+Theme
+Templates
+Config files</p>
+</li>
+<li>
+<p>GitHub Pages repository (must be public)
+Name must be in this format: <code>&lt;your-username&gt;.github.io</code>
+This repository hosts the live website.</p>
+</li>
+</ol>
+<p>I will complete this.</p>
+
+
+
+      </main>
+    </div>
+    <div id="help-window" style="display:none;">
+  <div>
+    <h1>Keyboard shortcuts</h1>
+    <div id="help-shortcuts">
+      <div><code>j</code> scroll down</div>
+      <div><code>k</code> scroll up</div>
+      <div><code>h</code> go to previous sibling</div>
+      <div><code>l</code> go to next sibling</div>
+      <div><code>u</code> go to parent</div>
+      <div><code>H</code> go to root</div>
+      <div><code>p</code> go to previous page</div>
+      <div><code>n</code> go to next page</div>
+      <div><code>[</code> toggle left sidebar</div>
+      <div><code>]</code> toggle right sidebar</div>
+      <div><code>?</code> toggle keyboard shortcuts</div>
+      <div><code>/</code> focus searchbar</div>
+      <div><code>Esc</code> focus document</div>
+    </div>
+  </div>
+</div>
+
+  </body>
+  
+  <script src="https://reyhanehkho3.github.io/search_index.en.js"></script>
+  <script src="https://reyhanehkho3.github.io/elasticlunr.min.js"></script>
+  <script src="https://reyhanehkho3.github.io/search.js"></script>
+  
+</html>
