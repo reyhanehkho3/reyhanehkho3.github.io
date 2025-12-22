@@ -1,20 +1,28 @@
-:root {
-  /* Backgrounds */
-  --olivine-bg: #002b36;            /* base03 */
-  --olivine-bg-secondary: #073642;  /* base02 */
 
-  /* Text */
-  --olivine-text: #eee8d5;          /* base2 */
-  --olivine-text-muted: #93a1a1;    /* base1 */
+/* Force Dark Purple-Pink Theme */
+body, html, header, nav, footer, .olivine-sidebar, main, section {
+  background-color: #242424 !important;
+  color: #e0b3ff !important;
+}
 
-  /* Accent / links */
-  --olivine-accent: #268bd2;        /* blue */
-  --olivine-accent-hover: #2aa198;  /* cyan */
+a, a:visited {
+  color: #ff79c6 !important;
+}
 
-  /* Borders */
-  --olivine-border: #586e75;        /* base01 */
+a:hover {
+  color: #ffb0eb !important;
+}
 
-  /* Code blocks */
-  --olivine-code-bg: #073642;       /* base02 */
+code, pre {
+  background-color: #120b23 !important;
+  color: #e0b3ff !important;
+}
+
+hr, .olivine-border {
+  border-color: #4b2e5b !important;
+}
+
+.muted, .olivine-text-muted {
+  color: #cfa3e6 !important;
 }
 
