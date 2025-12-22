@@ -1,0 +1,20 @@
+:root {
+  /* Backgrounds */
+  --olivine-bg: #0f1220;
+  --olivine-bg-secondary: #161a2b;
+
+  /* Text */
+  --olivine-text: #e6e6eb;
+  --olivine-text-muted: #a0a3b1;
+
+  /* Accent / links */
+  --olivine-accent: #7aa2f7;
+  --olivine-accent-hover: #9bb7ff;
+
+  /* Borders */
+  --olivine-border: #2a2f4a;
+
+  /* Code blocks */
+  --olivine-code-bg: #1e2235;
+}
+
