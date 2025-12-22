@@ -6,20 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="manifest" href="https://reyhanehkho3.github.io/manifest.json">
     <meta name="theme-color" content="#786"/>
-    <title>My Blog &middot; Back-End</title>
-    <meta name="description" content="Back-End - Back-end notes:
-
-Clean Code
-Agile
-ACID
-API
-OOP
-REST API
-Soft Skills
-SOLID
-Template
-
-"/>
+    <title>My Blog &middot; BFS & DFS</title>
+    <meta name="description" content="BFS &amp; DFS - What is BFS?
+BFS is a method for graphing data, search trees, and traversing structures. The method visits &amp;amp; marks a…"/>
     <link rel="icon" type="image/x-icon" href="https://reyhanehkho3.github.io/icon.svg">
     <link href="https://reyhanehkho3.github.io/olivine.css" rel="stylesheet"/>
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"/><noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/></noscript><script>
@@ -65,7 +54,9 @@ Template
 <span> / </span>
 <a href="https://reyhanehkho3.github.io/posts/">Posts</a>
 <span> / </span>
-Back-End
+<a href="https://reyhanehkho3.github.io/posts/Back-End/">Back-End</a>
+<span> / </span>
+BFS & DFS
 </div>
 
 <noscript><style>#search{display:none;}</style></noscript>
@@ -83,16 +74,6 @@ Back-End
     <div class="sidebar" id="leftbar">
       <div class="sidebar-content"><ul class="hidden" id="olivine-directory">
   <li><a href=".."><span class="olivine-icon"><i class="fa-solid fa-turn-up"></i></span> ..</a></li>
-  <li><a href="https://reyhanehkho3.github.io/posts/Back-End/api/"><span class="olivine-icon"><i class="fa-regular fa-file-lines"></i></span> API</a></li>
-  <li><a href="https://reyhanehkho3.github.io/posts/Back-End/solid/"><span class="olivine-icon"><i class="fa-regular fa-file-lines"></i></span> SOLID</a></li>
-  <li><a href="https://reyhanehkho3.github.io/posts/Back-End/oop/"><span class="olivine-icon"><i class="fa-regular fa-file-lines"></i></span> OOP</a></li>
-  <li><a href="https://reyhanehkho3.github.io/posts/Back-End/soft-skills/"><span class="olivine-icon"><i class="fa-regular fa-file-lines"></i></span> Soft Skills</a></li>
-  <li><a href="https://reyhanehkho3.github.io/posts/Back-End/agile/"><span class="olivine-icon"><i class="fa-regular fa-file-lines"></i></span> Agile</a></li>
-  <li><a href="https://reyhanehkho3.github.io/posts/Back-End/template/"><span class="olivine-icon"><i class="fa-regular fa-file-lines"></i></span> Template</a></li>
-  <li><a href="https://reyhanehkho3.github.io/posts/Back-End/clean-code/"><span class="olivine-icon"><i class="fa-regular fa-file-lines"></i></span> Clean Code</a></li>
-  <li><a href="https://reyhanehkho3.github.io/posts/Back-End/acid/"><span class="olivine-icon"><i class="fa-regular fa-file-lines"></i></span> ACID</a></li>
-  <li><a href="https://reyhanehkho3.github.io/posts/Back-End/rest-api/"><span class="olivine-icon"><i class="fa-regular fa-file-lines"></i></span> REST API</a></li>
-  <li><a href="https://reyhanehkho3.github.io/posts/Back-End/bfs-dfs/"><span class="olivine-icon"><i class="fa-regular fa-file-lines"></i></span> BFS & DFS</a></li>
 </ul>
 <hr noshade style="width:100%;">
 
@@ -108,39 +89,44 @@ Back-End
 
     <div class="sidebar" id="rightbar">
       <div class="sidebar-content">
-
-
-<div id="olivine-forward-links">
-<h3>Forward links</h3>
-<ul id="olivine-forward-link-lists">
+<div id="olivine-toc">
+<h3>Table of contents</h3>
+<ul>
+  <li>
+    <a href="https://reyhanehkho3.github.io/posts/Back-End/bfs-dfs/#what-is-bfs">What is BFS?</a>
+  </li>
+  <li>
+    <a href="https://reyhanehkho3.github.io/posts/Back-End/bfs-dfs/#what-is-dfs">What is DFS?</a>
+  </li>
+  <li>
+    <a href="https://reyhanehkho3.github.io/posts/Back-End/bfs-dfs/#what-s-the-difference">What&#x27;s the difference?</a>
+  </li>
+  <li>
+    <a href="https://reyhanehkho3.github.io/posts/Back-End/bfs-dfs/#source">Source</a>
+  </li>
 </ul>
 </div>
-<script>
-forward_list = [
- "/posts/Back-End/clean-code/",  "/posts/Back-End/agile/",  "/posts/Back-End/acid/",  "/posts/Back-End/api/",  "/posts/Back-End/oop/",  "/posts/Back-End/rest-api/",  "/posts/Back-End/soft-skills/",  "/posts/Back-End/solid/",  "/posts/Back-End/template/", 
-];
-hydrateForward("olivine-forward-link-lists", forward_list,
-"https://reyhanehkho3.github.io/olivine-internal-sitemap/");
-</script>
+
+
 
       </div>
     </div>
 
     <div id="main-area">
-      <main><h1><span>Back-End</span></h1>
+      <main><h1><span>BFS & DFS</span></h1>
 
-<p>Back-end notes:</p>
+<h3 id="what-is-bfs">What is BFS?</h3>
+<p>BFS is a method for graphing data, search trees, and traversing structures. The method visits &amp; marks all critical nodes in a network in an exact breadthwise manner. This algorithm chooses a single node (the beginning or origin point) in a network and visits all nodes near the chosen node. After visiting and marking the beginning node, the algorithm goes on to the next uninhabited nodes it analyses them. All nodes are indicated once they have been visited. These cycles continue until all nodes in the graph have been visited and marked correctly. BFS is an abbreviation for Breadth-first search. (breadth = width)</p>
+<h3 id="what-is-dfs">What is DFS?</h3>
+<p>DFS is a depth-first search strategy that may be used to locate or explore graphs or trees. Before backtracking, the algorithm begins at the tree’s root and explores each path. When an iteration reaches a dead end, a stack information structure is utilised to remember, identify the next vertex, and begin a search. DFS’s complete form is a depth-first search.</p>
+<h3 id="what-s-the-difference">What's the difference?</h3>
+<p>BFS (Breadth-first search) is a network search method that investigates all surrounding nodes after starting at the root node. DFS (Depth initial search) is an algorithm that starts with the first node in the network and continues to explore until it discovers the desired node or even a node with no children. As a result, the major contrast between BFS and DFS is this.</p>
 <ul>
-<li><a rel="noopener" target="_blank" href="https://reyhanehkho3.github.io/posts/Back-End/clean-code/">Clean Code</a></li>
-<li><a rel="noopener" target="_blank" href="https://reyhanehkho3.github.io/posts/Back-End/agile/">Agile</a></li>
-<li><a rel="noopener" target="_blank" href="https://reyhanehkho3.github.io/posts/Back-End/acid/">ACID</a></li>
-<li><a rel="noopener" target="_blank" href="https://reyhanehkho3.github.io/posts/Back-End/api/">API</a></li>
-<li><a rel="noopener" target="_blank" href="https://reyhanehkho3.github.io/posts/Back-End/oop/">OOP</a></li>
-<li><a rel="noopener" target="_blank" href="https://reyhanehkho3.github.io/posts/Back-End/rest-api/">REST API</a></li>
-<li><a rel="noopener" target="_blank" href="https://reyhanehkho3.github.io/posts/Back-End/soft-skills/">Soft Skills</a></li>
-<li><a rel="noopener" target="_blank" href="https://reyhanehkho3.github.io/posts/Back-End/solid/">SOLID</a></li>
-<li><a rel="noopener" target="_blank" href="https://reyhanehkho3.github.io/posts/Back-End/template/">Template</a></li>
+<li>DFS (Depth First Search) makes use of the Stack data structure.</li>
+<li>BFS (Breadth First Search) finds the shortest path using the Queue data structure.</li>
 </ul>
+<p>![[Pasted image 20251222234434.png]]</p>
+<h1 id="source"><a rel="noopener" target="_blank" href="https://unacademy.com/content/gate-cse-it/difference-between-bfs-and-dfs/#:~:text=BFS%20(Breadth%2Dfirst%20search),a%20node%20with%20no%20children.">Source</a></h1>
 
 
 
