@@ -25,4 +25,15 @@ hr, .olivine-border {
 .muted, .olivine-text-muted {
   color: #cfa3e6 !important;
 }
+/* Persian (RTL) text */
+[lang="fa"] {
+  font-family: "Vazirmatn", "Tahoma", sans-serif !important;
+}
+
+/* Optional: make headings nicer */
+[lang="fa"] h1,
+[lang="fa"] h2,
+[lang="fa"] h3 {
+  font-weight: 600;
+}
 
