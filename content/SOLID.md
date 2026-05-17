@@ -1,5 +1,5 @@
 ---
-title: Back-End
+title: SOLID
 publish: true
 date created: 2026-10-05
 ---
@@ -75,3 +75,6 @@ This principle is about decoupling. High-level policy (business logic) should no
 
 ### dependency injection
  **instead of an object creating its own dependencies, they are provided to it from the outside.**
+
+---
+[[Back-End]]
