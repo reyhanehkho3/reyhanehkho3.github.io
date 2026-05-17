@@ -24,3 +24,5 @@ Backend developers should be able to work with front-end developers, explain tec
 Application developers must collaborate with other colleagues, such as designers, project managers, and testers, for the development of integrated applications. Don't get yourself into  conflicts in roles and be willing to share experiences with teamwork.
 
 # [Source](https://www.uplers.com/blog/hiring-backend-developers-key-skills-and-qualities-to-look-for/)
+
+[[Back-End]]
