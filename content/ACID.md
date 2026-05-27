@@ -34,4 +34,4 @@ Durability guarantees that once a transaction has been committed, it will remain
 ## BASE
 It's important to note that while ACID  is a cornerstone of traditional relational database systems (like PostgreSQL, MySQL, Oracle), many modern NoSQL databases sacrifice full ACID compliance (especially strong Isolation) in favor of other advantages like scalability and performance, offering instead a "BASE" model (Basically Available, Soft state, Eventual consistency). The choice between ACID and BASE depends entirely on the specific requirements of your application.
 
-[[Data Base]]
+[[Data-Base]]

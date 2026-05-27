@@ -45,5 +45,5 @@ public class QuickSort {
 ```
 
 [[Data-Structure]]
-[[Algoritm]]
+[[Algorithm]]
 # [Source](https://www.geeksforgeeks.org/dsa/quick-sort-algorithm/)

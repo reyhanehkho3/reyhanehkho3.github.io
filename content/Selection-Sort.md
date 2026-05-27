@@ -38,5 +38,5 @@ public class SelectionSort{
 ```
 
 [[Data-Structure]]
-[[Algoritm]]
+[[Algorithm]]
 # [Source](https://www.geeksforgeeks.org/dsa/selection-sort-algorithm-2/)
