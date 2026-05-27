@@ -8,7 +8,8 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Knowledge Base",
+    pageTitle: "reyhan base",
+    favicon: "static/icon.png",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
