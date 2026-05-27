@@ -9,7 +9,6 @@ import * as Plugin from "./quartz/plugins"
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "reyhan base",
-    favicon: "static/icon.png",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
