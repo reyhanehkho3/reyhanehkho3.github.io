@@ -1,5 +1,5 @@
 ---
-title: Nier Automata
+title: God Of War
 publish: true
 date created: 2026-05-29
 ---
