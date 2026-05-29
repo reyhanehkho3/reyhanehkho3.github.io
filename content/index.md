@@ -11,7 +11,8 @@ Here is the list of the topics:
 - [[Data-Base]]: SQL and related information.
 - [[Back-End]]: Various knowledge needed for this field.
 - [[Project-Management]]: Git, and required information for projects.
-- [[books]]: Talking about the books I read.
+- [[]]
+- [[Books]]: Talking about the books I read.
 - [[Quartz-Setup]]: How I sat up this website.
 
 

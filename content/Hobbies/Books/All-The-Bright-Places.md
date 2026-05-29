@@ -17,4 +17,4 @@ I can imagine how Violet could've felt when she walked through the places they w
 I think the book could've been better if there was more detailing, and more questions answered. I sometimes got confused at the actions of the characters, and I wish the text was smoother to read. But maybe it was the issues with the translation, so I wouldn't emphasize on this part of my comment.
 
 7 out of 10, my rating.
-[[books]]
+[[Books]]
