@@ -1,14 +1,11 @@
 ---
-title: Back-End
-publish: true
-date created: 2026-05-17
+title: Back End
+publish:
+date created: 2026-05-29
 ---
-- [[SOLID]]
 - [[API]]
-- [[REST-API]]
-- [[OOP]]
-- [[Data-Base]]
-- [[Data-Structure]]
 - [[Clean-Code]]
+- [[OOP]]
+- [[REST-API]]
 - [[Soft-Skills]]
-- [[Project-Management]]
+- [[SOLID]]

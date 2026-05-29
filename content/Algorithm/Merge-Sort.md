@@ -50,4 +50,5 @@ public class MergeSort {
 ```
 
 [[Data-Structure]]
+[[Algorithm]]
 # [Source](https://www.geeksforgeeks.org/dsa/merge-sort/)

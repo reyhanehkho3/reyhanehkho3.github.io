@@ -1,10 +1,10 @@
 ---
 title: Algorithm
 publish: true
-date created: 2026-05-17
+date created: 2026-05-29
 ---
-- [[Selection-Sort]]
+- [[DFS&BFS]]
+- [[Insertion-Sort]]
 - [[Merge-Sort]]
 - [[Quick-Sort]]
-- [[Insertion-Sort]]
-- [[DFS&BFS]]
+- [[Selection-Sort]]
