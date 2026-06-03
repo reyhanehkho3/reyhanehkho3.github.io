@@ -15,7 +15,7 @@ The story follows three main androids: 2B (a calm, professional fighter), 9S (a 
 
 ## Gameplay
 
-The game mixes multiple forms of gameplay—hack-and-slash combat, bullet hell shooting, hacking, and even text-based adventure segments—but it's mostly an action RPG (which I really liked). It's extremely hard to play. Even with Auto-Chips (which automate fights and dodges), you can only get through about half of the game on your own. Auto-Chips are available only on Easy mode. There are four difficulty levels: Easy (auto-chips available), Normal (standard), Hard (no lock-on, tougher enemies), and Very Hard (one-hit death).
+The game mixes multiple forms of gameplay—hack-and-slash combat, bullet hell shooting, hacking, and even text-based adventure segments—but it's mostly an action RPG (which I really liked). It's extremely hard to play. Even with Auto-Chips (which automate fights and dodges), it's still gonna be a bit hard. Auto-Chips are available only on Easy mode. There are four difficulty levels: Easy (auto-chips available), Normal (standard), Hard (no lock-on, tougher enemies), and Very Hard (one-hit death).
 ![[NieR-Switch-Screen-2.jpg]]
 
 As I said, the game is really hard, but the story was so strong that I stuck with it, determined to reach the end. I should have fought more enemies and done side quests so that later stages wouldn't be as difficult, but I skipped them and ended up struggling.
