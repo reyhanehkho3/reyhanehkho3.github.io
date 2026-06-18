@@ -4,6 +4,9 @@ publish: true
 date created: 2026-06-18
 ---
 - there is no guarantee that a given greedy algorithm always yields an optimal solution.
+- A selection procedure chooses the next item to add to the set. The selection is performed according to a greedy criterion that satisfies some locally optimal consideration at the time.
+- A feasibility check determines if the new set is feasible by checking whether it is possible to complete this set in such a way as to give a solution to the instance. (?)
+- A solution check determines whether the new set constitutes a solution to the instance. 
 
 **Consider the problem of removing edges from a connected, weighted, undirected graph G to form a subgraph such that all the vertices remain connected and the sum of the weights on the remaining edges is as small as possible.**
 - A subgraph with minimum weight must be a tree, because if a subgraph were not a tree, it would contain a simple cycle, and we could remove any edge on the cycle, resulting in a connected graph with a smaller weight.
@@ -28,3 +31,16 @@ date created: 2026-06-18
 - Prim’s algorithm starts with an empty subset of edges F and a subset of vertices Y initialized to contain an arbitrary vertex. We will initialize Y to {v1}. A vertex nearest to Y is a vertex in V −Y that is connected to a vertex in Y by an edge of minimum weight. The vertex that is nearest to Y is added to Y and the edge is added to F. The process of adding nearest vertices is repeated until Y = V.
 - The algorithm:
 ![[prim's-algo.png]]
+- The selection procedure and feasibility check are done together because taking the new vertex from V − Y guarantees that a cycle is not created.
+- In computer, we represent a weighted graph by its adjacency matrix.
+![[prim-pic1.png]]
+![[prim-pic2.png]]
+![[prim-pic3.png]]
+- As vertices are added to Y , these two arrays are updated to reference the new vertex in Y nearest to each vertex outside of Y . To determine which vertex to add to Y , in each iteration we compute the index for which distance[i] is the smallest. We call this index vnear. The vertex indexed by vnear is added to Y by setting distance[vnear] to −1.
+- Prim's Algorithm:
+![[prim-pic4.png]]
+
+- Time complexity: $\theta(n^2)$
+- There is a theorem to prove that prim's algorithm always produces a minimum spanning tree, if you want to check, page 183.
+
+## Kruskal's Algorithm
