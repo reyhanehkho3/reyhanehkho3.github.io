@@ -1,0 +1,30 @@
+---
+title: The Greedy Approach
+publish: true
+date created: 2026-06-18
+---
+- there is no guarantee that a given greedy algorithm always yields an optimal solution.
+
+**Consider the problem of removing edges from a connected, weighted, undirected graph G to form a subgraph such that all the vertices remain connected and the sum of the weights on the remaining edges is as small as possible.**
+- A subgraph with minimum weight must be a tree, because if a subgraph were not a tree, it would contain a simple cycle, and we could remove any edge on the cycle, resulting in a connected graph with a smaller weight.
+## Spanning Tree
+- A spanning tree for G is a connected subgraph that contains all the vertices in G and is a tree.(doesn't contain cycles)
+	 So for a spanning tree:
+		-It must include **all the vertices** of the original graph G.
+		- It must be **connected** (there's a path between every pair of vertices).
+		- It must have **no cycles** (which means if G has n vertices, the spanning tree will have exactly n−1 edges).
+- A connected subgraph of minimum weight must be a spanning tree
+## Minimum Spanning Tree
+- Minimum Spanning Tree has the minimum total weight.
+- A graph can have more than one minimum spanning tree.
+- Brute-force will be worse than exponential. So we'll use Greedy for this.
+- A spanning tree T for G has the same vertices V as G, but the set of edges of T is a subset F of E. We will denote a spanning tree by T = (V , F).Our problem is to find a subset F of E such that T = (V , F) is a minimum spanning tree for G.
+- The algorithm:
+![[sapnningTreeAlgo.png]]
+- The locally optimal property is not unique. We investigate 2 greey algorithms for this problem. Prim's and Kruskal's. Each uses a different locally optimal property.
+- Both Prim’s and Kruskal’s algorithms always produce minimum spanning trees.
+
+## Prim's Algorithm
+- Prim’s algorithm starts with an empty subset of edges F and a subset of vertices Y initialized to contain an arbitrary vertex. We will initialize Y to {v1}. A vertex nearest to Y is a vertex in V −Y that is connected to a vertex in Y by an edge of minimum weight. The vertex that is nearest to Y is added to Y and the edge is added to F. The process of adding nearest vertices is repeated until Y = V.
+- The algorithm:
+![[prim's-algo.png]]
