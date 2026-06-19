@@ -44,3 +44,12 @@ date created: 2026-06-18
 - There is a theorem to prove that prim's algorithm always produces a minimum spanning tree, if you want to check, page 183.
 
 ## Kruskal's Algorithm
+- Kruskal’s algorithm for the Minimum Spanning Tree problem starts by creating disjoint subsets of V , one for each vertex and containing only that vertex. It then inspects the edges according to nondecreasing weight (ties are broken arbitrarily). If an edge connects two vertices in disjoint subsets, the edge is added and the subsets are merged into one set. This process is repeated until all the subsets are merged into one set.
+- Algorithm:
+![[kruskals-pic1.png]]
+![[kruskal-pic2.png]]
+- The while loop is exited when there are n−1 edges in F, because there are n − 1 edges in a spanning tree.
+- Worst case: $\Theta(n^2 \log n)$
+- The proof that kruskal's always produces an optimal solution is on page 188.
+## Which one?
+For a graph whose number of edges m is near the low end of these limits (the graph is very sparse), Kruskal’s algorithm is Θ(n lg n), which means that Kruskal’s algorithm should be faster. However, for a graph whose number of edges is near the high end (the graph is highly connected), Kruskal’s algorithm is Θ(n2 lg n), which means that Prim’s algorithm should be faster.

@@ -27,3 +27,7 @@ date created: 2026-06-14
 - _A(n)_: A(n) is defined as the average (expected value) of the number of times the algorithm does the basic operation for an input size of n (see Section A.8.2 in Appendix A for a discussion of average). A(n) is called the average-case time complexity of the algorithm, and the determination of A(n) is called an average-case time complexity analysis. As is the case for W(n), if T(n) exists, then A(n) = T(n).
 
 - _B(n)_: For a given algorithm, B(n) is defined as the minimum number of times the algorithm will ever do its basic operation for an input size of n. So B(n) is called the best-case time complexity of the algorithm, and the determination of B(n) is called a best-case time complexity analysis. As is the case for W(n) and A(n), if T(n) exists, then B(n) = T(n).
+
+
+
+- The time complexity of an algorithm sometimes depends on the data structure used to implement
