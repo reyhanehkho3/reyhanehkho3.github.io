@@ -1,8 +1,9 @@
 ---
-title: Analysis of Algorithms
+title: "Algorithms: Efficiency, Analysis, and Order"
 publish: true
 date created: 2026-06-14
 ---
+# Analysis Of Algorithms
 ## Complexity Analysis
 - We analyze the algorithms efficiency by determining the number of times some basic operation is done as a function of the size of the input.
 
@@ -31,3 +32,12 @@ date created: 2026-06-14
 
 
 - The time complexity of an algorithm sometimes depends on the data structure used to implement
+
+## Applying the Theory
+
+
+## Analysis of Correctness
+
+
+
+# Order

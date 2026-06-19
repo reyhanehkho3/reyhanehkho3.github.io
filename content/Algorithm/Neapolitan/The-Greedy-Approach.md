@@ -3,6 +3,8 @@ title: The Greedy Approach
 publish: true
 date created: 2026-06-18
 ---
+# Minimum Spanning Trees
+
 - there is no guarantee that a given greedy algorithm always yields an optimal solution.
 - A selection procedure chooses the next item to add to the set. The selection is performed according to a greedy criterion that satisfies some locally optimal consideration at the time.
 - A feasibility check determines if the new set is feasible by checking whether it is possible to complete this set in such a way as to give a solution to the instance. (?)
@@ -27,7 +29,7 @@ date created: 2026-06-18
 - The locally optimal property is not unique. We investigate 2 greey algorithms for this problem. Prim's and Kruskal's. Each uses a different locally optimal property.
 - Both Prim’s and Kruskal’s algorithms always produce minimum spanning trees.
 
-## Prim's Algorithm
+### Prim's Algorithm
 - Prim’s algorithm starts with an empty subset of edges F and a subset of vertices Y initialized to contain an arbitrary vertex. We will initialize Y to {v1}. A vertex nearest to Y is a vertex in V −Y that is connected to a vertex in Y by an edge of minimum weight. The vertex that is nearest to Y is added to Y and the edge is added to F. The process of adding nearest vertices is repeated until Y = V.
 - The algorithm:
 ![[prim's-algo.png]]
@@ -43,7 +45,7 @@ date created: 2026-06-18
 - Time complexity: $\theta(n^2)$
 - There is a theorem to prove that prim's algorithm always produces a minimum spanning tree, if you want to check, page 183.
 
-## Kruskal's Algorithm
+### Kruskal's Algorithm
 - Kruskal’s algorithm for the Minimum Spanning Tree problem starts by creating disjoint subsets of V , one for each vertex and containing only that vertex. It then inspects the edges according to nondecreasing weight (ties are broken arbitrarily). If an edge connects two vertices in disjoint subsets, the edge is added and the subsets are merged into one set. This process is repeated until all the subsets are merged into one set.
 - Algorithm:
 ![[kruskals-pic1.png]]
@@ -51,5 +53,14 @@ date created: 2026-06-18
 - The while loop is exited when there are n−1 edges in F, because there are n − 1 edges in a spanning tree.
 - Worst case: $\Theta(n^2 \log n)$
 - The proof that kruskal's always produces an optimal solution is on page 188.
-## Which one?
+### Which one?
 For a graph whose number of edges m is near the low end of these limits (the graph is very sparse), Kruskal’s algorithm is Θ(n lg n), which means that Kruskal’s algorithm should be faster. However, for a graph whose number of edges is near the high end (the graph is highly connected), Kruskal’s algorithm is Θ(n2 lg n), which means that Prim’s algorithm should be faster.
+
+# Dijkstra’s Algorithm for Single-Source Shortest Paths
+
+
+
+
+
+
+# The Greedy Approach versus Dynamic Programming: The Knapsack Problem

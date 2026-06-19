@@ -1,0 +1,28 @@
+---
+title: What to read
+publish: true
+date created: 2026-06-19
+---
+List of the things to be read:
+## Algorithms: Efficiency, Analysis, and Order
+- 1.3 Analysis of Algorithms
+- 1.4 Order
+## Divide and Conquer
+- 2.3 The Divide-and-Conquer Approach
+- 2.5 Strassen’s Matrix Multiplication Algorithm
+- 2.8 When Not to Use Divide-and-Conquer
+## Dynamic Programming
+- 3.2 Floyd’s Algorithm for Shortest Paths
+- 3.6 The Traveling Salesperson Problem
+## The Greedy Approach 
+- 4.1 Minimum Spanning Trees ✅
+- 4.2 Dijkstra’s Algorithm for Single-Source Shortest Paths
+- 4.5 The Greedy Approach versus Dynamic Programming: The Knapsack Problem
+## Backtracking
+- 5.1 The Backtracking Technique
+- 5.4 The Sum-of-Subsets Problem
+- 5.5 Graph Coloring
+- 5.7 The 0-1 Knapsack Problem
+## Branch and Bound
+- 6.1 Illustrating Branch-and-Bound with the 0-1 Knapsack Problem
+- 6.2 The Traveling Salesperson Problem
