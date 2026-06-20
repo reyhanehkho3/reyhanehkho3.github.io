@@ -5,8 +5,14 @@ date created: 2026-06-19
 ---
 List of the things to be read:
 ## Algorithms: Efficiency, Analysis, and Order
-- 1.3 Analysis of Algorithms
+- 1.3 Analysis of Algorithms✅
+		- Complexity of Analysis✅
+		- Applying the theory✅
+		- Analysis of Correctness✅
 - 1.4 Order
+		- An Intuitive Introduction to Order ✅
+		- A Rigorous Introduction to Order
+		- Using a Limit to Determine Order
 ## Divide and Conquer
 - 2.3 The Divide-and-Conquer Approach
 - 2.5 Strassen’s Matrix Multiplication Algorithm
@@ -16,6 +22,10 @@ List of the things to be read:
 - 3.6 The Traveling Salesperson Problem
 ## The Greedy Approach 
 - 4.1 Minimum Spanning Trees ✅
+		- Prim’s Algorithm ✅
+		- Kruskal’s Algorithm ✅
+		- Comparing Prim’s Algorithm with Kruskal’s Algorithm ✅
+		- Final Discussion ✅
 - 4.2 Dijkstra’s Algorithm for Single-Source Shortest Paths
 - 4.5 The Greedy Approach versus Dynamic Programming: The Knapsack Problem
 ## Backtracking

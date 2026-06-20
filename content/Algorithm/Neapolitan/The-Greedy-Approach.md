@@ -48,6 +48,7 @@ date created: 2026-06-18
 ### Kruskal's Algorithm
 - Kruskal’s algorithm for the Minimum Spanning Tree problem starts by creating disjoint subsets of V , one for each vertex and containing only that vertex. It then inspects the edges according to nondecreasing weight (ties are broken arbitrarily). If an edge connects two vertices in disjoint subsets, the edge is added and the subsets are merged into one set. This process is repeated until all the subsets are merged into one set.
 - Algorithm:
+
 ![[kruskals-pic1.png]]
 ![[kruskal-pic2.png]]
 - The while loop is exited when there are n−1 edges in F, because there are n − 1 edges in a spanning tree.
