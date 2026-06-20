@@ -66,6 +66,17 @@ In this ordering, if f(n) is in a category to the left of the category containin
 f(n) eventually lies beneath g(n) on a graph.
 - We stress that there is more information in knowing a time complexity exactly than in simply knowing its order. There are times when it is quite difficult to determine the time complexities exactly. Therefore, we are sometimes content to determine only the order.
 ## A Rigorous Introduction to Order
+asymptotic behavior of a function. (they are concerned only with eventual behavior.)
+### big O
+- Definition: For a given complexity function f(n), O(f(n)) is the set of complexity functions g(n) for which there exists some positive real constant c and some nonnegative integer N such that for all n ≥ N,
+$$g(n) \leq c \times f(n)$$
+- if g(n) ∈ O(f(n)), we say that g(n) is big O of f(n).
+- We say that “big O” puts an asymptotic upper bound on a function.
+ 
+![[order-pic2.png]]
 
+- there is no unique N or unique c.
+- This last example makes a crucial point about “big O.” A complexity function need not have a quadratic term to be in O($n^2$). It need only eventually lie beneath some pure quadratic function on a graph. Therefore, any logarithmic or linear complexity function is in O($n^2$). Similarly, any logarithmic, linear, or quadratic complexity function is in O($n^3$), and so on.
 
+![[order-pic3.png]]
 ## Using a Limit to Determine Order
