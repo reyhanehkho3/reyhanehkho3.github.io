@@ -113,9 +113,9 @@ there must be some real positive constant c for which the bound holds. This defi
 ### other notes
 - $g(n) \in \Theta(f(n))$ if and only if $f(n) \in \Theta(g(n))$. This means that Θ separates complexity functions into disjoint sets. We will call these sets complexity categories. Any function from a given category can represent the category. For convenience, we ordinarily represent a category by its simplest member. The previous complexity category is represented by Θ($n^2$).
 - $g(n) \in O(f(n))$ if and only if $f(n) \in \Omega(g(n))$
-- if b > 1 and a > 1, then $\log_a n \in \Theta(\log_b n)$. This implies that all logarithmic complexity functions are in the same complexity category. We will represent this category by Θ(lg n).
-- if b > a > 0, then $a^n \in o(b^n)$. This implies that all exponential complexity functions are not in the same complexity category.
-- for all a > 0, $a^n \in o(n!)$. This implies that n! is worse than any exponential complexity function.
+- if b > 1 and a > 1, then $\log_a n \in \Theta(\log_b n)$. This implies that all logarithmic complexity functions are in the same complexity category. We will represent this category by Θ(lg n). proof on page 64.
+- if b > a > 0, then $a^n \in o(b^n)$. This implies that all exponential complexity functions are not in the same complexity category. proof on page 63.
+- for all a > 0, $a^n \in o(n!)$. This implies that n! is worse than any exponential complexity function. proof on page 63.
 
 ![[order-pic5.png]]
 

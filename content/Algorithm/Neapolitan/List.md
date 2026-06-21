@@ -12,7 +12,7 @@ List of the things to be read:
 - 1.4 Order
 		- An Intuitive Introduction to Order ✅
 		- A Rigorous Introduction to Order ✅
-		- Using a Limit to Determine Order
+		- Using a Limit to Determine Order ✅
 ## Divide and Conquer
 - 2.3 The Divide-and-Conquer Approach
 - 2.5 Strassen’s Matrix Multiplication Algorithm
