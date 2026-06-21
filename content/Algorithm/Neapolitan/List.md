@@ -11,7 +11,7 @@ List of the things to be read:
 		- Analysis of Correctness✅
 - 1.4 Order
 		- An Intuitive Introduction to Order ✅
-		- A Rigorous Introduction to Order
+		- A Rigorous Introduction to Order ✅
 		- Using a Limit to Determine Order
 ## Divide and Conquer
 - 2.3 The Divide-and-Conquer Approach

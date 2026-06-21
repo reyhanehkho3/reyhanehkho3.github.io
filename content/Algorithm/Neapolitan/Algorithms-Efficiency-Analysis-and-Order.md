@@ -79,4 +79,46 @@ $$g(n) \leq c \times f(n)$$
 - This last example makes a crucial point about “big O.” A complexity function need not have a quadratic term to be in O($n^2$). It need only eventually lie beneath some pure quadratic function on a graph. Therefore, any logarithmic or linear complexity function is in O($n^2$). Similarly, any logarithmic, linear, or quadratic complexity function is in O($n^3$), and so on.
 
 ![[order-pic3.png]]
+
+### $\Omega$ 
+- Definition:
+
+For a given complexity function f(n), Ω(f(n)) is the set of complexity functions
+g(n) for which there exists some positive real constant c and some nonnegative
+integer N such that, for all n ≥ N,
+$$g(n) \geq e \times f(n)$$
+- If a function is in Ω(n2), then eventually the function lies above some pure
+quadratic function on a graph.
+- For the purposes of analysis, this means that eventually it is at least as bad as a pure quadratic function
+### $\Theta$ 
+- Definition: 
+
+For a given complexity function f(n), $$\Theta(f(n)= O(f(n)) \cap \Omega(f(n))$$
+This means that Θ(f(n)) is the set of complexity functions g(n) for which there
+exists some positive real constants c and d and some nonnegative integer N such
+that, for all n ≥ N,$$c \times f(n) \leq g(n) \leq d \times f(n)$$
+- If g(n) ∈ Θ(f(n)), we say that g(n) is order of f(n).
+### small o
+- Definition: 
+For a given complexity function f(n), o(f(n)) is the set of all complexity functions
+g(n) satisfying the following: For every positive real constant c there exists a
+nonnegative integer N such that, for all n ≥ N, $$g(n) \leq c \times f(n)$$
+- If g(n) ∈ o(f(n)), we say that g(n) is small o of f(n). Recall that “big O” means
+there must be some real positive constant c for which the bound holds. This definition says that the bound must hold for every real positive constant c. Because the bound holds for every positive c, it holds for arbitrarily small c.
+- if g(n) is in o(f(n)), then g(n) is eventually much better than functions such as f(n).
+
+![[order-pic4.png]]
+
+- if $g(n) \in o(f(n))$ then $g(n) \in O(f(n)) - \Omega (f(n))$. proof in page 58.
+### other notes
+- $g(n) \in \Theta(f(n))$ if and only if $f(n) \in \Theta(g(n))$. This means that Θ separates complexity functions into disjoint sets. We will call these sets complexity categories. Any function from a given category can represent the category. For convenience, we ordinarily represent a category by its simplest member. The previous complexity category is represented by Θ($n^2$).
+- $g(n) \in O(f(n))$ if and only if $f(n) \in \Omega(g(n))$
+- if b > 1 and a > 1, then $\log_a n \in \Theta(\log_b n)$. This implies that all logarithmic complexity functions are in the same complexity category. We will represent this category by Θ(lg n).
+- if b > a > 0, then $a^n \in o(b^n)$. This implies that all exponential complexity functions are not in the same complexity category.
+- for all a > 0, $a^n \in o(n!)$. This implies that n! is worse than any exponential complexity function.
+
+![[order-pic5.png]]
+
+- Any logarithmic function is eventually better than any polynomial, any polynomial is eventually better than any exponential function, and any exponential function is eventually better than the factorial function.
 ## Using a Limit to Determine Order
+![[order-pic6.png]]
