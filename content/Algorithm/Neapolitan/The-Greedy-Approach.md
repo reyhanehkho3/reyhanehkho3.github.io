@@ -58,10 +58,14 @@ date created: 2026-06-18
 For a graph whose number of edges m is near the low end of these limits (the graph is very sparse), Kruskal’s algorithm is Θ(n lg n), which means that Kruskal’s algorithm should be faster. However, for a graph whose number of edges is near the high end (the graph is highly connected), Kruskal’s algorithm is Θ(n2 lg n), which means that Prim’s algorithm should be faster.
 
 # Dijkstra’s Algorithm for Single-Source Shortest Paths
+- This algorithm is similar to Prim’s algorithm for the Minimum Spanning Tree problem. We initialize a set Y to contain only the vertex whose shortest paths are to be determined. For focus, we say that the vertex is v1. We initialize a set F of edges to being empty. First we choose a vertex v that is nearest to v1, add it to Y , and add the edge < v1, v > to F. (By < v1, v > we mean the directed edge from v1 to v.) That edge is clearly a shortest path from v1 to v. Next we check the paths from v1 to the vertices in V − Y that allow only vertices in Y as intermediate vertices. A shortest of these paths is a shortest path (this needs to be proven). The vertex at the end of such a path is added to Y , and the edge (on the path) that touches that vertex is added to F. This procedure is continued until Y equals V , the set of all vertices. At this point, F contains the edges in shortest paths. The following is a high-level algorithm for this approach.
 
+![[dijkstra-pic1.png]]
 
+- touch[i] =index of vertex v in Y such that the edge <v, vi> is the last edge on the current shortest path from v1 to vi using only vertices in Y as intermediates.
+- length[i] = length of the current shortest path from v1 to vi using only vertices in Y as intermediates.
 
+![[dijkstra-pic2.png]]
 
-
-
+- Using priority queue, **O(E log V)** (where E is the number of roads and V is the number of cities/nodes)
 # The Greedy Approach versus Dynamic Programming: The Knapsack Problem
