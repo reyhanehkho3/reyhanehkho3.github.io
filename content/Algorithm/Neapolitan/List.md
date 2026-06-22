@@ -9,7 +9,7 @@ List of the things to be read:
 		- Complexity of Analysis✅
 		- Applying the theory✅
 		- Analysis of Correctness✅
-- 1.4 Order
+- 1.4 Order✅
 		- An Intuitive Introduction to Order ✅
 		- A Rigorous Introduction to Order ✅
 		- Using a Limit to Determine Order ✅
@@ -22,7 +22,7 @@ List of the things to be read:
 - 2.8 When Not to Use Divide-and-Conquer
 ## Dynamic Programming
 - 3.2 Floyd’s Algorithm for Shortest Paths
-- 3.6 The Traveling Salesperson Problem
+- 3.6 The Traveling Salesperson Problem ✅
 ## The Greedy Approach 
 - 4.1 Minimum Spanning Trees ✅
 		- Prim’s Algorithm ✅
@@ -36,7 +36,7 @@ List of the things to be read:
 		- A Dynamic Programming Approach to the 0-1 Knapsack Problem
 		- A Refinement of the Dynamic Programming Algorithm for the 0-1 Knapsack Problem
 ## Backtracking
-- 5.1 The Backtracking Technique
+- 5.1 The Backtracking Technique✅
 - 5.4 The Sum-of-Subsets Problem
 - 5.5 Graph Coloring
 - 5.7 The 0-1 Knapsack Problem
