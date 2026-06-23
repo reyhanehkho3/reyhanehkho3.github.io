@@ -69,3 +69,12 @@ For a graph whose number of edges m is near the low end of these limits (the gra
 
 - Using priority queue, **O(E log V)** (where E is the number of roads and V is the number of cities/nodes)
 # The Greedy Approach versus Dynamic Programming: The Knapsack Problem
+### A Greedy Approach to the 0-1 Knapsack Problem
+- steal the items with the largest profit per unit weight first.
+- we order the items in nonincreasing order according to profit per unit weight, and select them in sequence. An item is put in the knapsack if its weight does not bring the total weight above W.
+### A Greedy Approach to the Fractional Knapsack Problem
+Similar ti the algorithm in 0-1.
+- Our greedy algorithm never wastes any capacity in the Fractional Knapsack problem as it does in the 0-1 Knapsack problem.
+### A Dynamic Programming Approach to the 0-1 Knapsack Problem
+- the proof that the principle of optimality applies:
+	 If we can show that the principle of optimality applies, we can solve the 0-1 Knapsack problem using dynamic programming. To that end, let A be an optimal subset of the n items. There are two cases: either A contains itemn or it does not. If A does not contain itemn, A is equal to an optimal subset of the first n − 1 items. If A does contain itemn, the total profit of the items in A is equal to pn plus the optimalprofit obtained when the items can be chosen from the first n − 1 items under the restriction that the total weight cannot exceed W − wn. Therefore, the principle of optimality applies.

@@ -31,8 +31,8 @@ List of the things to be read:
 		- Final Discussion ✅
 - 4.2 Dijkstra’s Algorithm for Single-Source Shortest Paths ✅
 - 4.5 The Greedy Approach versus Dynamic Programming: The Knapsack Problem
-		- A Greedy Approach to the 0-1 Knapsack Problem
-		- A Greedy Approach to the Fractional Knapsack Problem
+		- A Greedy Approach to the 0-1 Knapsack Problem✅
+		- A Greedy Approach to the Fractional Knapsack Problem✅
 		- A Dynamic Programming Approach to the 0-1 Knapsack Problem
 		- A Refinement of the Dynamic Programming Algorithm for the 0-1 Knapsack Problem
 ## Backtracking
