@@ -4,7 +4,7 @@ publish: true
 date created: 2026-06-19
 ---
 List of the things to be read:
-## Algorithms: Efficiency, Analysis, and Order
+## Algorithms: Efficiency, Analysis, and Order✅
 - 1.3 Analysis of Algorithms✅
 		- Complexity of Analysis✅
 		- Applying the theory✅
@@ -23,7 +23,7 @@ List of the things to be read:
 ## Dynamic Programming
 - 3.2 Floyd’s Algorithm for Shortest Paths
 - 3.6 The Traveling Salesperson Problem ✅
-## The Greedy Approach 
+## The Greedy Approach ✅
 - 4.1 Minimum Spanning Trees ✅
 		- Prim’s Algorithm ✅
 		- Kruskal’s Algorithm ✅
@@ -33,8 +33,8 @@ List of the things to be read:
 - 4.5 The Greedy Approach versus Dynamic Programming: The Knapsack Problem
 		- A Greedy Approach to the 0-1 Knapsack Problem✅
 		- A Greedy Approach to the Fractional Knapsack Problem✅
-		- A Dynamic Programming Approach to the 0-1 Knapsack Problem
-		- A Refinement of the Dynamic Programming Algorithm for the 0-1 Knapsack Problem
+		- A Dynamic Programming Approach to the 0-1 Knapsack Problem✅
+		- A Refinement of the Dynamic Programming Algorithm for the 0-1 Knapsack Problem✅
 ## Backtracking
 - 5.1 The Backtracking Technique✅
 - 5.4 The Sum-of-Subsets Problem

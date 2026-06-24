@@ -78,3 +78,18 @@ Similar ti the algorithm in 0-1.
 ### A Dynamic Programming Approach to the 0-1 Knapsack Problem
 - the proof that the principle of optimality applies:
 	 If we can show that the principle of optimality applies, we can solve the 0-1 Knapsack problem using dynamic programming. To that end, let A be an optimal subset of the n items. There are two cases: either A contains itemn or it does not. If A does not contain itemn, A is equal to an optimal subset of the first n − 1 items. If A does contain itemn, the total profit of the items in A is equal to pn plus the optimalprofit obtained when the items can be chosen from the first n − 1 items under the restriction that the total weight cannot exceed W − wn. Therefore, the principle of optimality applies.
+- The result just obtained can be generalized as follows. If for i > 0 and w > 0, we let P \[i]\[w] be the optimal profit obtained when choosing items only from the first i items under the restriction that the total weight cannot exceed w,
+![[knapsak-pic1.png]]
+	The maximum profit is equal to P [n] [W]. We can determine this value using a two- dimensional array P whose rows are indexed from 0 to n and whose columns are indexed from 0 to W. We compute the values in the rows of the array in sequence using the previous expression for P [i] [w]. The values of P [0] [w] and P [i] [0] are set to 0.
+- Number of array entries: $nW \in \Theta(nW)$
+### 4.5.4 A Refinement of the Dynamic Programming Algorithm for the 0-1 Knapsack Problem
+- since W can be so large, like as large as n!, we improve this algorithm.The algorithm can be improved so that the worst-case number of entries computed is in $\Theta(2^n)$. The improvement is based on the fact that it is not necessary to determine the entries in the ith row for every w between 1 and W.Rather, in the nth row we need only determine P \[n] \[W]. Therefore, the only entries needed in the (n − 1)st row are the ones needed to compute P \[n] \[W]. Because 
+	![[knapsack-pic2.png]]
+	the only entries needed in the (n − 1)st row are:
+	![[knapsack-pic3.png]]
+	 We continue to work backward from n to determine which entries are needed. That is, after we determine which entries are needed in the ith row,
+	 we determine which entries are needed in the (i − 1)st row using the fact that
+	 ![[knapsack-pic4.png]]
+	 We stop when n = 1 or w ≤ 0. After determining the entries needed, we do the computations starting with the first row.
+	 We do not need to create the entire array to implement the algorithm. Instead, we can store just the entries that are needed. The entire array exists only implicitly.
+- As is the case for the Traveling Salesperson problem, no one has ever found an algorithm for the 0-1 Knapsack problem whose worst-case time complexity is better than exponential, yet no one has proven that such an algorithm is not possible.
