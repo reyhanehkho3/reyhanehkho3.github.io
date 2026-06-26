@@ -25,7 +25,30 @@ date created: 2026-06-19
 	![[floyd-pic1.png]]
 
 - D(k) \[i] \[j] = length of a shortest path from vi to vj using only vertices in the set {v1, v2,… , vk } as intermediate vertices.
+![[floyd-pic2.png]]
 
+![[floyd-pic3.png]]
+
+- two cases are considered after this that you should read in the book. page 127.
+
+![[floyd-pic4.png]]
+
+- the algorithm:
+![[floyd-pic5.png]]
+
+- $\Theta(n^3)$
+- Algorithm with creating the shortest path.
+
+![[floyd-pic6.png]]
+
+- algorithm to print the shortest path: $\Theta(n)$
+
+![[floyd-pic7.png]]
+
+- Recall the convention established in Chapter 2 of making only variables, whose values can change in the recursive calls, inputs to recursive routines. Therefore, the array P is not an input to path. If the algorithm were implemented by defining P globally, and we wanted a shortest path from vq to vr, the top-level call to path would be as follows:
+	path (q , r) ;
+	Given the value of P in Figure 3.5, if the values of q and r were 5 and 3,
+	respectively, the output would be v1 v4.
 # The Traveling Salesperson Problem
 - Suppose a salesperson is planning a sales trip that includes 20 cities. Each city is connected to some of the other cities by a road. To minimize travel time, we want to determine a shortest route that starts at the salesperson’s home city, visits each of the cities once, and ends up at the home city. This problem of determining a shortest route is called the Traveling Salesperson problem.
 
