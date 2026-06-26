@@ -19,7 +19,7 @@ List of the things to be read:
 		- Mergesort
 		- Quaicksort (Partition Exchange Sort)
 - 2.5 Strassen’s Matrix Multiplication Algorithm
-- 2.8 When Not to Use Divide-and-Conquer
+- 2.8 When Not to Use Divide-and-Conquer✅
 ## Dynamic Programming✅
 - 3.2 Floyd’s Algorithm for Shortest Paths✅
 - 3.6 The Traveling Salesperson Problem ✅

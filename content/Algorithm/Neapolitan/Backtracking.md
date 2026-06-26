@@ -24,6 +24,7 @@ date created: 2026-06-19
 # The Sum-of-Subsets Problem
 - Specifically, in the Sum-of-Subsets problem, there are n positive integers (weights) wi and a positive integer W. The goal is to find all subsets of the integers that sum to W. ![[backtracking-pic3.png]]
 - If we sort the weights in nondecreasing order before doing the search, there is an obvious sign telling us that a node is nonpromising. If the weights are sorted in this manner, then wi+1 is the lightest weight remaining when we are at the ith level. Let weight be the sum of the weights that have been included up to a node at level i. If There is another, less obvious sign telling us that a node is nonpromising. If, at a given node, adding all the weights of the remaining items to weight does not make weight at least equal to W, then weight could never become equal to W by expanding beyond the node. This means that if total is the total weight of the remaining weights, a node is nonpromising if $$weight \ + \ total \  < W$$
+- Each path from the root to a leaf is a candidate solution.
 - Algorithm: ![[backtracking-pic4.png]]
 - some notes on page 245 which are worthy of consideration.
 - even though the worst case is exponential, the algorithm can be efficient for many large instances.
