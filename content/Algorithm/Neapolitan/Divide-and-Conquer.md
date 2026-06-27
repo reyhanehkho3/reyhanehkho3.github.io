@@ -3,13 +3,15 @@ title: Divide and Conquer
 publish: true
 date created: 2026-06-19
 ---
+The divide-and-conquer approach employs this same strategy on an instance of a problem. That is, it divides an instance of a problem into two or more smaller instances. The smaller instances are usually instances of the original problem. If solutions to the smaller instances can be obtained readily, the solution to the original instance can be obtained by combining these solutions. If the smaller instances are
+still too large to be solved readily, they can be divided into still smaller instances. This process of dividing the instances continues until they are so small that a solution is readily obtainable.
+The divide-and-conquer approach is a top-down approach. That is, the solution to a top-level instance of a problem is obtained by going down and obtaining solutions to smaller instances. The reader may recognize this as the method used by recursive routines. Recall that when writing recursion, one thinks at the problem-solving level and lets the system handle the details of obtaining the solution (by means of stack manipulations). When developing a divide-and-conquer algorithm, we usually think at this level and write it as a recursive routine. After this, we can sometimes create a more efficient iterative version of the algorithm.
 # The Divide-and-Conquer Approach
+
 The divide-and-conquer design strategy involves the following steps:
 1. Divide an instance of a problem into one or more smaller instances.
 2. Conquer (solve) each of the smaller instances. Unless a smaller instance is sufficiently small, use recursion to do this.
 3. If necessary, combine the solutions to the smaller instances to obtain the solution to the original instance.
-
-
 
 # Strassen’s Matrix Multiplication Algorithm
 

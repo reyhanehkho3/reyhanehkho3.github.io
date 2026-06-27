@@ -13,11 +13,11 @@ List of the things to be read:
 		- An Intuitive Introduction to Order ✅
 		- A Rigorous Introduction to Order ✅
 		- Using a Limit to Determine Order ✅
-## Divide and Conquer
-- 2.3 The Divide-and-Conquer Approach
-		- Binary Search
-		- Mergesort
-		- Quaicksort (Partition Exchange Sort)
+## Divide and Conquer✅(?)
+- 2.3 The Divide-and-Conquer Approach✅
+- Binary Search
+- Mergesort
+- Quaicksort (Partition Exchange Sort)
 - 2.5 Strassen’s Matrix Multiplication Algorithm✅
 - 2.8 When Not to Use Divide-and-Conquer✅
 ## Dynamic Programming✅
