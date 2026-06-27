@@ -29,7 +29,11 @@ date created: 2026-06-19
 - some notes on page 245 which are worthy of consideration.
 - even though the worst case is exponential, the algorithm can be efficient for many large instances.
 # Graph Coloring
-
+- The m-Coloring problem concerns finding all ways to color an undirected graph using at most m different colors, so that no two adjacent vertices are the same color. We usually call the m-Coloring problem a unique problem for each value of m.
+- A graph is called planar if it can be drawn in a plane in such a way that no two edges cross each other.
+- The m-Coloring problem for planar graphs is to determine how many ways the map can be colored, using at most m colors, so that no two adjacent regions are the same color.
+- Algorithm: ![[backtracking-pic6.png]]
+- ![[backtracking-pic7.png]]
 
 # The 0-1 Knapsack Problem
 ## A Backtracking Algorithm for the 0-1 Knapsack Problem

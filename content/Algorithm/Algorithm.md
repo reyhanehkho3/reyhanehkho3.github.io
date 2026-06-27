@@ -8,3 +8,4 @@ date created: 2026-05-29
 - [[Merge-Sort]]
 - [[Quick-Sort]]
 - [[Selection-Sort]]
+- Neapolitan: [[Algorithm/Neapolitan/List|List]]

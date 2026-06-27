@@ -38,7 +38,7 @@ List of the things to be read:
 ## Backtracking
 - 5.1 The Backtracking Technique✅
 - 5.4 The Sum-of-Subsets Problem✅
-- 5.5 Graph Coloring
+- 5.5 Graph Coloring✅
 - 5.7 The 0-1 Knapsack Problem
 		- A Backtracking Algorithm for the 0-1 Knapsack Problem
 		- Comparing the Dynamic Programming Algorithm and the Backtracking Algorithm for the 0-1 Knapsack Problem
