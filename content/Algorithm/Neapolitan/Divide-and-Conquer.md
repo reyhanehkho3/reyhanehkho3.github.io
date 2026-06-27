@@ -13,7 +13,16 @@ The divide-and-conquer design strategy involves the following steps:
 
 # Strassen’s Matrix Multiplication Algorithm
 
-
+- ![[Divide-pic1.png]]
+  ![[Divide-pic2.png]]
+  - When the matrices are sufficiently small, we multiply in the standard way.
+  - ![[Divide-pic3.png]]
+- M1, M2 through M7 are computed in the same way, and then the values of C11, C12, C21, and C22 are computed. They are combined to yield C.
+- Algorithm: ![[Divide-pic5.png]]
+- The value of threshold is the point at which we feel it is more efficient to use the standard algorithm than it would be to call procedure strassen recursively.
+- $T(n) \in \Theta(n^{2.81})$ 
+![[Divide-pic4.png]]
+- the standard algorithm and Strassen’s algorithm for n a power of 2: If we ignore for the moment the overhead involved in the recursive calls, Strassen’s algorithm is always more efficient in terms of multiplications, and for large values of n, Strassen’s algorithm is more efficient in terms of additions/subtractions.
 # When Not to Use Divide-and-Conquer
 If possible, we should avoid divide-and-conquer in the following two cases:
 1. An instance of size n is divided into two or more instances each almost of sizen.

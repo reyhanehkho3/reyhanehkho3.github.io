@@ -18,7 +18,7 @@ List of the things to be read:
 		- Binary Search
 		- Mergesort
 		- Quaicksort (Partition Exchange Sort)
-- 2.5 Strassen’s Matrix Multiplication Algorithm
+- 2.5 Strassen’s Matrix Multiplication Algorithm✅
 - 2.8 When Not to Use Divide-and-Conquer✅
 ## Dynamic Programming✅
 - 3.2 Floyd’s Algorithm for Shortest Paths✅

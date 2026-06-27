@@ -32,3 +32,7 @@ date created: 2026-06-19
 
 
 # The 0-1 Knapsack Problem
+## A Backtracking Algorithm for the 0-1 Knapsack Problem
+- we back-track a little differently. If the items included up to a node have a greater total profit than the best solution so far, we change the value of the best solution so far. However, we may still find a better solution at one of the node’s descendants (by stealing more items). Therefore, for optimization problems we always visit a promising node’s children. ![[backtracking-pic5.png]]
+- Next we apply this technique to the 0-1 Knapsack problem. First let’s look for signs telling us that a node is nonpromising. An obvious sign that a node is nonpromising is that there is no capacity left in the knapsack for more items. Therefore, if weight is the sum of the weights of the items that have been included up to some node, the node is nonpromising if $weight \ \geq W$.
+- It is nonpromising even if weight equals W because, in the case of optimization problems, “promising” means that we should expand to the children.
