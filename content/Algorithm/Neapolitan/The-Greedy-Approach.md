@@ -73,7 +73,7 @@ For a graph whose number of edges m is near the low end of these limits (the gra
 - steal the items with the largest profit per unit weight first.
 - we order the items in nonincreasing order according to profit per unit weight, and select them in sequence. An item is put in the knapsack if its weight does not bring the total weight above W.
 ### A Greedy Approach to the Fractional Knapsack Problem
-Similar ti the algorithm in 0-1.
+Similar to the algorithm in 0-1.
 - Our greedy algorithm never wastes any capacity in the Fractional Knapsack problem as it does in the 0-1 Knapsack problem.
 ### A Dynamic Programming Approach to the 0-1 Knapsack Problem
 - the proof that the principle of optimality applies:

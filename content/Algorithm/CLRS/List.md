@@ -4,7 +4,10 @@ publish: true
 date created: 2026-06-19
 ---
 List of the things to be read:
-- 3 Characterizing Running Times
+- 3 Characterizing Running Times✅
+	- O-notation, $\Omega$-notation, and $\Theta$-notation✅
+	- Asymptotic notation: formal definitions✅
+	- Standard notations and common functions✅
 - 4.2 Strassen’s algorithm for matrix multiplication
 - 14.2 Matrix-chain multiplication
 - 14.3 Elements of dynamic programming
