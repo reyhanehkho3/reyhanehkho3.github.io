@@ -6,43 +6,60 @@ date created: 2026-06-18
 # Minimum Spanning Trees
 
 - there is no guarantee that a given greedy algorithm always yields an optimal solution.
+
 - A selection procedure chooses the next item to add to the set. The selection is performed according to a greedy criterion that satisfies some locally optimal consideration at the time.
+
 - A feasibility check determines if the new set is feasible by checking whether it is possible to complete this set in such a way as to give a solution to the instance. (?)
+
 - A solution check determines whether the new set constitutes a solution to the instance. 
 
 **Consider the problem of removing edges from a connected, weighted, undirected graph G to form a subgraph such that all the vertices remain connected and the sum of the weights on the remaining edges is as small as possible.**
+
 - A subgraph with minimum weight must be a tree, because if a subgraph were not a tree, it would contain a simple cycle, and we could remove any edge on the cycle, resulting in a connected graph with a smaller weight.
 ## Spanning Tree
+
 - A spanning tree for G is a connected subgraph that contains all the vertices in G and is a tree.(doesn't contain cycles)
 	 So for a spanning tree:
 		-It must include **all the vertices** of the original graph G.
 		- It must be **connected** (there's a path between every pair of vertices).
 		- It must have **no cycles** (which means if G has n vertices, the spanning tree will have exactly n−1 edges).
-- A connected subgraph of minimum weight must be a spanning tree
+		
+- A connected subgraph of minimum weight must be a spanning tree.
 ## Minimum Spanning Tree
 - Minimum Spanning Tree has the minimum total weight.
+
 - A graph can have more than one minimum spanning tree.
+
 - Brute-force will be worse than exponential. So we'll use Greedy for this.
+
 - A spanning tree T for G has the same vertices V as G, but the set of edges of T is a subset F of E. We will denote a spanning tree by T = (V , F).Our problem is to find a subset F of E such that T = (V , F) is a minimum spanning tree for G.
+
 - The algorithm:
 ![[sapnningTreeAlgo.png]]
-- The locally optimal property is not unique. We investigate 2 greey algorithms for this problem. Prim's and Kruskal's. Each uses a different locally optimal property.
+
+- The locally optimal property is not unique. We investigate 2 greedy algorithms for this problem. Prim's and Kruskal's. Each uses a different locally optimal property.
+
 - Both Prim’s and Kruskal’s algorithms always produce minimum spanning trees.
 
 ### Prim's Algorithm
 - Prim’s algorithm starts with an empty subset of edges F and a subset of vertices Y initialized to contain an arbitrary vertex. We will initialize Y to {v1}. A vertex nearest to Y is a vertex in V −Y that is connected to a vertex in Y by an edge of minimum weight. The vertex that is nearest to Y is added to Y and the edge is added to F. The process of adding nearest vertices is repeated until Y = V.
 - The algorithm:
 ![[prim's-algo.png]]
+
 - The selection procedure and feasibility check are done together because taking the new vertex from V − Y guarantees that a cycle is not created.
+
 - In computer, we represent a weighted graph by its adjacency matrix.
+
 ![[prim-pic1.png]]
 ![[prim-pic2.png]]
 ![[prim-pic3.png]]
-- As vertices are added to Y , these two arrays are updated to reference the new vertex in Y nearest to each vertex outside of Y . To determine which vertex to add to Y , in each iteration we compute the index for which distance[i] is the smallest. We call this index vnear. The vertex indexed by vnear is added to Y by setting distance[vnear] to −1.
+
+- As vertices are added to Y , these two arrays are updated to reference the new vertex in Y nearest to each vertex outside of Y . To determine which vertex to add to Y , in each iteration we compute the index for which distance\[i] is the smallest. We call this index vnear. The vertex indexed by vnear is added to Y by setting distance\[vnear] to −1.
 - Prim's Algorithm:
 ![[prim-pic4.png]]
 
 - Time complexity: $\theta(n^2)$
+
 - There is a theorem to prove that prim's algorithm always produces a minimum spanning tree, if you want to check, page 183.
 
 ### Kruskal's Algorithm
@@ -82,7 +99,7 @@ Similar to the algorithm in 0-1.
 ![[knapsak-pic1.png]]
 	The maximum profit is equal to P [n] [W]. We can determine this value using a two- dimensional array P whose rows are indexed from 0 to n and whose columns are indexed from 0 to W. We compute the values in the rows of the array in sequence using the previous expression for P [i] [w]. The values of P [0] [w] and P [i] [0] are set to 0.
 - Number of array entries: $nW \in \Theta(nW)$
-### 4.5.4 A Refinement of the Dynamic Programming Algorithm for the 0-1 Knapsack Problem
+### A Refinement of the Dynamic Programming Algorithm for the 0-1 Knapsack Problem
 - since W can be so large, like as large as n!, we improve this algorithm.The algorithm can be improved so that the worst-case number of entries computed is in $\Theta(2^n)$. The improvement is based on the fact that it is not necessary to determine the entries in the ith row for every w between 1 and W.Rather, in the nth row we need only determine P \[n] \[W]. Therefore, the only entries needed in the (n − 1)st row are the ones needed to compute P \[n] \[W]. Because 
 	![[knapsack-pic2.png]]
 	the only entries needed in the (n − 1)st row are:
