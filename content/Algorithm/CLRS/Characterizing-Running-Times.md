@@ -20,6 +20,5 @@ The definitions are the same as in Neapolitan.
 
 ![[clrs-pic5.png]]
 
-![[Pasted image 20260705190734.png]]
 ### Standard notations and common functions
 some math shit. 

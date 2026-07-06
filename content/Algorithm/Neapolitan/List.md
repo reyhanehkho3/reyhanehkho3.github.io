@@ -21,26 +21,26 @@ List of the things to be read:
 - 3.2 Floyd’s Algorithm for Shortest Paths
 - 3.6 The Traveling Salesperson Problem 
 ## The Greedy Approach ✅
-- 4.1 Minimum Spanning Trees ✅
-		- Prim’s Algorithm ✅
-		- Kruskal’s Algorithm ✅
-		- Comparing Prim’s Algorithm with Kruskal’s Algorithm ✅
-		- Final Discussion ✅
-- 4.2 Dijkstra’s Algorithm for Single-Source Shortest Paths ✅
-- 4.5 The Greedy Approach versus Dynamic Programming: The Knapsack Problem✅
-		- A Greedy Approach to the 0-1 Knapsack Problem✅
-		- A Greedy Approach to the Fractional Knapsack Problem✅
-		- A Dynamic Programming Approach to the 0-1 Knapsack Problem✅
+- 4.1 Minimum Spanning Trees 
+		- Prim’s Algorithm 
+		- Kruskal’s Algorithm 
+		- Comparing Prim’s Algorithm with Kruskal’s Algorithm 
+		- Final Discussion 
+- 4.2 Dijkstra’s Algorithm for Single-Source Shortest Paths 
+- 4.5 The Greedy Approach versus Dynamic Programming: The Knapsack Problem
+		- A Greedy Approach to the 0-1 Knapsack Problem
+		- A Greedy Approach to the Fractional Knapsack Problem
+		- A Dynamic Programming Approach to the 0-1 Knapsack Problem
 		- A Refinement of the Dynamic Programming Algorithm for the 0-1 Knapsack Problem✅
-## Backtracking✅
-- 5.1 The Backtracking Technique✅
-- 5.4 The Sum-of-Subsets Problem✅
-- 5.5 Graph Coloring✅
-- 5.7 The 0-1 Knapsack Problem✅
-		- A Backtracking Algorithm for the 0-1 Knapsack Problem✅
-		- Comparing the Dynamic Programming Algorithm and the Backtracking Algorithm for the 0-1 Knapsack Problem✅
-## Branch and Bound✅
-- 6.1 Illustrating Branch-and-Bound with the 0-1 Knapsack Problem✅
-		- Breadth-First Search with Branch-and-Bound Pruning✅
-		- Best-First Search with Branch-and-Bound Pruning✅
-- 6.2 The Traveling Salesperson Problem✅
+## Backtracking
+- 5.1 The Backtracking Technique
+- 5.4 The Sum-of-Subsets Problem
+- 5.5 Graph Coloring
+- 5.7 The 0-1 Knapsack Problem
+		- A Backtracking Algorithm for the 0-1 Knapsack Problem
+		- Comparing the Dynamic Programming Algorithm and the Backtracking Algorithm for the 0-1 Knapsack Problem
+## Branch and Bound
+- 6.1 Illustrating Branch-and-Bound with the 0-1 Knapsack Problem
+		- Breadth-First Search with Branch-and-Bound Pruning
+		- Best-First Search with Branch-and-Bound Pruning
+- 6.2 The Traveling Salesperson Problem

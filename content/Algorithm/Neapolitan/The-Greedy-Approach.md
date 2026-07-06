@@ -69,7 +69,9 @@ date created: 2026-06-18
 ![[kruskals-pic1.png]]
 ![[kruskal-pic2.png]]
 - The while loop is exited when there are n−1 edges in F, because there are n − 1 edges in a spanning tree.
+
 - Worst case: $\Theta(n^2 \log n)$
+
 - The proof that kruskal's always produces an optimal solution is on page 188.
 ### Which one?
 For a graph whose number of edges m is near the low end of these limits (the graph is very sparse), Kruskal’s algorithm is Θ(n lg n), which means that Kruskal’s algorithm should be faster. However, for a graph whose number of edges is near the high end (the graph is highly connected), Kruskal’s algorithm is Θ(n2 lg n), which means that Prim’s algorithm should be faster.
@@ -79,8 +81,8 @@ For a graph whose number of edges m is near the low end of these limits (the gra
 
 ![[dijkstra-pic1.png]]
 
-- touch[i] =index of vertex v in Y such that the edge <v, vi> is the last edge on the current shortest path from v1 to vi using only vertices in Y as intermediates.
-- length[i] = length of the current shortest path from v1 to vi using only vertices in Y as intermediates.
+- touch\[i] =index of vertex v in Y such that the edge <v, vi> is the last edge on the current shortest path from v1 to vi using only vertices in Y as intermediates.
+- length\[i] = length of the current shortest path from v1 to vi using only vertices in Y as intermediates.
 
 ![[dijkstra-pic2.png]]
 
@@ -95,11 +97,14 @@ Similar to the algorithm in 0-1.
 ### A Dynamic Programming Approach to the 0-1 Knapsack Problem
 - the proof that the principle of optimality applies:
 	 If we can show that the principle of optimality applies, we can solve the 0-1 Knapsack problem using dynamic programming. To that end, let A be an optimal subset of the n items. There are two cases: either A contains itemn or it does not. If A does not contain itemn, A is equal to an optimal subset of the first n − 1 items. If A does contain itemn, the total profit of the items in A is equal to pn plus the optimalprofit obtained when the items can be chosen from the first n − 1 items under the restriction that the total weight cannot exceed W − wn. Therefore, the principle of optimality applies.
+
 - The result just obtained can be generalized as follows. If for i > 0 and w > 0, we let P \[i]\[w] be the optimal profit obtained when choosing items only from the first i items under the restriction that the total weight cannot exceed w,
 ![[knapsak-pic1.png]]
-	The maximum profit is equal to P [n] [W]. We can determine this value using a two- dimensional array P whose rows are indexed from 0 to n and whose columns are indexed from 0 to W. We compute the values in the rows of the array in sequence using the previous expression for P [i] [w]. The values of P [0] [w] and P [i] [0] are set to 0.
+	The maximum profit is equal to P \[n] \[W]. We can determine this value using a two- dimensional array P whose rows are indexed from 0 to n and whose columns are indexed from 0 to W. We compute the values in the rows of the array in sequence using the previous expression for P \[i]\[w]. The values of P \[0] \[w] and P \[i] \[0] are set to 0.
+	
 - Number of array entries: $nW \in \Theta(nW)$
 ### A Refinement of the Dynamic Programming Algorithm for the 0-1 Knapsack Problem
+
 - since W can be so large, like as large as n!, we improve this algorithm.The algorithm can be improved so that the worst-case number of entries computed is in $\Theta(2^n)$. The improvement is based on the fact that it is not necessary to determine the entries in the ith row for every w between 1 and W.Rather, in the nth row we need only determine P \[n] \[W]. Therefore, the only entries needed in the (n − 1)st row are the ones needed to compute P \[n] \[W]. Because 
 	![[knapsack-pic2.png]]
 	the only entries needed in the (n − 1)st row are:
