@@ -31,7 +31,7 @@ List of the things to be read:
 		- A Greedy Approach to the 0-1 Knapsack Problem
 		- A Greedy Approach to the Fractional Knapsack Problem
 		- A Dynamic Programming Approach to the 0-1 Knapsack Problem
-		- A Refinement of the Dynamic Programming Algorithm for the 0-1 Knapsack Problem✅
+		- A Refinement of the Dynamic Programming Algorithm for the 0-1 Knapsack Problem
 ## Backtracking
 - 5.1 The Backtracking Technique
 - 5.4 The Sum-of-Subsets Problem

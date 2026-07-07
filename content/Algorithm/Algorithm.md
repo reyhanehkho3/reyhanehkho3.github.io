@@ -9,3 +9,4 @@ date created: 2026-05-29
 - [[Quick-Sort]]
 - [[Selection-Sort]]
 - Neapolitan: [[Algorithm/Neapolitan/List|List]]
+- CLRS: [[Algorithm/CLRS/List|List]]
