@@ -13,6 +13,8 @@ date created: 2026-07-06
   which is going to be $O(n^3)$
 
 - With strassen: $7T(n/2) + n^2$ which is going to be $O(n^{2.81)}$
+![[summery-3.png]]
+
 ## Matrix Chain Multiplication
 - $O(n^3)$
 
@@ -44,7 +46,7 @@ date created: 2026-07-06
 ## TSP
 vising every city with the shortest path and we wanna go back to the city we came from.
 ### TSP with DP:
-- $O(n \times 2^n)$.
+- $O(n \times 2^n)$. n^2?
 
 -  formula: $g(i,S) = min_{k \in S}\{ c_{ik} + g(k, S - \{k\})\}$
 
@@ -57,6 +59,7 @@ vising every city with the shortest path and we wanna go back to the city we cam
 
 - now we go to the second node, which is the child of node 1. node 2. the first row and the second column will become infinity. When we go to 2 from 1, we can't go back to it, so we make the <2,1> as infinity. We again reduce the matrix. (which was for node 1). The cost of this node will be the c(1,2) (from our initial matrix) plus the reduced amount of the initial matrix plus the reduced amount from the reduced matrix of the this matrix. (the initial matrix is the for the node we came from and the current matrix is for the node we're currently at). after writing down the cost of the children of 1, we choose the one that has the minimum cost and continue it. (least cost branch-and-bound, we explore the children of the minimum one. after calculating the children's cost, we compare the costs through out the tree and continue with the minimum one). When we reach the leaf, we update the upper bound(it's infinity at first) and write down the cost of the leaf. Then we check the nodes that are greater than the upper and prune them.
 
+- $O(n^2 2^n)$
 
 ## Prim's Algorithm (Greedy)
 - $O(n^2)$
@@ -105,6 +108,8 @@ If we want to check all the states, it's gonna be $O(2^n)$.
 ![[summer-1.png]]
 
 - The formula: $V[i,w] = max\{V[i-1,w], V[i-1,w-w[i]] + P[i]\}$
+
+- how do we fill the bag at last? we check the max in the last row and see if it appeated in the previous row, if it was, it means we didn't have it in our kanpsack  and if it wasn't, we just take the profit of the last item and subtrack this mas from it. and so on.
 ### Refined DP:
 - $\Theta(2^n)$
 
@@ -121,8 +126,9 @@ If we want to check all the states, it's gonna be $O(2^n)$.
 - $O(n \times 2^n)$
 
 #### Best-First:
-- $O(n \times 2^n \times log n)$ 
+- $O(n \times 2^n \times log n)$
 
+- After reaching a leaf, do we update sth?
 #### Without pruning:
 - $O(n \times 2^n)$
 
@@ -132,6 +138,8 @@ If we want to check all the states, it's gonna be $O(2^n)$.
 
 - We have a start and the children would be the elements of a row. Queens can't be in the same row, column or diagonal.
 
+- time complexity:$O(n!)$
+
 ## The sum-of-subsets problem with backtracking
 
 - if $weight \ + \ totalRemaining \  < W$ the node is nonpromising.
@@ -140,10 +148,13 @@ If we want to check all the states, it's gonna be $O(2^n)$.
 
 - 0-1.
 
+- time complexity? $O(2^n)$
+
 ## Graph Coloring with Backtracking
 
 - We have a start and then the children will be the colors. Each level is for a vertex. We prune a branch if 2 adjacent nodes have the same colors. 
 
+- time compleixty? $O(k^n)$. k is the number of the colors. n is for vertices. 
 
 ## Huffman Code
 - Greedy.
