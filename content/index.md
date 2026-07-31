@@ -10,12 +10,13 @@ _Some notes are still on progress and might be empty._
 - [[PHP]]: Wanted to see what it is about. Also Laravel.
 - [[Kotlin]]: This one's cute.
 - [[Latex]]: I mostly use it in my markdown files.
-- [[Algorithm]]: Discussing algorithms and how to improve them.
+- [[Algorithm]]: Discussing algorithms and how to improve them. Also chapters from Neapolitan.
 - [[Data-Structure]]: I like them I guess.
 - [[Data-Base]]: SQL and related information.
 - [[Back-End]]: Various knowledge needed for this field.
 - [[Android]]: I really like to make android apps. This folder includes Jetpack compose and Android Studio.
 - [[Project-Management]]: Git, and required information for projects.
+- [[Front-End]]: Things I learned about frontend.
 - [[Hobbies]]: Contains [[Books]] and [[Games]].
 - [[Books]]: Talking about the books I read.
 - [[Quartz-Setup]]: How I sat up this website.
