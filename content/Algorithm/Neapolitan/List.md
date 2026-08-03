@@ -20,7 +20,7 @@ List of the things to be read:
 ## Dynamic Programming
 - 3.2 Floyd’s Algorithm for Shortest Paths
 - 3.6 The Traveling Salesperson Problem 
-## The Greedy Approach ✅
+## The Greedy Approach 
 - 4.1 Minimum Spanning Trees 
 		- Prim’s Algorithm 
 		- Kruskal’s Algorithm 

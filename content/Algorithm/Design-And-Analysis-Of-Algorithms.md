@@ -3,6 +3,8 @@ title: Design And Analysis Of Algorithms - A Summery
 publish: true
 date created: 2026-07-06
 ---
+
+In this learning progress which was for my Design and Analysis of Algorithm's test, I studied Neapolitan's Fundamentals of Algorithms and CLRS, also watched [Abdul Bari's youtube videoes](https://www.youtube.com/@abdul_bari) and used AI. Here is a summery of the algorithms I needed to learn. Sorry if some parts don't make sense, it's a cheat sheet.
 ## Strassen's Matrix Multiplication
 - $O(n^{2.81})$
 
@@ -166,3 +168,6 @@ If we want to check all the states, it's gonna be $O(2^n)$.
 - imagine we have a message. The size would be based of bits. 
 
 ![[summery-2.png]]
+
+
+

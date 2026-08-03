@@ -5,7 +5,7 @@ Hi. I hope you're having a good day. This is my knowledge base. I write about th
 Here is the list of the topics:
 _Some notes are still on progress and might be empty._
 
-- [[Java]]: basic and advanced. Also SpringBoot.
+- [[Java]]: basic and advanced. Also Springboot.
 - [[Python]]: syntax and Django.
 - [[PHP]]: Wanted to see what it is about. Also Laravel.
 - [[Kotlin]]: This one's cute.
@@ -15,8 +15,11 @@ _Some notes are still on progress and might be empty._
 - [[Data-Base]]: SQL and related information.
 - [[Back-End]]: Various knowledge needed for this field.
 - [[Android]]: I really like to make android apps. This folder includes Jetpack compose and Android Studio.
+- [[System-Design]]: Useful when I want to do projects, yk.
+- [[Network]]: Protocols and how it works basically. 
 - [[Project-Management]]: Git, and required information for projects.
-- [[Front-End]]: Things I learned about frontend.
+- [[Front-End]]: Things I learned about front-end.
+- [[Obsidian]]: Obsidian tools.
 - [[Hobbies]]: Contains [[Books]] and [[Games]].
 - [[Books]]: Talking about the books I read.
 - [[Quartz-Setup]]: How I sat up this website.
