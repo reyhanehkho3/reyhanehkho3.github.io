@@ -2,6 +2,8 @@
 title: Regex
 publish: true
 date created: 2026-07-30
+tags:
+  - java
 ---
 ### Regex characters:
 #### Meaningful characters:
@@ -22,3 +24,8 @@ date created: 2026-07-30
 	`something(?=condition)`
 - Negative Lookahead: the same as the positive but it check if the condition is not met. 
 	`something(?!condition)`
+
+
+
+---
+[[java]]

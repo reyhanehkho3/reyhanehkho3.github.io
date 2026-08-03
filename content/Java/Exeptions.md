@@ -2,6 +2,8 @@
 title: Exeptions
 publish: true
 date created: 2026-05-28
+tags:
+  - java
 ---
 ### **Checked Exceptions**
 
@@ -17,4 +19,6 @@ date created: 2026-05-28
 - Represent **programming errors** or unrecoverable conditions
 - Compiler doesn't enforce handling
 
+
+---
 [[java]]

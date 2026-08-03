@@ -2,6 +2,8 @@
 title: Reflection
 publish: true
 date created: 2026-08-01
+tags:
+  - java
 ---
 A procedure to go through and fix a class in runtime. It is used to test and debug codes in many IDEs. `java.lang.Class` has many method that can be used to have information about a class, debug and change the runtime behavior of a class. `java.lang` and `java.lang.reflect` present some classes for Reflection in java.
 ### Examples:
@@ -15,3 +17,8 @@ A procedure to go through and fix a class in runtime. It is used to test and deb
 
 ### Note:
 We can break Encapsulation with Reflection. So the security is in danger. It is also slow. 
+
+
+
+---
+[[java]]

@@ -2,6 +2,8 @@
 title: Classes
 publish: true
 date created: 2026-05-28
+tags:
+  - java
 ---
 ## Inner Classes / nested classes
 It lets us to put the related classes together in a group and have a cleaner code.

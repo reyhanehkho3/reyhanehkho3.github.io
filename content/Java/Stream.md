@@ -2,6 +2,8 @@
 title: Stream
 publish: true
 date created: 2026-05-28
+tags:
+  - java
 ---
 ## Optional
 - When using Streams, the stream might not have a result, e.x it might be empty. Java uses `Optional` to see if there any result.
@@ -13,4 +15,7 @@ max.ifPresent(System.out::println);
 //we can alse use `orElse()`
 ```
 
+
+
+---
 [[java]]
