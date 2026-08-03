@@ -9,7 +9,7 @@ _Some notes are still on progress and might be empty._
 - [[Python]]: syntax and Django.
 - [[PHP]]: Wanted to see what it is about. Also Laravel.
 - [[Kotlin]]: This one's cute.
-- [[Latex]]: I mostly use it in my markdown files.
+- [[Latex]]: I mostly use it in my markdown files. But I like it's syntax.
 - [[Algorithm]]: Discussing algorithms and how to improve them. Also chapters from Neapolitan.
 - [[Data-Structure]]: I like them I guess.
 - [[Data-Base]]: SQL and related information.
@@ -22,7 +22,7 @@ _Some notes are still on progress and might be empty._
 - [[Obsidian]]: Obsidian tools.
 - [[Hobbies]]: Contains [[Books]] and [[Games]].
 - [[Books]]: Talking about the books I read.
-- [[Quartz-Setup]]: How I sat up this website.
+- [[Quartz]]: How I sat up this website.
 
 
 These are the general topics. All the notes have a general topic that they refer to. By clicking on the topics you'll see the list of the things they contain.

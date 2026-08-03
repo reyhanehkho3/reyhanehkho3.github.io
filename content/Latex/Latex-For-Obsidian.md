@@ -1,5 +1,5 @@
 ---
-title: Latex
+title: Latex For Obsidian
 publish: true
 date created: 2026-06-03
 ---
