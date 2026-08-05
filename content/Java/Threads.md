@@ -2,6 +2,9 @@
 title: Threads
 publish: true
 date created: 2026-08-06
+tags:
+  - java
+  - threads
 ---
 Threads are a unit of running inside a process. A java program usually has a Main Thread used for running the code. We can have threads via `Thread` or `Runnable` interface.
 - Example:
@@ -62,4 +65,10 @@ public class JoinExample {
 ### Synchronizing the threads
 The key word `synchronized` is used to make sure only one thread can access a certain part of the code at the time.
 
-This is an example of using synchronization for solving Race Conditions. 
+This is an example of using synchronization for solving Race Conditions.
+
+
+
+
+---
+[[Java]]
