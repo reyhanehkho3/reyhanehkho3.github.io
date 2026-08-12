@@ -72,6 +72,10 @@ Here is what the Agent does automatically:
 - Changes should be small and level-by-level.
 - Check the test, diff and the output.
 - The work is done when the evidence supports it.
+
+
+Note: when using git via Agent, never confirm commit/push without reading the diff, checking the secrets and test. (diffs are the changes in the code)
+
 ---
 ## Questions
 what is harness?

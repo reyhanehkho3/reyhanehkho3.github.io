@@ -5,8 +5,10 @@ date created: 2026-05-17
 ---
 - [[Git&Github]]
 - [[Agile]]
+- [[Docker]]
+- [[Snapshot]]
 
 
-
-
+---
 [[Back-End]]
+[[Software-Development]]

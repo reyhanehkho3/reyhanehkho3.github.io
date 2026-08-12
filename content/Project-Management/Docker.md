@@ -33,3 +33,7 @@ A **container** is a standalone, executable package that includes everything n
 - **CI/CD Pipelines:** Automatically test code in a fresh container to ensure tests are reliable.
     
 - **Scaling:** When a website gets busy, you instantly launch 10 more identical containers to handle the load.
+
+
+---
+[[Project-Management]]

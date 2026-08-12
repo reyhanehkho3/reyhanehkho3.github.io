@@ -3,6 +3,38 @@ title: Git & Github
 publish: true
 date created: 2026-05-17
 ---
+git keeps track of the snapshots of a project through commits. There are 3 important phases:
+- Working Tree -> Staging Area -> Commit History.
+## Definitions:
+- A **Branch** is a separated path for making changes.
+- **Commit** is a change that you can't edit. But you can check previous commits and continue with them.
+- **Merge/Rebase** means combining histories with different trade-offs.
+- A **Conflict** is when git can't merge the changes all together. Solving it requires understanding the changes.
+- **Merge Request/ Pull Request** is the place for review, discussion, CI and confirmation before merging.
+
+### Suggested Workflow:
+- Understanding the issue/requirements.
+- Making a little branch.
+- Keep track of the changes through commits.
+- Check push and test before diff.
+- Make a pull request with short explanation(what and why), reason, ways to test.
+- Enable feedback and merge after review/CI. This means only merge your PR after the automated CI pipeline passes successfully and you've received a human code review approval.
+
+### Semantic Versioning: MAJOR.MINOR.PATCH
+- **MAJOR** version increments when you make breaking API changes
+    
+- **MINOR** version increments when you add functionality in a backward-compatible way.
+    
+- **PATCH** version increments when you make backward-compatible bug fixes
+‬
+### Changelog:
+A **changelog** is a curated, chronologically ordered list of notable changes made to a software project, with each version or release clearly labeled.
+
+It's essentially a **"what's new"** document that tells users and contributors exactly what changed, was added, fixed, or removed in each release of your software.
+
+A changelog must contain meaningful changes for users, not a list of the commits only.
+
+## Setup:
 ### Initialize:
 In order to initialize a repo in your system:
 
@@ -119,5 +151,5 @@ git clone -b develop https://github.com/username/repo.git
 
 
 
-
+---
 [[Project-Management]]
