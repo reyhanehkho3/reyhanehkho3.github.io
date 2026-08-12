@@ -77,6 +77,62 @@ Here is what the Agent does automatically:
 Note: when using git via Agent, never confirm commit/push without reading the diff, checking the secrets and test. (diffs are the changes in the code)
 
 
+### Types of Agents
+- tester.
+- reviewer.
+- implementer.
+- planner.
+- explorer.
+- orchestrator.
+
+**Separation of roles is only useful when the output boundary, and responsibility are clear.**
+
+- An agent without tools only suggests test. Common tools:
+		file and text search, reading/editing, shell, database API, browser, Git, test runner, compiler, and documentation.
+
+
+### Some concepts
+
+- **Rule:** A permanent and mandatory project directive; for example, style guidelines, the test command, or a prohibition on modifying a certain part of the repo.
+
+- **Memory:** Useful information that is preserved between steps or sessions; it should not replace the source of truth.
+
+- **Skill:** A bundle of specialized instructions and workflow for a recurring type of task.
+
+- **Plugin:** A package that adds capabilities to the environment, such as a tool, skill, or connector.
+
+- **MCP:** A standard contract for connecting an AI host to servers that provide tools and context.
+
+**Key distinction:**
+- **Rule** says "how you must behave";
+- **Skill** says "with what workflow should you perform this specialized task";
+- **MCP** says "how to connect to an external capability";
+- **Plugin** is the method for packaging and distributing a capability;
+- **Memory** retains previous information.
+
+**Security:** minimal access, sandboxing, allowlisting, tool permissions, secret obfuscation, human approval for destructive operations, and validation of all model-generated inputs.
+
+
+
+- When we encounter a project with lots and lots of code, **the goal is not to read all the code;** we need to understand what the user does, how the system processes the request, and where the source of truth is.
+
+**Exploration order:**
+1. Manifest, README, and build/test commands;
+2. Entry point and top-level structure;
+3. Routes or triggers;
+4. One real user flow;
+5. Data model and external integrations;
+6. Related tests;
+7. Conventions and a similar feature example.
+
+**Build four maps:**
+- **Component Map:** systems and their dependencies;
+- **Request Map:** execution path of a request;
+- **Data Map:** shape, ownership, and lifecycle of data;
+- **Change Map:** if X changes, which points are affected?
+
+**Good questions to ask an Agent:** "Where is the entry point for this flow?", "What is the source of truth for this field?", "Which test documents the expected behavior?", "Where has a similar feature been implemented?" Every claim should be supported by a symbol, path, or test.
+
 ---
 ## Questions
 what is harness?

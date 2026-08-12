@@ -29,3 +29,8 @@ A prompt usually has:
 
 
 - Note: More context isn't always better. Use progressive disclosure. First the plan, then the related files, then necessary details.
+
+
+
+---
+[[AI]]

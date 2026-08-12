@@ -23,3 +23,7 @@ In a large system, the path may also include a search engine, object storage, ev
 **The key principle is Separation of Concerns:** changing the UI should not break payment logic; changing the database should not contaminate the entire system. Good architecture makes dependencies understandable and limits the impact of changes to specific localized areas.
 
 **To analyze a real project, trace a specific request end-to-end:** handler → middleware → route → service → repository → schema/migration → response → test. Folder structure alone is not architecture; the runtime flow is much more important.
+
+
+---
+[[Software-Development]]
