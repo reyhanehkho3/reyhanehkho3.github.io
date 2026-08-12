@@ -76,6 +76,7 @@ Here is what the Agent does automatically:
 
 Note: when using git via Agent, never confirm commit/push without reading the diff, checking the secrets and test. (diffs are the changes in the code)
 
+
 ---
 ## Questions
 what is harness?

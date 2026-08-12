@@ -2,6 +2,8 @@
 title: Architecture
 publish: true
 date created: 2026-08-12
+tags:
+  - "#software-development"
 ---
 **Architecture** means the components, the responsibility of each component, the communication between them, and the decisions that shape the system's flexibility.
 
