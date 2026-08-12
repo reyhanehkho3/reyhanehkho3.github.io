@@ -15,3 +15,7 @@ An LLM is a type of artificial intelligence that is trained to understand, gener
 
 
  An LLM is the _brain_. When you interact with it through a chat window, that overall product is called a **chatbot** or an **AI assistant**. The LLM is the underlying engine that makes the assistant smart.
+
+
+---
+[[AI]]

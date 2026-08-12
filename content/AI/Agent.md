@@ -2,8 +2,11 @@
 title: Agent
 publish: true
 date created: 2026-08-11
+tags:
+  - AI
 ---
 If an **LLM** (Large Language Model) is the **"brain"**—a powerful engine that processes information and generates text—then an **Agent** is the **"brain + hands + eyes + memory."**
+ 
 
 An Agent is an AI system that uses an LLM as its core reasoning engine, but it is given the ability to **take action**, **use tools**, and **make decisions autonomously** to achieve a specific goal.
 
@@ -58,9 +61,17 @@ Here is what the Agent does automatically:
 7. **Final Reply to you:** _"Done! I booked your car and emailed your boss about the rain."_
 
 
+### Architecture of agent
+‫Goal -> Inspect -> Plan -> Act with tools -> Observe -> Verify -> Repeat/Finish‬‬
 
 
-
+### How to run a project with agent:
+- Declare the purpose and the acceptance criteria.
+- Ask the agent to inspect th environment and relevant files.
+- Ask for a short plan, not just implementation.
+- Changes should be small and level-by-level.
+- Check the test, diff and the output.
+- The work is done when the evidence supports it.
 ---
 ## Questions
 what is harness?
