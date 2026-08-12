@@ -24,6 +24,30 @@ An Orchestrator does not necessarily have to be an LLM. Often it's better for th
 
 **Trigger considerations:** authentication, rate limiting, ordering, idempotency, deduplication, webhook verification, and the ability to replay.
 
+### **Designing a Human-in-the-Loop with an Agentic System**
+
+**Example: An Agent handling an Issue and proposing a patch**
+
+1. **Trigger:** New issue or user command.
+2. **Intake:** Validate input, permissions, and scope.
+3. **Discovery:** Read relevant rules, repo, tests, and history.
+4. **Planning:** Build a hypothesis or plan with specific change points.
+5. **Approval 1 (Human):** A human reviews the scope and approves the riskier parts of the plan.
+6. **Execution:** Apply the change in an isolated branch or workspace.
+7. **Verification:** Run tests, lint, security checks, and review the diff.
+8. **Evaluation:** Assess acceptance criteria and confidence level.
+9. **Approval 2 (Human):** A human approves the merge, release, or irreversible action.
+10. **Delivery/Report:** Open a PR with evidence and an audit trail.
+
+**Human-in-the-Loop should not be just an "OK" button on something vague.** At the approval point, the system must clearly show: the exact action, the reasoning, the data and system state, the effect, the cost, the rollback strategy, and the evidence.
+
+**Control pattern:**
+- **Low risk + high confidence** → auto-execute and log
+- **Medium risk or low confidence** → ask, clarify, or review
+- **High risk or irreversible** → explicit human approval
+- **Policy violation** → block
+
+**Evaluation metrics:** task success rate, need for manual correction, tool errors, safety violations, latency, cost, rate of escalation, and quality of evidence.
 
 ---
 [[AI]]
