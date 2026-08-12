@@ -15,7 +15,7 @@ _Some notes are still on progress and might be empty._
 - [[Data-Structure]]: I like them I guess.
 - [[Data-Base]]: SQL and related information.
 - [[Back-End]]: Various knowledge needed for this field.
-- [[sof]]
+- [[Software-Development]]: The rules and techniques to develop soft wares.
 - [[Android]]: I really like to make android apps. This folder includes Jetpack compose and Android Studio.
 - [[System-Design]]: Useful when I want to do projects, yk.
 - [[Network]]: Protocols and how it works basically. 
