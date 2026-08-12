@@ -2,6 +2,8 @@
 title: Git & Github
 publish: true
 date created: 2026-05-17
+tags:
+  - git
 ---
 git keeps track of the snapshots of a project through commits. There are 3 important phases:
 - Working Tree -> Staging Area -> Commit History.
