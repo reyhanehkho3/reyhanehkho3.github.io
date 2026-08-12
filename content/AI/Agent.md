@@ -133,6 +133,8 @@ Note: when using git via Agent, never confirm commit/push without reading the di
 
 **Good questions to ask an Agent:** "Where is the entry point for this flow?", "What is the source of truth for this field?", "Which test documents the expected behavior?", "Where has a similar feature been implemented?" Every claim should be supported by a symbol, path, or test.
 
+**An Agent is useful for** searching call sites, comparing history, analyzing logs, and generating useful tests; but the hypothesis must be confirmed with evidence.
+
 ---
 ## Questions
 what is harness?
