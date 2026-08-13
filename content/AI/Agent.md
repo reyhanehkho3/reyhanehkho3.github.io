@@ -90,7 +90,22 @@ Note: when using git via Agent, never confirm commit/push without reading the di
 - An agent without tools only suggests test. Common tools:
 		file and text search, reading/editing, shell, database API, browser, Git, test runner, compiler, and documentation.
 
+or more generally:
 
+**Simple Reflex Agent**
+Acts based on the current state and rules like `if condition → action`; it has no state or model of the world. Example: when it detects the keyword "password reset," it executes a fixed password recovery flow.
+
+**Model-Based Reflex Agent**
+Maintains an internal state of the environment; when the environment is not fully observable, it makes decisions by taking past context into account.
+
+**Goal-Based Agent**
+Chooses actions based on how much they bring it closer to a goal. More flexible, but with a higher risk of unexpected behavior; the goal and boundaries must be clearly defined.
+
+**Utility-Based Agent**
+Among multiple possible paths, it selects the option with the highest utility—for example, trading off quality, cost, latency, and risk.
+
+**Learning Agent**
+Improves its policy or choices over time through feedback or performance data. In production, one must be cautious about contaminated feedback, drift, and uncontrolled changes in behavior.
 ### Some concepts
 
 - **Rule:** A permanent and mandatory project directive; for example, style guidelines, the test command, or a prohibition on modifying a certain part of the repo.
@@ -134,6 +149,34 @@ Note: when using git via Agent, never confirm commit/push without reading the di
 **Good questions to ask an Agent:** "Where is the entry point for this flow?", "What is the source of truth for this field?", "Which test documents the expected behavior?", "Where has a similar feature been implemented?" Every claim should be supported by a symbol, path, or test.
 
 **An Agent is useful for** searching call sites, comparing history, analyzing logs, and generating useful tests; but the hypothesis must be confirmed with evidence.
+
+Not every multi-step workflow is an "agent." If the path is fixed and predictable in advance, a pipeline or a machine state is usually cheaper, faster, and more reliable. An agent is valuable when the decision for the next step depends on the context and the results at runtime.
+
+### **Components of an Agentic System**
+
+**1. Engine / Reasoning Model:** Language-based decision-making, tool selection, and response generation.
+
+**2. Goal & Instructions:** Objective, role, constraints, and success criteria.
+
+**3. Tools:** Calendar executor, code calculator, database, search, API, etc.
+
+**4. State:** Current task status, messages, tool outputs, and iteration counter.
+
+**5. Memory:**
+- Short-term: History of the current execution/conversation.
+- Long-term: Stored preferences or knowledge across sessions.
+
+**6. Planner/Router:** Breaking down the goal into subtasks or selecting the appropriate agent/path.
+
+**7. Retriever:** Fetching relevant context from an external source.
+
+**8. Guardrails & Authorization:** Input/output validation, role-based access control, preventing data leakage.
+
+**9. Evaluator/Critic:** Assessing quality or reflection (preferably with a stopping criterion and iteration cap).
+
+**10. Observability:** Tracing every decision, tool call, error, token usage, latency, and outcome.
+
+**11. Stop Conditions:** Reaching a final response, budget caps, timeout, iteration limits, or need for human approval.
 
 ---
 ## Questions
