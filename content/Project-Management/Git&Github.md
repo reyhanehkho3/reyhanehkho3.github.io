@@ -18,7 +18,8 @@ git keeps track of the snapshots of a project through commits. There are 3 impor
 - Understanding the issue/requirements.
 - Making a little branch.
 - Keep track of the changes through commits.
-- Check push and test before diff.
+- Test locally.
+- Push.
 - Make a pull request with short explanation(what and why), reason, ways to test.
 - Enable feedback and merge after review/CI. This means only merge your PR after the automated CI pipeline passes successfully and you've received a human code review approval.
 

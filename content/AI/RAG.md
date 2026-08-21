@@ -66,6 +66,29 @@ To search a massive database in a fraction of a second, RAG uses **embeddings** 
 **The golden rule of RAG:** It doesn't make the AI *smarter*; it gives the AI *access to the right book at the right time*.
 
 
+### **Agentic RAG vs. Ordinary RAG**
+
+In ordinary RAG, retrieval is performed almost always and through a fixed path. In Agentic RAG, however, the agent decides:
+
+- Is retrieval needed at all?
+- Which source should be used?
+- Should the query be rewritten?
+- Is the result sufficient and relevant?
+- Is a fallback to SQL, web search, or human input needed?
+
+**Example fallback flow:**
+Internal KB → relevance check → rerank → if insufficient: approved web/API → cite → answer
+
+
+
+
+### **An important security pitfall in RAG**
+
+Authorization must be applied *before* retrieval (or with metadata filtering). Retrieving relevant documents does not mean the user is authorized to see them, we must not retrieve confidential documents in the first place, rather than hoping the prompt won't expose them. Also, the retrieved text is untrusted input and may contain prompt injection.
 
 ---
 [[AI]]
+
+
+
+

@@ -185,7 +185,163 @@ A tool for managing synchronizing and not synchronizing tasks. It has:
 - Managing results and error.
 - Customized Thread Pool.
 
+### Functions
+- `supplyAsync()`: Running asynchronous tasks than return values. Turns the output as a `CompletableFuture<T>` than we can do chained actives on. 
+```java
+import java.util.concurrent.CompletableFuture;
 
+public class CompletableFutureSupplyAsync {
+    public static void main(String[] args) {
+        CompletableFuture<String> future = CompletableFuture.supplyAsync(() -> {
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+            }
+            return "Hello, Async!";
+        });
+
+        System.out.println(future.join()); // Hello, Async!
+    }
+}
+
+```
+
+- `runAsync()`: like `supplyAsync()` but for the tasks that don't return a value. This code executes a task asynchronously using `CompletableFuture`. The task runs independently, and after its completion, control returns to the main program. The program ensures the task is completed and then displays a task completion message.
+
+```java
+import java.util.concurrent.CompletableFuture;
+
+public class CompletableFutureRunAsync {
+    public static void main(String[] args) {
+        CompletableFuture<Void> future = CompletableFuture.runAsync(() -> {
+            try {
+                Thread.sleep(1500);
+                System.out.println("Running a task asynchronously!");
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+            }
+        });
+
+        future.join(); // Waits for the task to complete
+        System.out.println("Task completed!");
+    }
+}
+
+
+```
+- `thenApply()`: combined tasks. (for chained activity)
+```java
+import java.util.concurrent.CompletableFuture;
+
+public class CompletableFutureChain {
+    public static void main(String[] args) {
+        CompletableFuture.supplyAsync(() -> "Hello")
+            .thenApply(result -> result + ", World!")
+            .thenApply(String::toUpperCase)
+            .thenAccept(System.out::println); //HELLO, WORLD!
+    }
+}
+
+```
+
+- `thenRun()`: Taking action after completing task.
+Sometimes, after the main task finishes, we need to execute an operation that has no specific input or output. In this case, we use `thenRun()`:
+
+This code executes a task asynchronously using `CompletableFuture`. After the main task completes, another task is automatically executed to complete the processing of the result. The program is designed in such a way that it ensures it does not terminate prematurely until all tasks are completed.
+```java
+import java.util.concurrent.CompletableFuture;
+
+public class CompletableFutureThenRun {
+    public static void main(String[] args) {
+        CompletableFuture<String> future = CompletableFuture.supplyAsync(() -> {
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+            }
+            return "Hello, World!";
+        });
+
+        future.thenRun(() -> {
+            System.out.println("The main task has finished!");
+        });
+
+        future.join();
+    }
+}
+
+```
+
+- `allOf()`: Doing all the tasks. `allOf()` is used when you want all tasks to run concurrently and wait for all of them to complete.
+
+This code executes two asynchronous tasks using `CompletableFuture` and uses the `allOf()` method to wait for all of them to finish. After all tasks are completed, a message indicating that all tasks are done is displayed.
+```java
+import java.util.concurrent.CompletableFuture;
+
+public class CompletableFutureAllOf {
+    public static void main(String[] args) {
+        CompletableFuture<Void> future1 = CompletableFuture.runAsync(() -> {
+            try {
+                Thread.sleep(1000);
+                System.out.println("Task 1 completed");
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+            }
+        });
+
+        CompletableFuture<Void> future2 = CompletableFuture.runAsync(() -> {
+            try {
+                Thread.sleep(2000);
+                System.out.println("Task 2 completed");
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+            }
+        });
+
+        CompletableFuture<Void> allTasks = CompletableFuture.allOf(future1, future2);
+        allTasks.join(); // Waits for all tasks to complete
+
+        System.out.println("All tasks completed");
+    }
+}
+
+```
+- `anyOf()`: Doing one of the tasks. 
+If you only want to wait for one of the tasks to complete, use `anyOf()`.
+
+This code executes two asynchronous tasks using `CompletableFuture` and uses the `anyOf()` method to wait for the first task that completes. The result of the first completed task is processed and displayed.
+```java
+import java.util.concurrent.CompletableFuture;
+
+public class CompletableFutureAnyOf {
+    public static void main(String[] args) {
+        CompletableFuture<String> future1 = CompletableFuture.supplyAsync(() -> {
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+            }
+            return "Task 1";
+        });
+
+        CompletableFuture<String> future2 = CompletableFuture.supplyAsync(() -> {
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+            }
+            return "Task 2";
+        });
+
+        CompletableFuture<Object> anyTask = CompletableFuture.anyOf(future1, future2);
+        anyTask.thenAccept(result -> System.out.println("First completed task: " + result));  //First completed task: Task 1
+    }
+}
+
+```
+
+`anyOf()` returns the result of one of the tasks as soon as it completes.
 
 ---
 [[Java]]
