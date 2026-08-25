@@ -4,7 +4,22 @@ publish: true
 date created: 2026-08-13
 tags:
   - AI
+  - Agent
+  - codeless
 ---
+**Definition:** A method in which relevant information is retrieved from an external source before or during response generation and provided to the model.
+
+**Simply put:** Instead of relying only on what the model already knows, **it first finds relevant information and then answers based on it**.
+
+**Examples:**
+
+1. Question about internal company documentation → search Docs → answer.
+2. Question about project code → retrieve relevant files → analyze.
+3. Question about company policies → search Policies → answer.
+
+
+---
+
 To understand **RAG** (Retrieval-Augmented Generation), it helps to start with a simple problem.
 
 **The Problem:** Large Language Models (like ChatGPT) are incredibly smart, but they have a major flaw: **their knowledge is frozen in time.** They only know what they learned during training. If you ask about today's news, a private company document, or a specific email, the AI will either make something up (a "hallucination") or say it doesn't know.
@@ -88,7 +103,7 @@ Authorization must be applied *before* retrieval (or with metadata filtering). R
 
 ---
 [[AI]]
-
-
+[[Agent]]
+[[codeless]]
 
 
