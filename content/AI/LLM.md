@@ -4,7 +4,20 @@ publish: true
 date created: 2026-08-11
 tags:
   - AI
+  - codeless
 ---
+**Definition:** A model trained on a huge amount of textual data that can understand and generate text.
+
+**Simply put:** An LLM is the **base model**, such as GPT, Claude, Gemini, or Qwen, that an Agent uses for reasoning and text generation.
+
+**Examples:**
+
+1. GPT.
+2. Claude.
+3. Qwen.
+
+---
+
 An LLM is a type of artificial intelligence that is trained to understand, generate, and manipulate human language (and other data) by predicting the next most likely word in a sequence.
 
 - **Large:** This refers to the massive size of the AI. It has _billions_ (sometimes trillions) of internal connections (called "parameters") and was trained on an enormous dataset—often encompassing a huge portion of the public internet.
@@ -19,3 +32,4 @@ An LLM is a type of artificial intelligence that is trained to understand, gener
 
 ---
 [[AI]]
+[[codeless]]

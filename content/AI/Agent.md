@@ -4,7 +4,21 @@ publish: true
 date created: 2026-08-11
 tags:
   - AI
+  - codeless
 ---
+## Agent — AI Agent
+
+**Definition:** A system that uses a model to examine the current state, make decisions, use tools, and take multiple steps toward a goal.
+
+**Simply put:** A chatbot usually just answers; an Agent can **think → act → observe the result → act again**.
+
+**Examples:**
+
+1. A coding Agent that examines files and fixes code.
+2. A research Agent that performs web searches and creates a report.
+3. A support Agent that examines a ticket and generates an appropriate 
+---
+
 If an **LLM** (Large Language Model) is the **"brain"**—a powerful engine that processes information and generates text—then an **Agent** is the **"brain + hands + eyes + memory."**
  
 
@@ -183,3 +197,5 @@ Not every multi-step workflow is an "agent." If the path is fixed and predictabl
 what is harness?
 
 [[Java]]
+[[AI]]
+[[codeless]]
