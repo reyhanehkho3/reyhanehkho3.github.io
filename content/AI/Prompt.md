@@ -4,6 +4,19 @@ publish: true
 date created: 2026-08-12
 tags:
   - AI
+  - Agent
+  - codeless
+---
+**Definition:** An instruction or information given to a model that specifies what it should do or how it should respond.
+
+**Simply put:** A Prompt is what you tell the AI: **“Do this for me.”**
+
+**Examples:**
+
+1. “Debug this code.”
+2. “Translate this text into Persian.”
+3. “Write tests for this API.”
+
 ---
 ### Structure
 A prompt usually has:
