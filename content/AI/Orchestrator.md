@@ -5,7 +5,20 @@ date created: 2026-08-12
 tags:
   - AI
   - Agent
+  - codeless
 ---
+**Definition:** A component that coordinates tasks, Agents, or different stages of a workflow.
+
+**Simply put:** An Orchestrator is like a **project manager** who decides who should do what and when.
+
+**Examples:**
+
+1. The Researcher works first, followed by the Writer.
+2. The Tester runs after the Developer finishes.
+3. If Agent 1 fails, the task is transferred to Agent 2.
+
+---
+
 An **orchestrator** is a central coordinator that manages the flow of work in a system. It's responsible for:
 
 - **Maintaining state**: tracking where each task is in its lifecycle
@@ -33,3 +46,5 @@ A key insight from the text: **an orchestrator doesn't have to be an AI**. In pr
 
 ---
 [[AI]]
+[[Agent]]
+[[Orchestrator]]
