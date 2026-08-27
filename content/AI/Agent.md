@@ -193,9 +193,5 @@ Not every multi-step workflow is an "agent." If the path is fixed and predictabl
 **11. Stop Conditions:** Reaching a final response, budget caps, timeout, iteration limits, or need for human approval.
 
 ---
-## Questions
-what is harness?
-
-[[Java]]
 [[AI]]
 [[codeless]]

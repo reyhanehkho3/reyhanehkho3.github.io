@@ -7,7 +7,7 @@ tags:
   - git
   - codeless
 ---
-zGit is the foundational version control system, while GitHub and GitLab are web-based platforms that build on it to help teams collaborate and manage their code. The main difference between GitHub and GitLab is their overall philosophy: GitHub acts as a central hub for code collaboration with a vast community, whereas GitLab is an all-in-one DevOps platform that integrates development, security, and operations tools into a single application .
+Git is the foundational version control system, while GitHub and GitLab are web-based platforms that build on it to help teams collaborate and manage their code. The main difference between GitHub and GitLab is their overall philosophy: GitHub acts as a central hub for code collaboration with a vast community, whereas GitLab is an all-in-one DevOps platform that integrates development, security, and operations tools into a single application .
 
 To make it clearer, here is a simple breakdown:
 
@@ -37,6 +37,3 @@ In short, Git is the engine, and both GitHub and GitLab are vehicles built on to
 [[Project-Management]]
 [[codeless]]
 
-
-
-برای ساخت یک پورتفولیو با html css و js که فایل لوکال باشه و دو ساید ادمین و کاربر داشته باشه با آتنتیکشین که ادمین بتونه پورتفولیو/رزومه‌های مختلفی بسازه فیلد و عکسشون رو ادیت کنه و منتشر کنه و هر کسی با دسترسی به لینک هر پورتفولیو بتونه اون رو ببینه ولی پنل ادمین رو فقط ادمین با آتنتیکیشن بتونه ببینه و البته لاگ بازدید از صفحات هر کسی هم توی پنل ادمین شمارشش نمایش داده بشه رو بخوایم داشته باشیم، اول از همه اینکه چه کتابخونه فرانتی به نظرت مناسبه برای اینکار که کمترین وابستگی و حجم ایجاد بشه دوم اینکه چه فیچرهایی می‌تونیم داشته باشیم که محصول رو جذاب‌تر می‌کنه و سوم اینکه یک پرامپت درست و منطبق با اصول مهندسی پرامپت می‌خوام برای یک مدل زبانی که این پروژه رو بدم یک مدل دیگه برام بزنه. چیزهای که خواستم رو بهم بده.
