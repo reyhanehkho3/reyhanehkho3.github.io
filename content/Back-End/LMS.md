@@ -3,8 +3,8 @@ title: LMS
 publish: true
 date created: 2026-08-27
 tags:
-  - software-development
   - codeless
+  - Backend
 ---
 ## LMS — Log Management System
 
@@ -18,5 +18,5 @@ It helps developers investigate errors and understand what happened inside a sys
 3. Detecting that thousands of payment errors started after a new deployment.
 
 ---
-[[Software-Development]]
+[[Back-End]]
 [[codeless]]

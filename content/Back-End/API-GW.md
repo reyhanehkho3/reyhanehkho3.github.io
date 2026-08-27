@@ -5,6 +5,7 @@ date created: 2026-08-23
 tags:
   - API
   - codeless
+  - Backend
 ---
 An **API gateway** is a central, dedicated server that acts as the single entry point for all client requests in a modern application architecture. Think of it as a receptionist or a traffic controller for your APIs, standing between the clients (like a mobile app or a website) and the backend services that fulfill their requests.
 
@@ -48,6 +49,6 @@ It also does load balancing and scaling and reverse proxy.(RP)
 
 
 ---
-[[Software-Development]]
+[[Back-End]]
 [[API]]
 [[codeless]]
