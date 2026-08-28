@@ -5,7 +5,7 @@ Hi. I hope you're having a good day. This is my knowledge base. I write about th
 Here is the list of the topics:
 _Some notes are still on progress and might be empty._
 
-- [[codeless]]: A course I attended provided by [Part Software Company](https://www.partsoftware.com/college/new-course/codeless/). 
+- [[My-Journey-In-Codeless]]: A course I attended provided by [Part Software Company](https://www.partsoftware.com/college/new-course/codeless/). 
 - [[AI]]: The concepts and terminology of AI.
 - [[Java]]: basic and advanced. Also Springboot.
 - [[Python]]: syntax and Django.

@@ -1,9 +1,9 @@
 ---
-title: codeless
+title: My Journey in Codeless
 publish: true
 date created: 2026-08-23
 ---
-## List of contents:
+### What I learned about:
 - [[Agent]]
 - [[Agentic-Workflow]]
 - [[AGENTS.md]]
@@ -15,9 +15,11 @@ date created: 2026-08-23
 - [[CICD]]
 - [[Chain-Of-Thought]]
 - [[Context-Window]]
+- [[Component]]
 - [[Context-Engineering]]
 - [[Crew]]
 - [[Cluster]]
+- [[Dev-Test]]
 - [[Entry-Point]]
 - [[Function-Calling]]
 - [[Gitlab]]
@@ -29,18 +31,22 @@ date created: 2026-08-23
 - [[Inheritance]]
 - [[LLM]]
 - [[LMS]]
+- [[Legacy-Code]]
 - [[Long-term-Memory]]
 - [[MCP]]
 - [[Memory]]
 - [[Metrics]]
+- [[Module]]
 - [[Multi-Agent-System]]
 - [[MVP]]
 - [[Orchestrator]]
+- [[Observability]]
 - [[OTP]]
 - [[Permission-Approval]]
 - [[Product-Owner]]
 - [[QA-Team]]
 - [[RAG]]
+- [[Requirement]]
 - [[Reasoning-Model]]
 - [[Reverse-Proxy]]
 - [[Role]]
