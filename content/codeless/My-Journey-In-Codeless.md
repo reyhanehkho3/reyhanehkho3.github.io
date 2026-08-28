@@ -6,7 +6,7 @@ date created: 2026-08-23
 ### What I learned about:
 - [[Agent]]
 - [[Agentic-Workflow]]
-- [[AGENTS.md]]
+- [[AGENTS-md]]
 - [[API-GW]]
 - [[Autonomous-Agent]]
 - [[Availability]]
@@ -28,7 +28,7 @@ date created: 2026-08-23
 - [[Hallucination]]
 - [[Harness]]
 - [[Human-In-The-Loop]]
-- [[Inheritance]]
+- [[Interceptor]]
 - [[LLM]]
 - [[LMS]]
 - [[Legacy-Code]]
