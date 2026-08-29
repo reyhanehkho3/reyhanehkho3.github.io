@@ -46,4 +46,4 @@ date created: 2026-05-19
 - `LIMIT` - Restrict rows returned
 
 
-[[Data-Base]]
+[[Database]]

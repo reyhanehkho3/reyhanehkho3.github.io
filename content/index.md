@@ -14,7 +14,7 @@ _Some notes are still on progress and might be empty._
 - [[Latex]]: I mostly use it in my markdown files. But I like its syntax.
 - [[Algorithm]]: Discussing algorithms and how to improve them. Also chapters from Neapolitan.
 - [[Data-Structure]]: I like them I guess.
-- [[Data-Base]]: SQL and related information.
+- [[Database]]: SQL and related information.
 - [[Back-End]]: Various knowledge needed for this field.
 - [[Software-Development]]: The rules and techniques to develop soft wares.
 - [[Android]]: I really like to make android apps. This folder includes Jetpack compose and Android Studio.
