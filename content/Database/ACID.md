@@ -3,7 +3,6 @@ title: ACID
 publish: true
 date created: 2026-05-17
 ---
-
 ACID is an acronym that guarantees database transactions are processed reliably.
 ### A - Atomicity
 **The "All or Nothing" Rule**
@@ -35,3 +34,4 @@ Durability guarantees that once a transaction has been committed, it will remain
 It's important to note that while ACID  is a cornerstone of traditional relational database systems (like PostgreSQL, MySQL, Oracle), many modern NoSQL databases sacrifice full ACID compliance (especially strong Isolation) in favor of other advantages like scalability and performance, offering instead a "BASE" model (Basically Available, Soft state, Eventual consistency). The choice between ACID and BASE depends entirely on the specific requirements of your application.
 
 [[Database]]
+[[My-Journey-In-Codeless]]
