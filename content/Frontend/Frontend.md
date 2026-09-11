@@ -1,5 +1,5 @@
 ---
-title: Front-End
+title: Frontend
 publish: true
 date created: 2026-07-31
 ---
