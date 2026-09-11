@@ -3,8 +3,6 @@ title: Frontend
 publish: true
 date created: 2026-07-31
 ---
-# Frontend
-
 The **frontend** is the part of an application that runs in the user's browser and that the user directly interacts with.
 
 For example, in a task-management application:
