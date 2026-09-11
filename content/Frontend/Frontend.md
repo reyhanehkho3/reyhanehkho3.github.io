@@ -31,7 +31,6 @@ The frontend is responsible for things like:
 ---
 # List of contents:
 
-- [[HTML-&-CSS]]
 - [[Frontend/Component|Component]]
 - [[Composable]]
 - [[Data-Fetching-&-Async-States]]
