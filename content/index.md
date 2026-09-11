@@ -21,7 +21,7 @@ _Some notes are still on progress and might be empty._
 - [[System-Design]]: Useful when I want to do projects, yk.
 - [[Network]]: Protocols and how it works basically. 
 - [[Project-Management]]: Git, and required information for projects.
-- [[Front-End]]: Things I learned about front-end.
+- [[Frontend]]: Things I learned about front-end.
 - [[Obsidian]]: Obsidian tools.
 - [[Hobbies]]: Contains [[Books]] and [[Games]].
 - [[Books]]: Talking about the books I read.

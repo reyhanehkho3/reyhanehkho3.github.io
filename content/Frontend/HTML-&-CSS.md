@@ -2,6 +2,8 @@
 title: HTML & CSS
 publish: true
 date created: 2026-06-03
+tags:
+  - frontend
 ---
 ## HTML
 - HyperText Markup Language
@@ -13,6 +15,52 @@ date created: 2026-06-03
 <p>This is a paragraph of text on the website.</p>
 <button>Click Me!</button>
 ```
+
+It defines the **structure/content** of a webpage.
+
+Think of HTML as the skeleton of the page.
+
+```
+<h1>My Tasks</h1>
+<p>Welcome back!</p>
+<button>Logout</button>
+```
+
+This creates:
+
+```
+My Tasks
+Welcome back!
+
+[ Logout ]
+```
+
+### Example 1
+
+A login form:
+
+```
+<form>
+  <input type="email">
+  <input type="password">
+  <button>Login</button>
+</form>
+```
+
+### Example 2
+
+A task:
+
+```
+<div>
+  <h2>Learn APIs</h2>
+  <p>Study HTTP requests and responses.</p>
+</div>
+```
+
+**Simple idea:**
+
+> HTML = What exists on the page?
 
 
 ## CSS
@@ -35,3 +83,7 @@ button {
   border-radius: 5px;
 }
 ```
+
+
+---
+[[Frontend]]
