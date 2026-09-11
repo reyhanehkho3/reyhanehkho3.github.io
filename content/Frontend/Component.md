@@ -5,6 +5,7 @@ date created: 2026-09-10
 tags:
   - frontend
   - basic
+  - codeless
 ---
 # Component Architecture and Composition
 
@@ -156,3 +157,4 @@ Don't split components just for the sake of having many files. Split them when d
 
 ---
 [[Frontend]]
+[[My-Journey-In-Codeless]]
