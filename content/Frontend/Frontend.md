@@ -3,7 +3,7 @@ title: Front-End
 publish: true
 date created: 2026-07-31
 ---
-# 1. Frontend
+# Frontend
 
 The **frontend** is the part of an application that runs in the user's browser and that the user directly interacts with.
 
@@ -29,7 +29,7 @@ The frontend is responsible for things like:
 - managing what the user currently sees
 
 ---
-## List of contents:
+# List of contents:
 
 - [[HTML-&-CSS]]
 - [[Frontend/Component|Component]]
