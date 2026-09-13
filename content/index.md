@@ -8,13 +8,15 @@ _Some notes are still on progress and might be empty._
 - [[My-Journey-In-Codeless]]: A course I attended provided by [Part Software Company](https://www.partsoftware.com/college/new-course/codeless/). 
 - [[AI]]: The concepts and terminology of AI.
 - [[Java]]: basic and advanced. Also Springboot.
+- [[JavaScript]]: Specially frameworks related to JavaScript.
 - [[Python]]: syntax and Django.
 - [[PHP]]: Wanted to see what it is about. Also Laravel.
 - [[Kotlin]]: This one's cute.
-- [[Latex]]: I mostly use it in my markdown files. But I like its syntax.
+- [[Latex]]: I mostly use it in my Markdown files. But I like its syntax.
 - [[Algorithm]]: Discussing algorithms and how to improve them. Also chapters from Neapolitan.
 - [[Data-Structure]]: I like them I guess.
 - [[Database]]: SQL and related information.
+- [[DevOps]]: the concepts and tools of DevOps.
 - [[Back-End]]: Various knowledge needed for this field.
 - [[Software-Development]]: The rules and techniques to develop soft wares.
 - [[Android]]: I really like to make android apps. This folder includes Jetpack compose and Android Studio.
