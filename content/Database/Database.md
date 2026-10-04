@@ -4,15 +4,46 @@ publish: true
 date created: 2026-05-17
 ---
 - [[ACID]]
+- [[Atomic-Transaction]]
+- [[Business-Transaction]]
+- [[Database/Cache|Cache]]
+- [[Cardinality]]
+- [[Clickhouse]]
+- [[Consistency]]
+- [[CRUD-Methods]]
+- [[Denormalization]]
+- [[Distributed-Consistency-Patterns]]
+- [[Document-Database]]
+- [[Durability]]
+- [[Elasticsearch]]
+- [[Eventual-Consistency]]
+- [[Graph-Database]]
+- [[Idempotency]]
+- [[Isolation]]
+- [[Isolation-Level]]
+- [[Key-Value-Database]]
 - [[MySQL]]
+- [[Normalization]]
+- [[OLAP]]
+- [[OLTP]]
+- [[ORM]]
+- [[Out-Box-Pattern]]
+- [[Outbox]]
+- [[PostgreSQL]]
+- [[Prisma]]
+- [[Database/Race-Condition|Race-Condition]]
+- [[Redis]]
+- [[Relational-Database]]
+- [[Row-Level-Locking]]
+- [[Saga-Pattern]]
+- [[Search-Database]]
+- [[Search-Index]]
 - [[SQL]]
-
-
-
-
-
-
-
-
+- [[SSD]]
+- [[TTL]]
+- [[Transaction-Isolation]]
+- [[TypeORM]]
+- [[VRAM]]
+- [[dto]]
 
 [[Back-End]]

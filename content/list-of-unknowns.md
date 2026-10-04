@@ -14,9 +14,11 @@ The frontend is the application the user interacts with.
 
 - CSS
 
-- JavaScript
+- [[JavaScript/JavaScript|JavaScript]]
 
-- TypeScript
+
+- [[JavaScript/TypeScript|TypeScript]]
+
 
 - DOM
 
@@ -26,15 +28,18 @@ The frontend is the application the user interacts with.
 
 - Event handler
 
-- Component
+- [[Frontend/Component|Component]]
+
 
 - State
 
 - Props
 
-- Routing
+- [[Frontend/Routing&Navigation|Routing]]
 
-- Form handling
+
+- [[Frontend/Forms&Validation|Form handling]]
+
 
 - Client-side validation
 
@@ -48,7 +53,8 @@ The frontend is the application the user interacts with.
 
 ### API communication
 
-- `fetch`
+- [[Frontend/fetch-library|`fetch`]]
+
 
 - Axios
 
@@ -68,13 +74,16 @@ The frontend is the application the user interacts with.
 
 ### Later
 
-- Vue
+- [[Frontend/Vue|Vue]]
 
-- React
 
-- Pinia / state management
+- [[JavaScript/React|React]]
 
-- WebSockets
+
+- [[Frontend/Pinia|Pinia]] / state management
+
+- [[Back-End/WebSocket|WebSockets]]
+
 
 - Service workers
 
@@ -94,9 +103,11 @@ This is the **communication protocol** between frontend and backend.
 
 ### Core
 
-- HTTP
+- [[Network/HTTP|HTTP]]
 
-- HTTPS
+
+- [[Back-End/HTTP-HTTPS-SSL|HTTPS]]
+
 
 - Request
 
@@ -205,7 +216,8 @@ Learn these first:
     
 - HTTP/3
     
-- TLS
+- [[Back-End/HTTP-HTTPS-SSL|TLS]]
+
     
 - Connection pooling
     
@@ -218,7 +230,8 @@ This is the **interface/contract** that the backend exposes.
 
 ### Core
 
-- API
+- [[Back-End/API|API]]
+
     
 - API endpoint
     
@@ -239,13 +252,16 @@ This is the **interface/contract** that the backend exposes.
 
 ### REST
 
-- REST
+- [[Back-End/REST-API|REST]]
+
     
-- RESTful API
+- [[Back-End/REST-API|RESTful API]]
+
     
 - Resource-oriented design
     
-- CRUD
+- [[Database/CRUD-Methods|CRUD]]
+
     
 - Statelessness
     
@@ -289,11 +305,13 @@ DELETE /users/42
     
 - Webhooks
     
-- API Gateway
+- [[Back-End/API-GW|API Gateway]]
+
     
 - API versioning
     
-- Rate limiting
+- [[Back-End/Rate-Limiting|Rate limiting]]
+
     
 - Pagination
     
@@ -327,6 +345,7 @@ This is where your application actually **processes requests and makes decisions
 - Route
     
 - Router
+
     
 - Controller
     
@@ -341,11 +360,13 @@ This is where your application actually **processes requests and makes decisions
 
 Since you're working with Express, learn:
 
-- Express
+- [[JavaScript/Express|Express]]
+
     
 - `app`
     
 - Router
+
     
 - Route handler
     
@@ -355,7 +376,8 @@ Since you're working with Express, learn:
     
 - `next`
     
-- Middleware
+- [[Back-End/Middleware|Middleware]]
+
     
 - Error middleware
     
@@ -390,7 +412,8 @@ Middleware is code that runs during the request pipeline.
 
 Learn:
 
-- Middleware
+- [[Back-End/Middleware|Middleware]]
+
     
 - Global middleware
     
@@ -498,7 +521,8 @@ Learn:
     
 - HTTP status handling
     
-- DTO
+- [[Database/dto|DTO]]
+
     
 - Serialization
     
@@ -537,7 +561,8 @@ Learn:
     
 - Business operation
     
-- Domain service
+- [[Back-End/Domain-Service|Domain service]]
+
     
 - Dependency
     
@@ -564,7 +589,8 @@ This is where persistent data lives.
 
 ### Core
 
-- Database
+- [[Database/Database|Database]]
+
     
 - Database server
     
@@ -585,6 +611,7 @@ This is where persistent data lives.
 - Constraint
     
 - Index
+
     
 - Query
     
@@ -613,7 +640,8 @@ OFFSET
 
 Since you're using PostgreSQL:
 
-- PostgreSQL
+- [[Database/PostgreSQL|PostgreSQL]]
+
     
 - Schema
     
@@ -623,11 +651,13 @@ Since you're using PostgreSQL:
     
 - UUID
     
-- Transaction
+- [[Database/Atomic-Transaction|Transaction]]
+
     
 - Connection pool
     
-- Migration
+- [[Python/Migration|Migration]]
+
     
 - PostgreSQL constraint
     
@@ -652,9 +682,11 @@ Learn:
     
 - Cascade
     
-- Normalization
+- [[Database/Normalization|Normalization]]
+
     
-- Denormalization
+- [[Database/Denormalization|Denormalization]]
+
     
 
 Example:
@@ -675,25 +707,30 @@ That's a one-to-many relationship.
 
 If you use Prisma:
 
-- ORM
+- [[Database/ORM|ORM]]
+
     
-- Prisma
+- [[Database/Prisma|Prisma]]
+
     
 - Prisma Client
     
 - Model
     
-- Migration
+- [[Python/Migration|Migration]]
+
     
 - Repository
     
 - Query
     
-- CRUD
+- [[Database/CRUD-Methods|CRUD]]
+
     
 - Relation
     
-- Transaction
+- [[Database/Atomic-Transaction|Transaction]]
+
     
 
 Understand the distinction:
@@ -733,6 +770,7 @@ Learn:
 - Password verification
     
 - Session
+
     
 - Token
     
@@ -740,7 +778,8 @@ Learn:
     
 - Refresh token
     
-- JWT
+- [[Back-End/JWT|JWT]]
+
     
 - JWT claims
     
@@ -779,6 +818,7 @@ Learn:
 - Permission
     
 - Role
+
     
 - RBAC
     
@@ -837,7 +877,8 @@ Tools/concepts:
 
 - express-validator
     
-- Zod
+- [[Back-End/Zod|Zod]]
+
     
 - Joi
     
@@ -922,27 +963,34 @@ This is where backend development starts becoming more interesting.
 
 Learn:
 
-- Transaction
+- [[Database/Atomic-Transaction|Transaction]]
+
     
-- ACID
+- [[Database/ACID|ACID]]
+
     
 - Atomicity
     
-- Consistency
+- [[Database/Consistency|Consistency]]
+
     
-- Isolation
+- [[Database/Isolation|Isolation]]
+
     
-- Durability
+- [[Database/Durability|Durability]]
+
     
 - COMMIT
     
 - ROLLBACK
     
-- Isolation level
+- [[Database/Isolation-Level|Isolation level]]
+
     
 - Lock
     
-- Race condition
+- [[Database/Race-Condition|Race condition]]
+
     
 - Deadlock
     
@@ -975,9 +1023,11 @@ Learn these gradually:
 
 ### Web security
 
-- HTTPS
+- [[Back-End/HTTP-HTTPS-SSL|HTTPS]]
+
     
-- TLS
+- [[Back-End/HTTP-HTTPS-SSL|TLS]]
+
     
 - CORS
     
@@ -1000,7 +1050,8 @@ Learn these gradually:
     
 - Authorization
     
-- Rate limiting
+- [[Back-End/Rate-Limiting|Rate limiting]]
+
     
 - Input validation
     
@@ -1036,7 +1087,8 @@ Learn these gradually:
 
 Learn:
 
-- Cache
+- [[Database/Cache|Cache]]
+
     
 - Cache hit
     
@@ -1044,9 +1096,11 @@ Learn:
     
 - Cache invalidation
     
-- TTL
+- [[Database/TTL|TTL]]
+
     
-- Redis
+- [[Database/Redis|Redis]]
+
     
 - In-memory cache
     
@@ -1109,7 +1163,8 @@ Learn:
     
 - Acknowledgement
     
-- Idempotency
+- [[Database/Idempotency|Idempotency]]
+
     
 
 Example:
@@ -1148,11 +1203,13 @@ Learn:
     
 - Graceful shutdown
     
-- Idempotency
+- [[Database/Idempotency|Idempotency]]
+
     
 - Fault tolerance
     
-- Availability
+- [[Back-End/Availability|Availability]]
+
     
 
 These concepts answer:
@@ -1167,7 +1224,8 @@ Learn:
 
 - Logging
     
-- Log level
+- [[Back-End/Log-Levels|Log level]]
+
     
 - DEBUG
     
@@ -1183,13 +1241,16 @@ Learn:
     
 - Correlation ID
     
-- Metrics
+- [[Back-End/Metrics|Metrics]]
+
     
-- Tracing
+- [[Back-End/Trace|Tracing]]
+
     
 - Monitoring
     
-- Observability
+- [[Back-End/Observability|Observability]]
+
     
 - Health check
     
@@ -1331,11 +1392,13 @@ Database
 
 ### Other architectures
 
-- Monolith
+- [[Back-End/Monolithic-Architecture|Monolith]]
+
     
 - Modular monolith
     
-- Microservices
+- [[Back-End/Microservice-Architecture|Microservices]]
+
     
 - Event-driven architecture
     
@@ -1343,7 +1406,8 @@ Database
     
 - Clean architecture
     
-- MVC
+- [[Back-End/MVC|MVC]]
+
     
 
 For your current projects, **layered architecture + modular monolith** is a very good place to focus before worrying about microservices.

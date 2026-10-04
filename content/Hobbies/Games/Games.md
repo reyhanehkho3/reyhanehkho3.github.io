@@ -6,3 +6,4 @@ date created: 2026-05-29
 - [[Nier-Automata]]
 - [[Hades I]]
 - [[Hades II]]
+- [[God-Of-War]]

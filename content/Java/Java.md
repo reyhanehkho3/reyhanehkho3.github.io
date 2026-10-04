@@ -24,6 +24,8 @@ Here are some of the key ideas I'm learning about:
 - [[Reflection]]
 - [[Regex]]
 - [[Java-Memory-Management]]
+- [[Libraries]]
+- [[Threads]]
 
 A lot of these are from a Quera Course for Advanced Java. Here is the link:
 https://quera.org/college/landpage/19983/advanced-java

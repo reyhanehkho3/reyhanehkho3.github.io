@@ -30,4 +30,4 @@ A simple way to see the difference is in how you add dependencies for a web appl
 In almost all cases today, Spring Boot is the default and recommended way to start any new Spring project because it is simply an easier and faster way to use the powerful Spring Framework.
 
 ---
-[[java]]
+[[Java]]

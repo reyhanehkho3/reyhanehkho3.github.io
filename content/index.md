@@ -28,6 +28,7 @@ _Some notes are still on progress and might be empty._
 - [[Hobbies]]: Contains [[Books]] and [[Games]].
 - [[Books]]: Talking about the books I read.
 - [[Quartz]]: How I sat up this website.
+- [[list-of-unknowns]]: My roadmap of concepts I'm learning next.
 
 
 These are the general topics. All the notes have a general topic that they refer to. By clicking on the topics you'll see the list of the things they contain.

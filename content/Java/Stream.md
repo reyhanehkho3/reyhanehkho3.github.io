@@ -18,4 +18,4 @@ max.ifPresent(System.out::println);
 
 
 ---
-[[java]]
+[[Java]]
