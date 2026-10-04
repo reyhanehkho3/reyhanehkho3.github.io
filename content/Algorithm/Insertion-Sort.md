@@ -34,7 +34,7 @@ public class InsertionSort {
 	}
 }
 ```
-
+---
 # [Source](https://www.geeksforgeeks.org/dsa/insertion-sort-algorithm/)
 [[Algorithm]]
 [[Data-Structure]]

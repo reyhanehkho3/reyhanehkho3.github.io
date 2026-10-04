@@ -2,6 +2,8 @@
 title: HTTP
 publish: true
 date created: 2026-08-03
+tags:
+  - network
 ---
 ### HTTP Methods (The Basics)
 
@@ -14,3 +16,7 @@ HTTP (Hypertext Transfer Protocol) has several "verbs" that tell the server what
 | **PUT**    | Update/replace | "Replace this with new data"          |
 | **DELETE** | Remove         | "Delete this"                         |
 | **PATCH**  | Partial update | "Update just this part"               |
+
+
+---
+[[Network]]

@@ -63,3 +63,8 @@ date created: 2026-06-19
 
 ## Comparing the Dynamic Programming Algorithm and the Backtracking Algorithm for the 0-1 Knapsack Problem
 ![[backtracking-pic11.png]]
+
+
+
+---
+[[Algorithm/Neapolitan/List|List]]

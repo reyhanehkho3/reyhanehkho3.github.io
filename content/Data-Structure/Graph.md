@@ -2,6 +2,9 @@
 title: Graph
 publish: true
 date created: 2026-06-18
+tags:
+  - Neapolitan
+  - data-structure
 ---
 Based on #Neapolitan.
 ## Undirected
@@ -14,3 +17,9 @@ Based on #Neapolitan.
 - An undirected graph with no simple cycles is called acyclic.
 - A rooted tree is defined as a tree with one vertex designated as the root.
 ![[undirected-graph.png]]
+
+
+
+---
+[[Data-Structure]]
+[[Algorithm/Neapolitan/List|List]]

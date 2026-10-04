@@ -18,6 +18,8 @@ BFS (Breadth-first search) is a network search method that investigates all surr
 
 ![](/images/DFS&BFS.png)
 
+---
+
 [[Data-Structure]]
 [[Algorithm]]
 # [Source](https://unacademy.com/content/gate-cse-it/difference-between-bfs-and-dfs/#:~:text=BFS%20(Breadth%2Dfirst%20search),a%20node%20with%20no%20children.)

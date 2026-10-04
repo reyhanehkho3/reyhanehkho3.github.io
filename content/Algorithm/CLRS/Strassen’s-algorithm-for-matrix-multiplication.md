@@ -4,3 +4,6 @@ publish: true
 date created: 2026-07-05
 ---
 It's the same as Neapolitan.
+
+---
+[[Algorithm/CLRS/List|List]]

@@ -80,3 +80,8 @@ and in general for $i \ne 1$ abd $v_i$ not in A,
 - Do example 3.11 page 154, for better understanding. 
 ![[TSP-pic6.png]]
 ![[TSPpic7.png]]
+
+
+
+---
+[[Algorithm/Neapolitan/List|List]]

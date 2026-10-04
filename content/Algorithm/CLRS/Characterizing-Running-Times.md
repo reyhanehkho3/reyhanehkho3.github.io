@@ -22,3 +22,8 @@ The definitions are the same as in Neapolitan.
 
 ### Standard notations and common functions
 some math shit. 
+
+
+
+---
+[[Algorithm/CLRS/List|List]]

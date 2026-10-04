@@ -6,6 +6,7 @@ tags:
   - Backend
   - log
   - codeless
+  - Nitros
 ---
 ### Log rotation
 

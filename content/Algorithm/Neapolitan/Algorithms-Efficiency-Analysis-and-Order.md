@@ -120,3 +120,7 @@ $$g(n) \geq e \times f(n)$$
 - Any logarithmic function is eventually better than any polynomial, any polynomial is eventually better than any exponential function, and any exponential function is eventually better than the factorial function.
 ## Using a Limit to Determine Order
 ![[order-pic6.png]]
+
+
+---
+[[Algorithm/Neapolitan/List|List]]

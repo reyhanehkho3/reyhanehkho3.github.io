@@ -14,3 +14,5 @@ List of the things to be read:
 - 15.2 Elements of the greedy strategy
 - 15.3 Huffman codes
 - 4.5 Master Theorem
+---
+[[Algorithm]]

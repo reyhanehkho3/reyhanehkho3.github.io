@@ -36,6 +36,7 @@ public class SelectionSort{
 	}
 }
 ```
+---
 
 [[Data-Structure]]
 [[Algorithm]]

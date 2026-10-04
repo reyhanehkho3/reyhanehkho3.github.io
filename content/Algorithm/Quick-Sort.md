@@ -43,6 +43,7 @@ public class QuickSort {
 	}
 }
 ```
+---
 
 [[Data-Structure]]
 [[Algorithm]]

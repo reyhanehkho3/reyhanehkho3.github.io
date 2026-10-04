@@ -116,3 +116,6 @@ Similar to the algorithm in 0-1.
 	 We do not need to create the entire array to implement the algorithm. Instead, we can store just the entries that are needed. The entire array exists only implicitly.
 	 
 - As is the case for the Traveling Salesperson problem, no one has ever found an algorithm for the 0-1 Knapsack problem whose worst-case time complexity is better than exponential, yet no one has proven that such an algorithm is not possible.
+
+---
+[[Algorithm/Neapolitan/List|List]]

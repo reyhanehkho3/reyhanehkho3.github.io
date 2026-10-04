@@ -38,3 +38,6 @@ If possible, we should avoid divide-and-conquer in the following two cases:
 - Neither of these is acceptable for large values of n.
 
 - Sometimes, on the other hand, a problem requires exponentiality, and in such a case there is no reason to avoid the simple divide-and-conquer solution.
+
+---
+[[Algorithm/Neapolitan/List|List]]

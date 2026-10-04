@@ -59,3 +59,7 @@ This distinction is **very important**:
 > **Database transaction = how database operations are grouped to safely make changes.**
 
 For example, **“Buy a laptop”** is a business transaction, while the database might use several transactions/operations to update the order, inventory, payment record, etc. A business transaction can therefore be **larger than a single database transaction**, especially when multiple services or systems are involved. ([ScienceDirect](https://www.sciencedirect.com/topics/computer-science/business-transaction?utm_source=chatgpt.com "Business Transaction - an overview | ScienceDirect Topics"))
+
+---
+[[Database]]
+[[My-Journey-In-Codeless]]

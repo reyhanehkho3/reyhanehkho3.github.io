@@ -61,3 +61,6 @@ So for Knapsack problem we had several solutions:
 # The Traveling Salesperson Problem
 - An obvious state space tree for this problem is one in which each vertex other than the starting one is tried as the first vertex (after the starting one) at level 1, each vertex other than the starting one and the one chosen at level 1 is tried as the second vertex at level 2, and so on.
 - I watched Abdul Bari for this.
+
+---
+[[Algorithm/Neapolitan/List|List]]

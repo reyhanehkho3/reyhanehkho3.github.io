@@ -37,3 +37,8 @@ When specialties, permissions, or contexts are genuinely separate and decomposit
 
 **10. Where do you put Human-in-the-loop?**
 Before high-risk actions, when confidence is low, when evidence conflicts, when budget is exceeded, or upon user escalation. The approval must clearly show the action and its effect.
+
+
+---
+[[AI]]
+[[Agent]]

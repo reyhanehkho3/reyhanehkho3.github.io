@@ -44,3 +44,7 @@ List of the things to be read:
 		- Breadth-First Search with Branch-and-Bound Pruning
 		- Best-First Search with Branch-and-Bound Pruning
 - 6.2 The Traveling Salesperson Problem
+
+
+---
+[[Algorithm]]

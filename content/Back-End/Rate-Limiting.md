@@ -87,3 +87,8 @@ You'll often hear these terms together. **Rate limiting** defines how much traff
 
 > **Rate limiting = “You can do this X times within Y time.”**  
 > Example: **100 API requests per minute per user.**
+
+
+---
+[[Back-End]]
+[[My-Journey-In-Codeless]]

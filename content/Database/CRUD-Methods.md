@@ -2,6 +2,8 @@
 title: CRUD methods
 publish: true
 date created: 2026-07-29
+tags:
+  - database
 ---
 While I was doing a project I encountered this concept. CRUD methods are 4 basic functions used to manage data. These actions map directly to database commands and web protocols.
 
@@ -11,4 +13,9 @@ While I was doing a project I encountered this concept. CRUD methods are 4 basic
 
 - **Update**: Edits or changes data that is already saved. In SQL, this uses the `UPDATE` command, and in web APIs, it uses `PUT` or `PATCH`.
 
-- **Delete**: Removes unwanted data from the system. In SQL, this uses the `DELETE` command, and in web APIs, it uses the `DELETE` metho
+- **Delete**: Removes unwanted data from the system. In SQL, this uses the `DELETE` command, and in web APIs, it uses the `DELETE` method.
+
+
+
+---
+[[Database]]

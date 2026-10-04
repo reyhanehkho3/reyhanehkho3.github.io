@@ -8,3 +8,6 @@ date created: 2026-07-05
 ![[mastert-pic2.png]]
 ![[mastert-pic4.png]]
 ![[mastert-pic5.png]]
+
+---
+[[Algorithm/CLRS/List|List]]

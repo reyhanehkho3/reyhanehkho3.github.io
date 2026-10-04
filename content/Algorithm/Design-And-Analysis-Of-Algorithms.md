@@ -171,3 +171,7 @@ If we want to check all the states, it's gonna be $O(2^n)$.
 
 
 
+
+
+---
+[[Algorithm]]
