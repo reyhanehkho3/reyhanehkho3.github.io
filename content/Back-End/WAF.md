@@ -3,9 +3,12 @@ title: WAF
 publish:
 date created: 2026-08-23
 tags:
-  - Backend
+  - backend
+
   - security
+
   - codeless
+
 ---
 A Web Application Firewall (WAF) is a specialized security tool that acts as a shield for your web applications and APIs . It works by sitting between the internet and your web server, inspecting all incoming HTTP/HTTPS traffic to filter out and block malicious requests before they can reach your application and cause harm .
 

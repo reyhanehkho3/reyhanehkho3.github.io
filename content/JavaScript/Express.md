@@ -3,7 +3,8 @@ title: Express
 publish: true
 date created: 2026-09-11
 tags:
-  - javaScript
+  - javascript
+
 ---
 **Express is a backend web framework for Node.js.**
 

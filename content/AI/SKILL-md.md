@@ -3,9 +3,12 @@ title: SKILL.md
 publish:
 date created: 2026-09-11
 tags:
-  - AI
-  - Agent
+  - ai
+
+  - agent
+
   - codeless
+
 ---
 `SKILL.md` is usually a **documentation/instruction file for an AI agent or coding tool**.
 

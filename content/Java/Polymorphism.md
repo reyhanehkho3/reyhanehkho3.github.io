@@ -4,7 +4,9 @@ publish: true
 date created: 2026-05-28
 tags:
   - java
-  - OOP
+
+  - oop
+
 ---
 - Polymorphism doesn't exists on the attributes of an object in a class in the runtime.
 ```java

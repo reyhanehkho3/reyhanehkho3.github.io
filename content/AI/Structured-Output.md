@@ -3,9 +3,12 @@ title: Structured Output
 publish: true
 date created: 2026-08-25
 tags:
-  - AI
-  - Agent
+  - ai
+
+  - agent
+
   - codeless
+
 ---
 **Definition:** Requiring the model to produce output in a specific structure that can be processed by software.
 

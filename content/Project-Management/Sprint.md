@@ -4,8 +4,11 @@ publish: true
 date created: 2026-08-23
 tags:
   - project-management
+
   - team-work
-  - AI
+
+  - ai
+
 ---
 A **sprint** is a fixed, time-boxed period (usually **1 to 4 weeks**) during which a development team completes a specific set of work and prepares it for release.
 

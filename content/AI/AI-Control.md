@@ -3,7 +3,8 @@ title: Risk, AI Error Control, and Testing
 publish: true
 date created: 2026-08-12
 tags:
-  - AI
+  - ai
+
 ---
 **Before making a change, check the blast radius:**
 - Which callers depend on this API?

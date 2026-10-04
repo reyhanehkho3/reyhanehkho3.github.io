@@ -3,9 +3,12 @@ title: Orchestrator
 publish: true
 date created: 2026-08-12
 tags:
-  - AI
-  - Agent
+  - ai
+
+  - agent
+
   - codeless
+
 ---
 **Definition:** A component that coordinates tasks, Agents, or different stages of a workflow.
 

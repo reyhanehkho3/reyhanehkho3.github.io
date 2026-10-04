@@ -4,7 +4,9 @@ publish: true
 date created: 2026-09-05
 tags:
   - codeless
-  - Backend
+
+  - backend
+
 ---
 ### Sync vs Async Communication
 

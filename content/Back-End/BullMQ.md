@@ -4,7 +4,9 @@ publish: true
 date created: 2026-09-18
 tags:
   - codeless
-  - Backend
+
+  - backend
+
   - Nitros
 ---
 **BullMQ** is a **job queue system for Node.js**. It is commonly used when you want to run tasks **asynchronously and in the background** instead of making the user wait.

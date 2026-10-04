@@ -3,9 +3,12 @@ title: Short-term Memory
 publish: true
 date created: 2026-08-25
 tags:
-  - AI
-  - Agent
+  - ai
+
+  - agent
+
   - codeless
+
 ---
 **Definition:** Information that the Agent maintains during the current Session, usually within the Context of the ongoing execution.
 

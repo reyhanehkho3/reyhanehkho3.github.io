@@ -3,9 +3,12 @@ title: Spec-driven Development
 publish: true
 date created: 2026-08-25
 tags:
-  - AI
-  - Agent
+  - ai
+
+  - agent
+
   - codeless
+
 ---
 **Definition:** A development approach in which the system's behavior and requirements are precisely defined in a Specification before implementation.
 

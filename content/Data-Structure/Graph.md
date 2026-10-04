@@ -3,8 +3,10 @@ title: Graph
 publish: true
 date created: 2026-06-18
 tags:
-  - Neapolitan
+  - neapolitan
+
   - data-structure
+
 ---
 Based on #Neapolitan.
 ## Undirected

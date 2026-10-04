@@ -3,9 +3,12 @@ title: Skill
 publish: true
 date created: 2026-08-25
 tags:
-  - AI
+  - ai
+
   - codeless
-  - Agent
+
+  - agent
+
 ---
 **Definition:** A reusable package of knowledge, instructions, and procedures for performing a specific task.
 

@@ -3,8 +3,10 @@ title: Red/Green Refactor
 publish:
 date created: 2026-09-11
 tags:
-  - Backend
+  - backend
+
   - test
+
 ---
 
 The **Red → Green → Refactor** cycle is the core cycle of **TDD (Test-Driven Development)**.

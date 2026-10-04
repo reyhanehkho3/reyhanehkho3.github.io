@@ -3,9 +3,12 @@ title: Context Engineering
 publish:
 date created: 2026-08-25
 tags:
-  - AI
-  - Agent
+  - ai
+
+  - agent
+
   - codeless
+
 ---
 **Definition:** The design and management of the information that is placed into the model's Context at each stage to improve Agent performance.
 

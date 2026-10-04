@@ -3,9 +3,12 @@ title: Partition Tolerance
 publish: true
 date created: 2026-08-29
 tags:
-  - Backend
+  - backend
+
   - codeless
-  - CAP
+
+  - cap
+
 ---
 ## Partition Tolerance — CAP
 **Definition:** Partition tolerance means a distributed system continues operating despite a network failure that separates nodes into groups that cannot communicate.  

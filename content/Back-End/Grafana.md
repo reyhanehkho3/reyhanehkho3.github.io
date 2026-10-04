@@ -3,8 +3,10 @@ title: Grafana
 publish: true
 date created: 2026-09-11
 tags:
-  - Backend
+  - backend
+
   - codeless
+
 ---
 **Grafana** is a tool for **visualizing and monitoring your application's data**.
 

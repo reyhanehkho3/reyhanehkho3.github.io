@@ -3,9 +3,12 @@ title: Guardrail
 publish: true
 date created: 2026-08-25
 tags:
-  - AI
-  - Agent
+  - ai
+
+  - agent
+
   - codeless
+
 ---
 **Definition:** A mechanism that limits and controls an Agent's inputs, outputs, or actions to prevent unsafe or undesirable behavior.
 

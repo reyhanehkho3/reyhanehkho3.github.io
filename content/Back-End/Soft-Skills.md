@@ -1,7 +1,7 @@
 ---
 title: soft skills
 publish: true
-date created: 2026-17-05
+date created: 2026-05-17
 ---
 
 These soft skills that are going to be discussed below are for backend developers, but they can be applied generally for any role as in Back-End related jobs.

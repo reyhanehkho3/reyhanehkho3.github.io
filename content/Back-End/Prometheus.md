@@ -3,8 +3,10 @@ title: Prometheus
 publish: true
 date created: 2026-09-11
 tags:
-  - Backend
+  - backend
+
   - codeless
+
 ---
 **Prometheus** is a system for **collecting and storing metrics** from your applications and infrastructure.
 

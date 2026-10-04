@@ -3,9 +3,12 @@ title: Cache
 publish:
 date created: 2026-08-23
 tags:
-  - DB
+  - database
+
   - software-development
+
   - codeless
+
 ---
 ## Cache Vs. DB
 This is one of the most fundamental trade-offs in software engineering. 

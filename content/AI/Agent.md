@@ -3,8 +3,10 @@ title: Agent
 publish: true
 date created: 2026-08-11
 tags:
-  - AI
+  - ai
+
   - codeless
+
 ---
 ## Agent — AI Agent
 

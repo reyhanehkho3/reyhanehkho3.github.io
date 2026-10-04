@@ -3,9 +3,12 @@ title: OTP
 publish: true
 date created: 2026-08-23
 tags:
-  - Backend
+  - backend
+
   - security
+
   - codeless
+
 ---
 To understand a **One-Time Password (OTP)**, imagine a traditional key that works only once and then self-destructs. It is an automatically generated string of numbers, letters, or both that authenticates a user for a **single login session or transaction**. 
 

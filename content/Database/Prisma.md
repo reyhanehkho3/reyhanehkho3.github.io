@@ -4,8 +4,11 @@ publish: true
 date created: 2026-09-11
 tags:
   - database
-  - ORM
+
+  - orm
+
   - codeless
+
 ---
 **Prisma** is a **database toolkit for Node.js/TypeScript**. It is most commonly used as an **ORM**.
 

@@ -3,9 +3,12 @@ title: Rule
 publish: true
 date created: 2026-08-25
 tags:
-  - AI
+  - ai
+
   - codeless
-  - Agent
+
+  - agent
+
 ---
 **Definition:** A specific instruction that an Agent must always follow or follow under certain conditions.
 

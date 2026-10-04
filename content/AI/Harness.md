@@ -3,9 +3,12 @@ title: Harness
 publish: true
 date created: 2026-08-25
 tags:
-  - AI
+  - ai
+
   - codeless
-  - Agent
+
+  - agent
+
 ---
 **Definition:** The execution layer surrounding the model that manages Agent execution, tools, memory, restrictions, and the decision-making loop.
 

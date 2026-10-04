@@ -13,3 +13,5 @@ tags:
 
 #### Feature Vs. Task:
 Feature is the value the user recieves, and task is building that value. A feature can be broken into several tasks in test, database, backend, frontend and documentation.
+---
+[[Software-Development]]

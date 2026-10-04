@@ -5,7 +5,6 @@ date created: 2026-09-10
 tags:
   - frontend
   - basic
-  - database
   - codeless
 ---
 **shadcn/ui** is a collection of **reusable UI components** for frontend applications.

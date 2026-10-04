@@ -4,8 +4,11 @@ publish: true
 date created: 2026-08-26
 tags:
   - software-development
+
   - codeless
-  - AI
+
+  - ai
+
 ---
 In software development, **SDLC** (Software Development Life Cycle) is the traditional, well-established framework for building software, while **AIDLC** (AI-Driven Development Life Cycle) is an emerging paradigm that reimagines this process with AI as a core participant, rather than just a helper.
 

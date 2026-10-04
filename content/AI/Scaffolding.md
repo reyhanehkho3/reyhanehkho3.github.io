@@ -2,9 +2,12 @@
 title: Scaffolding
 date created: 2026-08-25
 tags:
-  - AI
-  - Agent
+  - ai
+
+  - agent
+
   - codeless
+
 publish: true
 ---
 **Definition:** The collection of instructions, tools, Context, formats, and infrastructure that a model relies on to perform a task.

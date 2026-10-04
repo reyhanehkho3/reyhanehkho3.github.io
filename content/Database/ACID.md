@@ -2,6 +2,11 @@
 title: ACID
 publish: true
 date created: 2026-05-17
+tags:
+  - database
+
+  - acid
+
 ---
 ACID is an acronym that guarantees database transactions are processed reliably.
 ### A - Atomicity

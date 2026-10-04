@@ -3,8 +3,10 @@ title: Observability
 publish:
 date created: 2026-08-28
 tags:
-  - Backend
+  - backend
+
   - codeless
+
 ---
 **Definition:** Observability is the ability to understand **what is happening inside a system by examining the information it produces**.  
 The main signals are **logs, metrics, and traces**, which help developers investigate both known and unexpected problems.

@@ -4,7 +4,9 @@ publish: true
 date created: 2026-05-24
 tags:
   - java
-  - OOP
+
+  - oop
+
 ---
 In java we have 4 modifiers to manage access.
 ## public

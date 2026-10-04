@@ -3,9 +3,12 @@ title: MVC
 publish:
 date created: 2026-09-11
 tags:
-  - Backend
-  - Architecture
+  - backend
+
+  - architecture
+
   - codeless
+
 ---
 **MVC** stands for **Model–View–Controller**. It is a way to organize an application by separating responsibilities into three parts.
 

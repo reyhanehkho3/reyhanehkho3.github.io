@@ -3,7 +3,8 @@ title: Definitons
 publish: true
 date created: 2026-08-12
 tags:
-  - AI
+  - ai
+
 ---
 - A **Prompt** is the commands and informations we give the model.
 - **context** is all the information that the model can see at the moment. (command, file, history, constraints and the result of the tools)

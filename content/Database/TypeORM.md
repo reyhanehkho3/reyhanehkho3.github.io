@@ -100,5 +100,5 @@ It's especially common in **Node.js + TypeScript** applications and is often use
 
 
 ---
-[[Frontend]]
+[[Database]]
 [[My-Journey-In-Codeless]]

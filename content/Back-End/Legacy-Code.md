@@ -3,8 +3,10 @@ title: Legacy Code
 publish: true
 date created: 2026-08-28
 tags:
-  - Backend
+  - backend
+
   - codeless
+
 ---
 **Definition:** Legacy code is existing software that is still used but relies on **older technologies, designs, or practices** and may be difficult to maintain.  
 It does not necessarily mean “bad code”—it simply means the code has become outdated relative to the current environment.

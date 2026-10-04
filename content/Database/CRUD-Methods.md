@@ -5,7 +5,7 @@ date created: 2026-07-29
 tags:
   - database
 ---
-While I was doing a project I encountered this concept. CRUD methods are 4 basic functions used to manage data. These actions map directly to database commands and web protocols.
+ While I was doing a project I encountered this concept. CRUD methods are 4 basic functions used to manage data. These actions map directly to database commands and web protocols.
 
 - **Create**: Adds new data entries to a system. In SQL, this uses the `INSERT` command, and in web APIs, it uses the `POST` method.
 

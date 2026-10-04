@@ -3,9 +3,12 @@ title: Goal
 publish: true
 date created: 2026-08-25
 tags:
-  - AI
-  - Agent
+  - ai
+
+  - agent
+
   - codeless
+
 ---
 **Definition:** The result that the Agent should work and make decisions toward achieving.
 

@@ -7,3 +7,6 @@ Here are some latex syntax used in .md files:
 - `$...$`: for math equations.
 - `$$...$$`: math block but it'd be in the center.
 -  code blocks using three back-quotes.
+
+---
+[[Latex]]

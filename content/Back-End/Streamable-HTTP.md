@@ -3,8 +3,10 @@ title: Streamable HTTP
 publish:
 date created: 2026-09-11
 tags:
-  - Backend
+  - backend
+
   - codeless
+
 ---
 **Streamable HTTP** is a way for a client and server to communicate over **HTTP while allowing the server to send data progressively as it becomes available**.
 

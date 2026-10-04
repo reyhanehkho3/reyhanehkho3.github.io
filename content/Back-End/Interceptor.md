@@ -4,7 +4,9 @@ publish:
 date created: 2026-08-27
 tags:
   - codeless
-  - Backend
+
+  - backend
+
 ---
 **Definition:** An interceptor is code that **automatically runs before, after, or around another operation** without changing the operation itself.  
 It is commonly used for things such as authentication, logging, validation, and error handling.

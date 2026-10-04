@@ -2,6 +2,8 @@
 title: SQL
 publish: true
 date created: 2026-05-19
+tags:
+  - database
 ---
 ### **DDL (Data Definition Language)** - Define database structure
 

@@ -3,9 +3,12 @@ title: Prompt Injection
 publish: true
 date created: 2026-08-25
 tags:
-  - AI
-  - Agent
+  - ai
+
+  - agent
+
   - codeless
+
 ---
 **Definition:** An attack or technique in which malicious text attempts to divert or replace an Agent's instructions.
 

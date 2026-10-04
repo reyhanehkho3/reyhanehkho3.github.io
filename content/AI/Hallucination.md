@@ -3,8 +3,10 @@ title: Hallucination
 publish: true
 date created: 2026-08-25
 tags:
-  - AI
+  - ai
+
   - codeless
+
 ---
 **Definition:** A situation where the model generates incorrect, fabricated, or unsupported information with confidence.
 

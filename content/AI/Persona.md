@@ -3,9 +3,12 @@ title: Personal
 publish: true
 date created: 2026-08-25
 tags:
-  - AI
-  - Agent
+  - ai
+
+  - agent
+
   - codeless
+
 ---
 **Definition:** A collection of behavioral characteristics, communication style, and personality traits defined for an Agent.
 

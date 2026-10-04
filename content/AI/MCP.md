@@ -3,9 +3,12 @@ title: MCP
 publish: true
 date created: 2026-08-25
 tags:
-  - AI
-  - Agent
+  - ai
+
+  - agent
+
   - codeless
+
 ---
 # MCP — Model Context Protocol
 

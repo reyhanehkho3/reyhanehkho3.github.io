@@ -3,9 +3,12 @@ title: Router
 publish: true
 date created: 2026-08-25
 tags:
-  - AI
-  - Agent
+  - ai
+
+  - agent
+
   - codeless
+
 ---
 **Definition:** A system that decides, based on the characteristics of a task, which Model, Agent, Tool, or processing path should handle the request.
 

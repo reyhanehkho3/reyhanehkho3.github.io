@@ -3,9 +3,12 @@ title: Open Search
 publish: true
 date created: 2026-09-11
 tags:
-  - Backend
+  - backend
+
   - log
+
   - codeless
+
 ---
 **OpenSearch** is a system for **storing, searching, and analyzing large amounts of data**, especially logs.
 

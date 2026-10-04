@@ -3,8 +3,10 @@ title: WebSocket
 publish:
 date created: 2026-08-29
 tags:
-  - Backend
+  - backend
+
   - codeless
+
 ---
 **Definition:** WebSocket is a communication protocol that creates a persistent, two-way connection between a client and server.  
 **Unlike normal HTTP request/response communication, either side can send messages whenever needed after the connection is established.**

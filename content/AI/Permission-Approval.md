@@ -3,9 +3,12 @@ title: Permission / Approval
 publish: true
 date created: 2026-08-25
 tags:
-  - AI
-  - Agent
+  - ai
+
+  - agent
+
   - codeless
+
 ---
 **Definition:** Permission specifies which operations an Agent is allowed to perform, while Approval means that certain operations require human permission before execution.
 

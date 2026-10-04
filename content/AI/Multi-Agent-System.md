@@ -3,9 +3,12 @@ title: Multi-Agent System
 publish: true
 date created: 2026-08-25
 tags:
-  - AI
-  - Agent
+  - ai
+
+  - agent
+
   - codeless
+
 ---
 **Definition:** A system in which multiple independent or semi-independent Agents collaborate to achieve a goal.
 

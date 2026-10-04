@@ -4,7 +4,9 @@ publish:
 date created: 2026-09-11
 tags:
   - codeless
-  - Backend
+
+  - backend
+
 ---
 If you mean **HTTP SSE**, it stands for **HTTP Server-Sent Events (SSE)**.
 

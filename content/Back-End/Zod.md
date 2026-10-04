@@ -3,9 +3,12 @@ title: Zod
 publish: true
 date created: 2026-09-11
 tags:
-  - Backend
+  - backend
+
   - codeless
+
   - frontend
+
 ---
 **Zod** is a **TypeScript/JavaScript library for validating data**.
 

@@ -3,9 +3,12 @@ title: Log Levels
 publish:
 date created: 2026-09-11
 tags:
-  - Backend
+  - backend
+
   - log
+
   - codeless
+
 ---
 **Log levels** tell you how important or severe a log message is.
 

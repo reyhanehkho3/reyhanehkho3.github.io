@@ -3,9 +3,12 @@ title: Human In The Loop
 publish: true
 date created: 2026-08-25
 tags:
-  - AI
-  - Agent
+  - ai
+
+  - agent
+
   - codeless
+
 ---
 **Definition:** An architecture where, at important points, the Agent pauses and asks a human for confirmation or input.
 

@@ -3,9 +3,12 @@ title: Modular Architecture
 publish: true
 date created: 2026-09-11
 tags:
-  - Backend
-  - Architecture
+  - backend
+
+  - architecture
+
   - codeless
+
 ---
 **Modular architecture** means designing an application as a collection of **separate modules**, where each module is responsible for one specific area of functionality.
 

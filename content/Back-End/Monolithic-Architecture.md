@@ -3,9 +3,12 @@ title: Monolithic Architecture
 publish:
 date created: 2026-08-29
 tags:
-  - Architecture
-  - Backend
+  - architecture
+
+  - backend
+
   - codeless
+
 ---
 **Definition:** The application is built as one deployable unit containing most or all of its business logic.  
 **Its modules may be separated in code, but they normally run and are deployed together.**

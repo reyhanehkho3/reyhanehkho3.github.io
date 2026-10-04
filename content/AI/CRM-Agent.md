@@ -3,9 +3,12 @@ title: CRM Agent
 publish: true
 date created: 2026-09-11
 tags:
-  - AI
-  - Agent
+  - ai
+
+  - agent
+
   - codeless
+
 ---
 A **CRM agent** usually means an **AI agent that works with a CRM (Customer Relationship Management) system**.
 

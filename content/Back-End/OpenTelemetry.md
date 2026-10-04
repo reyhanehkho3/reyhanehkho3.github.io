@@ -3,7 +3,8 @@ title: OpenTelemetry
 publish: true
 date created: 2026-09-11
 tags:
-  - Backend
+  - backend
+
 ---
 **OpenTelemetry (OTel)** is a standard/toolset for **observability**. It helps your application collect **traces, metrics, and logs** and send them to monitoring systems.
 

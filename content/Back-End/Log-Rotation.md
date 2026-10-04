@@ -3,9 +3,12 @@ title: Log Rotation
 publish: true
 date created: 2026-09-11
 tags:
-  - Backend
+  - backend
+
   - log
+
   - codeless
+
   - Nitros
 ---
 ### Log rotation

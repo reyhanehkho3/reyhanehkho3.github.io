@@ -3,9 +3,12 @@ title: Prompt
 publish: true
 date created: 2026-08-12
 tags:
-  - AI
-  - Agent
+  - ai
+
+  - agent
+
   - codeless
+
 ---
 **Definition:** An instruction or information given to a model that specifies what it should do or how it should respond.
 

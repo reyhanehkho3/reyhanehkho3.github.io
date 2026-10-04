@@ -3,9 +3,12 @@ title: Faunction Calling
 publish:
 date created: 2026-08-25
 tags:
-  - AI
-  - Agent
+  - ai
+
+  - agent
+
   - codeless
+
 ---
 **Definition:** A method in which, instead of generating a textual response, the model produces the name of a Function and the arguments required to execute it.
 

@@ -3,8 +3,10 @@ title: Middleware
 publish: true
 date created: 2026-09-17
 tags:
-  - Backend
+  - backend
+
   - codeless
+
   - Nitros
 ---
 A **middleware** is a piece of code that runs **between an incoming request and the final request handler**.

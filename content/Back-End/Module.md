@@ -3,8 +3,10 @@ title: Module
 publish: true
 date created: 2026-09-11
 tags:
-  - Backend
+  - backend
+
   - codeless
+
 ---
 A **module** is a **self-contained part of a program that handles one specific responsibility**.
 

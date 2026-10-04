@@ -4,8 +4,11 @@ publish:
 date created: 2026-08-23
 tags:
   - software-development
-  - Backend
+
+  - backend
+
   - codeless
+
 ---
 To understand a **CDN** (Content Delivery Network) in software development, it helps to think of it as **the global "skip-the-line" pass for the internet.**
 

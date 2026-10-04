@@ -69,3 +69,6 @@ http://localhost:8080
 ```
 
 Since Quartz is to upload .md files (or at least that's what I think) I use obsidian to write new posts. Going to the content folder, I saw that there is an index file, and following its structure, I wrote other posts and going to `quartz.config.ts` allowed me to change the title. 
+
+---
+[[Quartz]]

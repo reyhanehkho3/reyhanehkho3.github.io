@@ -1,11 +1,14 @@
 ---
 title: REST API
 publish: true
-date created: 2026-17-05
+date created: 2026-05-17
 tags:
   - codeless
-  - Backend
+
+  - backend
+
   - websocket
+
 ---
 - REpresentational State Transfer
 -  An **architectural style** for designing networked applications. A **REST API** (or RESTful API) is an [[API]] that conforms to the constraints of the REST architecture.

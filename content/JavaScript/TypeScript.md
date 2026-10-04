@@ -3,8 +3,10 @@ title: TypeScript
 publish: true
 date created: 2026-09-17
 tags:
-  - javaScript
+  - javascript
+
   - codeless
+
   - Nitros
 ---
 **TypeScript (TS)** is a programming language developed by Microsoft. It is essentially **JavaScript with additional features, especially static typing**.

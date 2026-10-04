@@ -3,8 +3,10 @@ title: Race Condition
 publish:
 date created: 2026-08-29
 tags:
-  - Backend
+  - backend
+
   - codeless
+
 ---
 **Definition:** A race condition happens when multiple operations access/change shared data concurrently and the final result depends on the order in which they execute.  
 **The dangerous part is that each operation can look correct individually, while their combination produces an incorrect result.**

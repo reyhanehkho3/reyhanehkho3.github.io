@@ -3,8 +3,10 @@ title: Decorator
 publish: true
 date created: 2026-09-19
 tags:
-  - javaScript
+  - javascript
+
   - codeless
+
   - Nitros
 ---
 A **decorator** in TypeScript is a special piece of syntax that lets you **attach information or behavior to a class, method, property, or parameter**.

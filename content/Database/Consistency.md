@@ -4,8 +4,11 @@ publish:
 date created: 2026-08-29
 tags:
   - database
+
   - codeless
-  - ACID
+
+  - acid
+
 ---
 # Consistency — ACID
 

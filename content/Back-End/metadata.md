@@ -3,8 +3,10 @@ title: metadata
 publish: true
 date created: 2026-09-11
 tags:
-  - Backend
+  - backend
+
   - codeless
+
 ---
 **Metadata** means **data about other data**.
 

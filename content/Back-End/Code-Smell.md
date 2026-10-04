@@ -3,8 +3,10 @@ title: Code Smell
 publish: true
 date created: 2026-09-11
 tags:
-  - Backend
+  - backend
+
   - codeless
+
 ---
 A **code smell** is a sign in code that **something might be poorly designed or difficult to maintain**.
 

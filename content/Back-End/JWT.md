@@ -3,8 +3,10 @@ title: JWT
 publish: true
 date created: 2026-08-29
 tags:
-  - Backend
+  - backend
+
   - codeless
+
 ---
 **Definition:** **JWT = JSON Web Token**, a compact token containing claims that can be digitally signed so a server can verify who/what the token represents.  
 **It is commonly used for authentication and authorization between clients and APIs.**

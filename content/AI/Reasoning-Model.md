@@ -3,9 +3,12 @@ title: Reasoning Model
 publish:
 date created: 2026-08-25
 tags:
-  - AI
-  - Agent
+  - ai
+
+  - agent
+
   - codeless
+
 ---
 **Definition:** A model designed or optimized for solving complex, multi-step problems that require reasoning.
 

@@ -3,8 +3,10 @@ title: Rate Limiting
 publish: true
 date created: 2026-09-05
 tags:
-  - Backend
+  - backend
+
   - codeless
+
 ---
 **Definition:** Rate limiting is a technique that **limits how many requests or operations a client can make within a certain amount of time**.  
 It protects a system from overload, excessive resource usage, abuse, and some denial-of-service attacks. ([MDN Web Docs](https://developer.mozilla.org/en-US/docs/Glossary/Rate_limit?utm_source=chatgpt.com "Rate limit - Glossary | MDN"))

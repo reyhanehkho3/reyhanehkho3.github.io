@@ -3,8 +3,10 @@ title: Cron
 publish: true
 date created: 2026-09-06
 tags:
-  - Backend
+  - backend
+
   - codeless
+
 ---
 **Definition:** **Cron is a time-based job scheduler** that automatically runs commands or tasks at specified times or recurring intervals, without a person having to trigger them manually. ([man7.org](https://www.man7.org/linux/man-pages/man1/crontab.1p.html?utm_source=chatgpt.com "crontab(1p) - Linux manual page"))  
 In a backend, you can use it for **background jobs** such as cleanup, backups, report generation, or periodically checking something. ([Linuxize](https://linuxize.com/post/scheduling-cron-jobs-with-crontab/?utm_source=chatgpt.com "Crontab: Scheduling Cron Jobs in Linux | Linuxize"))

@@ -3,9 +3,12 @@ title: System Prompt
 publish: true
 date created: 2026-08-25
 tags:
-  - AI
-  - Agent
+  - ai
+
+  - agent
+
   - codeless
+
 ---
 **Definition:** A high-level instruction that defines the model's behavior, restrictions, role, and fundamental rules.
 

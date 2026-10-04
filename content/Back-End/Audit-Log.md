@@ -3,9 +3,12 @@ title: Audit Log
 publish:
 date created: 2026-09-11
 tags:
-  - Backend
+  - backend
+
   - log
+
   - codeless
+
 ---
 An **audit log** is a record of **important actions performed in your system**.
 

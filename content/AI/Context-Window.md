@@ -3,9 +3,12 @@ title: Context Window
 publish: true
 date created: 2026-08-25
 tags:
-  - AI
-  - Agent
+  - ai
+
+  - agent
+
   - codeless
+
 ---
 **Definition:** The maximum amount of information that a model can have available in a single request.
 

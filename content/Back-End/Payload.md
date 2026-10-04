@@ -3,8 +3,10 @@ title: Payload
 publish: true
 date created: 2026-09-11
 tags:
-  - Backend
+  - backend
+
   - codeless
+
 ---
 **Payload** means the **actual data being carried inside a message/request/response**.
 

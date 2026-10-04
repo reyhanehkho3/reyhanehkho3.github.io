@@ -3,9 +3,12 @@ title: MCP Inspector
 publish:
 date created: 2026-09-11
 tags:
-  - MCP
-  - Agent
+  - mcp
+
+  - agent
+
   - codeless
+
 ---
 **MCP Inspector** is a **developer tool for testing and debugging MCP (Model Context Protocol) servers**.
 

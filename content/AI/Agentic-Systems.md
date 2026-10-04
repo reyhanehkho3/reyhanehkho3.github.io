@@ -3,9 +3,12 @@ title: Agentic Systems
 publish: true
 date created: 2026-08-12
 tags:
-  - AI
-  - Agent
+  - ai
+
+  - agent
+
   - orchestrator
+
 ---
 An **Agentic System** is a combination of state, policies, tools, agents, and a loop that operates in an environment to achieve an outcome.
 

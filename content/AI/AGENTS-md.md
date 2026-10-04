@@ -3,9 +3,12 @@ title: AGENTS.md
 publish: true
 date created: 2026-08-25
 tags:
-  - AI
-  - Agent
+  - ai
+
+  - agent
+
   - codeless
+
 ---
 **Definition:** A conventional Markdown file used to provide Coding Agents with project Context, rules, build/test commands, and conventions.
 

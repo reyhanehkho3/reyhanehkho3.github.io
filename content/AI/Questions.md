@@ -3,9 +3,12 @@ title: Questions
 publish: true
 date created: 2026-08-03
 tags:
-  - AI
-  - Agent
-  - RAG
+  - ai
+
+  - agent
+
+  - rag
+
 ---
 **1. When do you NOT build an Agent?**
 When the workflow is fixed, deterministic, and expressible with rules; or when the risk of action is high and the benefit of autonomy is low. I start with the simplest pipeline and only make ambiguous decision points agentic.

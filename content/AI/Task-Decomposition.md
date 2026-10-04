@@ -3,9 +3,12 @@ title: Task Decomposition
 publish: true
 date created: 2026-08-25
 tags:
-  - AI
-  - Agent
+  - ai
+
+  - agent
+
   - codeless
+
 ---
 **Definition:** Breaking a large and complex task into smaller, manageable tasks.
 

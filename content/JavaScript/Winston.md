@@ -4,8 +4,11 @@ publish: true
 date created: 2026-09-17
 tags:
   - nodejs
-  - javaScript
+
+  - javascript
+
   - codeless
+
   - Nitros
 ---
 **Winston** is a **logging library for Node.js**. It is used to record what is happening inside your application.

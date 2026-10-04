@@ -3,9 +3,12 @@ title: Trade Off
 publish:
 date created: 2026-08-29
 tags:
-  - Architecture
-  - Backend
+  - architecture
+
+  - backend
+
   - codeless
+
 ---
 **Definition:** A trade-off means gaining something while accepting a disadvantage somewhere else.  
 **In architecture, improving one property often makes another property worse—for example, scalability vs simplicity.**

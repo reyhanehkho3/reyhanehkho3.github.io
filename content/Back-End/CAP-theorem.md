@@ -4,8 +4,11 @@ publish:
 date created: 2026-09-05
 tags:
   - codeless
-  - Backend
-  - CAP
+
+  - backend
+
+  - cap
+
 ---
 **Definition:** The CAP theorem says that a distributed system cannot guarantee **Consistency, Availability, and Partition Tolerance all at the same time** when a network partition occurs. ([AWS Documentation](https://docs.aws.amazon.com/whitepapers/latest/availability-and-beyond-improving-resilience/cap-theorem.html?utm_source=chatgpt.com "CAP theorem - Availability and Beyond: Understanding and Improving the Resilience of Distributed Systems on AWS"))  
 In practice, because network failures can happen, you usually have to choose whether to favor **Consistency (C)** or **Availability (A)** during a partition. ([AWS Documentation](https://docs.aws.amazon.com/whitepapers/latest/availability-and-beyond-improving-resilience/cap-theorem.html?utm_source=chatgpt.com "CAP theorem - Availability and Beyond: Understanding and Improving the Resilience of Distributed Systems on AWS"))

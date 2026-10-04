@@ -3,9 +3,12 @@ title: RAG
 publish: true
 date created: 2026-08-13
 tags:
-  - AI
-  - Agent
+  - ai
+
+  - agent
+
   - codeless
+
 ---
 **Definition:** A method in which relevant information is retrieved from an external source before or during response generation and provided to the model.
 

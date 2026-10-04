@@ -3,9 +3,12 @@ title: Sandbox
 publish:
 date created: 2026-08-25
 tags:
-  - AI
-  - Agent
+  - ai
+
+  - agent
+
   - codeless
+
 ---
 **Definition:** An isolated and restricted environment where an Agent can perform operations without having full access to the main system.
 

@@ -3,9 +3,12 @@ title: Vertical Scaling
 publish: true
 date created: 2026-09-11
 tags:
-  - Backend
-  - Architecture
+  - backend
+
+  - architecture
+
   - codeless
+
 ---
 Also called **scaling up**.
 

@@ -3,7 +3,8 @@ title: Learn with AI
 publish: true
 date created: 2026-08-12
 tags:
-  - AI
+  - ai
+
 ---
 - Fast Learning means building up a mental model that can be tested, not just gathering scattered answers.
 ## The pattern of learning something new

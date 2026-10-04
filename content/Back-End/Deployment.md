@@ -3,8 +3,10 @@ title: Deployment
 publish: true
 date created: 2026-08-29
 tags:
-  - Backend
+  - backend
+
   - codeless
+
 ---
 **Definition:** Deployment is the process of putting a software application or a new version of it into an environment where it can run.  
 **That environment could be a developer machine, test server, staging server, or production server.**

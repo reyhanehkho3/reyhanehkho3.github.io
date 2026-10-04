@@ -4,7 +4,9 @@ publish:
 date created: 2026-09-05
 tags:
   - codeless
-  - Backend
+
+  - backend
+
 ---
 **Definition:** A load balancer is a component that receives incoming traffic and **distributes it across multiple servers/instances** instead of sending everything to one server.  
 It helps applications handle more traffic, improve performance, and remain available when one server becomes unhealthy. ([Microsoft Learn](https://learn.microsoft.com/en-us/azure/load-balancer/load-balancer-overview?utm_source=chatgpt.com "What is Azure Load Balancer? - Azure Load Balancer | Microsoft Learn"))

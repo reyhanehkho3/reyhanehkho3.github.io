@@ -3,8 +3,10 @@ title: Reverse Proxy
 publish: true
 date created: 2026-08-23
 tags:
-  - Backend
+  - backend
+
   - codeless
+
 ---
 To understand a **reverse proxy**, it helps to first understand a **forward proxy** (the kind you probably use every day).
 

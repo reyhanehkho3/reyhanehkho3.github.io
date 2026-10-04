@@ -3,9 +3,12 @@ title: Tool Calling
 publish: true
 date created: 2026-08-25
 tags:
-  - Agent
-  - AI
+  - agent
+
+  - ai
+
   - codeless
+
 ---
 **Definition:** The process through which an Agent decides to execute one of its available tools and receives the result.
 

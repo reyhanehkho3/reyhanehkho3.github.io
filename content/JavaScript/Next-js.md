@@ -3,7 +3,8 @@ title: Next.js
 publish: true
 date created: 2026-09-11
 tags:
-  - javaScript
+  - javascript
+
 ---
 **Next.js is a web framework built around React.**
 

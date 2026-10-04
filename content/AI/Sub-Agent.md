@@ -3,9 +3,12 @@ title: Sub-Agent
 publish: true
 date created: 2026-08-25
 tags:
-  - AI
-  - Agent
+  - ai
+
+  - agent
+
   - codeless
+
 ---
 **Definition:** An Agent that is invoked by another Agent to perform a specific task.
 

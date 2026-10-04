@@ -3,8 +3,10 @@ title: Combined Skills
 publish: true
 date created: 2026-08-12
 tags:
-  - AI
+  - ai
+
   - soft-skills
+
 ---
 **AI amplifies execution power; if the direction is wrong, errors also become faster and wider.**
 

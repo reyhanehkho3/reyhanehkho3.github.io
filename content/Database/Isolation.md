@@ -4,8 +4,11 @@ publish: true
 date created: 2026-08-29
 tags:
   - database
+
   - codeless
-  - ACID
+
+  - acid
+
 ---
 **Definition:** Isolation means concurrent transactions should behave according to the database's chosen isolation guarantees rather than improperly seeing/interfering with each other's intermediate work.  
 **The isolation level determines exactly how much interference is allowed.**

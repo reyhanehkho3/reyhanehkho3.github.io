@@ -3,8 +3,10 @@ title: Stateless & Stateful
 publish: true
 date created: 2026-08-23
 tags:
-  - Backend
+  - backend
+
   - codeless
+
 ---
 To understand what it means for a **backend to be stateless or stateful**, you have to look at one core question: 
 

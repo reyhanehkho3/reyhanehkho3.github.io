@@ -22,3 +22,6 @@ graph TD;
     C-->D;
 ```
 ```
+
+---
+[[Obsidian]]

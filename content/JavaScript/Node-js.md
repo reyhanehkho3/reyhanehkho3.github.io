@@ -3,7 +3,8 @@ title: Node.js
 publish: true
 date created: 2026-09-11
 tags:
-  - javaScript
+  - javascript
+
 ---
 **Node.js is a runtime that allows JavaScript to run outside the browser.**
 

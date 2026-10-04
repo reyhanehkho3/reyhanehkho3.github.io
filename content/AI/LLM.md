@@ -3,8 +3,10 @@ title: LLM
 publish: true
 date created: 2026-08-11
 tags:
-  - AI
+  - ai
+
   - codeless
+
 ---
 **Definition:** A model trained on a huge amount of textual data that can understand and generate text.
 
