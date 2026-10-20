@@ -82,7 +82,7 @@ The frontend is the application the user interacts with.
 
 - [[Frontend/Pinia|Pinia]] / state management
 
-- [[Back-End/WebSocket|WebSockets]]
+- [[WebSocket|WebSockets]]
 
 
 - Service workers
@@ -106,7 +106,7 @@ This is the **communication protocol** between frontend and backend.
 - [[Network/HTTP|HTTP]]
 
 
-- [[Back-End/HTTP-HTTPS-SSL|HTTPS]]
+- [[HTTP-HTTPS-SSL|HTTPS]]
 
 
 - Request
@@ -216,7 +216,7 @@ Learn these first:
     
 - HTTP/3
     
-- [[Back-End/HTTP-HTTPS-SSL|TLS]]
+- [[HTTP-HTTPS-SSL|TLS]]
 
     
 - Connection pooling
@@ -230,7 +230,7 @@ This is the **interface/contract** that the backend exposes.
 
 ### Core
 
-- [[Back-End/API|API]]
+- [[API|API]]
 
     
 - API endpoint
@@ -252,10 +252,10 @@ This is the **interface/contract** that the backend exposes.
 
 ### REST
 
-- [[Back-End/REST-API|REST]]
+- [[REST-API|REST]]
 
     
-- [[Back-End/REST-API|RESTful API]]
+- [[REST-API|RESTful API]]
 
     
 - Resource-oriented design
@@ -305,12 +305,12 @@ DELETE /users/42
     
 - Webhooks
     
-- [[Back-End/API-GW|API Gateway]]
+- [[API-GW|API Gateway]]
 
     
 - API versioning
     
-- [[Back-End/Rate-Limiting|Rate limiting]]
+- [[Rate-Limiting|Rate limiting]]
 
     
 - Pagination
@@ -376,7 +376,7 @@ Since you're working with Express, learn:
     
 - `next`
     
-- [[Back-End/Middleware|Middleware]]
+- [[Middleware|Middleware]]
 
     
 - Error middleware
@@ -412,7 +412,7 @@ Middleware is code that runs during the request pipeline.
 
 Learn:
 
-- [[Back-End/Middleware|Middleware]]
+- [[Middleware|Middleware]]
 
     
 - Global middleware
@@ -561,7 +561,7 @@ Learn:
     
 - Business operation
     
-- [[Back-End/Domain-Service|Domain service]]
+- [[Domain-Service|Domain service]]
 
     
 - Dependency
@@ -778,7 +778,7 @@ Learn:
     
 - Refresh token
     
-- [[Back-End/JWT|JWT]]
+- [[JWT|JWT]]
 
     
 - JWT claims
@@ -877,7 +877,7 @@ Tools/concepts:
 
 - express-validator
     
-- [[Back-End/Zod|Zod]]
+- [[Zod|Zod]]
 
     
 - Joi
@@ -1023,10 +1023,10 @@ Learn these gradually:
 
 ### Web security
 
-- [[Back-End/HTTP-HTTPS-SSL|HTTPS]]
+- [[HTTP-HTTPS-SSL|HTTPS]]
 
     
-- [[Back-End/HTTP-HTTPS-SSL|TLS]]
+- [[HTTP-HTTPS-SSL|TLS]]
 
     
 - CORS
@@ -1050,7 +1050,7 @@ Learn these gradually:
     
 - Authorization
     
-- [[Back-End/Rate-Limiting|Rate limiting]]
+- [[Rate-Limiting|Rate limiting]]
 
     
 - Input validation
@@ -1208,7 +1208,7 @@ Learn:
     
 - Fault tolerance
     
-- [[Back-End/Availability|Availability]]
+- [[Availability|Availability]]
 
     
 
@@ -1224,7 +1224,7 @@ Learn:
 
 - Logging
     
-- [[Back-End/Log-Levels|Log level]]
+- [[Log-Levels|Log level]]
 
     
 - DEBUG
@@ -1241,15 +1241,15 @@ Learn:
     
 - Correlation ID
     
-- [[Back-End/Metrics|Metrics]]
+- [[Metrics|Metrics]]
 
     
-- [[Back-End/Trace|Tracing]]
+- [[Trace|Tracing]]
 
     
 - Monitoring
     
-- [[Back-End/Observability|Observability]]
+- [[Observability|Observability]]
 
     
 - Health check
@@ -1392,12 +1392,12 @@ Database
 
 ### Other architectures
 
-- [[Back-End/Monolithic-Architecture|Monolith]]
+- [[Monolithic-Architecture|Monolith]]
 
     
 - Modular monolith
     
-- [[Back-End/Microservice-Architecture|Microservices]]
+- [[Microservice-Architecture|Microservices]]
 
     
 - Event-driven architecture
@@ -1406,7 +1406,7 @@ Database
     
 - Clean architecture
     
-- [[Back-End/MVC|MVC]]
+- [[MVC|MVC]]
 
     
 

@@ -22,7 +22,7 @@ Discover -> Define -> Plan -> Implement -> Review -> Test -> Release -> Observe 
 - [[Infrastructure]]
 - [[Kubernetes]]
 - [[Lean-Startup]]
-- [[Back-End/Module|Module]]
+- [[Module|Module]]
 - [[MVP]]
 - [[Requirement]]
 - [[SDD]]

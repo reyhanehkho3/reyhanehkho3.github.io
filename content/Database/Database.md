@@ -46,4 +46,4 @@ date created: 2026-05-17
 - [[VRAM]]
 - [[dto]]
 
-[[Back-End]]
+[[Backend]]

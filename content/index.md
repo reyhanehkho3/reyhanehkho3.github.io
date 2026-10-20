@@ -17,7 +17,7 @@ _Some notes are still on progress and might be empty._
 - [[Data-Structure]]: I like them I guess.
 - [[Database]]: SQL and related information.
 - [[DevOps]]: the concepts and tools of DevOps.
-- [[Back-End]]: Various knowledge needed for this field.
+- [[Backend]]: Various knowledge needed for this field.
 - [[Software-Development]]: The rules and techniques to develop soft wares.
 - [[Android]]: I really like to make android apps. This folder includes Jetpack compose and Android Studio.
 - [[System-Design]]: Useful when I want to do projects, yk.
