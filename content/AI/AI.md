@@ -37,7 +37,7 @@ date created: 2026-08-11
 - [[Questions]]
 - [[RAG]]
 - [[Reasoning-Model]]
-- [[Role]]
+- [[AI/Role]]
 - [[Router]]
 - [[Rule]]
 - [[Sandbox]]

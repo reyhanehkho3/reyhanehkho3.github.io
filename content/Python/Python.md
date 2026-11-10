@@ -5,5 +5,5 @@ date created: 2026-05-28
 ---
 - [[Django]]
 - [[Syntax]]
-- [[Migration]]
+- [[Python/Migration]]
 - [[venv]]

@@ -111,7 +111,7 @@ date created: 2026-08-23
 - [[Rate-Limiting]]
 - [[Reasoning-Model]]
 - [[Reverse-Proxy]]
-- [[Role]]
+- [[AI/Role]]
 - [[Backend/Race-Condition]]
 - [[Router]]
 - [[Rule]]
