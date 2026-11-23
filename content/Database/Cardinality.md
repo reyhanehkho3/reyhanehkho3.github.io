@@ -1,6 +1,6 @@
 ---
 title: Cardinality
-publish:
+publish: true
 date created: 2026-08-29
 tags:
   - database

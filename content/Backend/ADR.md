@@ -1,12 +1,10 @@
 ---
 title: ADR
-publish:
+publish: true
 date created: 2026-08-29
 tags:
   - backend
-
   - codeless
-
 ---
 **Definition:** **ADR = Architecture Decision Record**, a short document recording an important architectural decision and the reasoning behind it.  
 **It helps future developers understand not only what was chosen, but why it was chosen.**

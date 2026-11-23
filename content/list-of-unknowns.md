@@ -16,7 +16,6 @@ The frontend is the application the user interacts with.
 
 - [[JavaScript/JavaScript|JavaScript]]
 
-
 - [[JavaScript/TypeScript|TypeScript]]
 
 
