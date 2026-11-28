@@ -1,6 +1,6 @@
 ---
 title: CICD
-publish:
+publish: true
 date created: 2026-08-27
 tags:
   - software-development
